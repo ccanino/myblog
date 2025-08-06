@@ -85,18 +85,7 @@ class FreshCommitsApp {
                 "order": 3,
                 "image": "images/cybersecurity-2024.svg"
             },
-            {
-                "id": "blockchain-2024",
-                "title": "Blockchain e Web3: Il Futuro di Internet",
-                "excerpt": "Come la tecnologia blockchain sta rivoluzionando il web e creando nuove opportunità decentralizzate.",
-                "content": "<h2>Blockchain e Web3: La Nuova Era di Internet</h2><p>Il Web3 rappresenta la prossima evoluzione di Internet, basata su tecnologie blockchain e decentralizzate. Questa rivoluzione sta trasformando il modo in cui interagiamo con il digitale.</p><h3>Cos'è il Web3?</h3><p>Il Web3 è la terza generazione di Internet che combina:</p><ul><li><strong>Decentralizzazione:</strong> Controllo distribuito invece di enti centralizzati</li><li><strong>Blockchain:</strong> Registri immutabili e trasparenti</li><li><strong>Token Economy:</strong> Sistemi di incentivi basati su token</li><li><strong>Smart Contracts:</strong> Contratti automatici e programmabili</li></ul><h3>Le Applicazioni Pratiche</h3><p>Il Web3 sta già trasformando numerosi settori:</p><ul><li><strong>DeFi (Decentralized Finance):</strong> Servizi finanziari senza intermediari</li><li><strong>NFT (Non-Fungible Tokens):</strong> Proprietà digitale unica</li><li><strong>DAOs (Decentralized Autonomous Organizations):</strong> Organizzazioni governate dalla comunità</li><li><strong>dApps (Decentralized Applications):</strong> Applicazioni su blockchain</li></ul><h3>Le Sfide e Opportunità</h3><p>Il Web3 presenta sfide significative ma anche enormi opportunità:</p><ul><li><strong>Scalabilità:</strong> Gestione di transazioni ad alto volume</li><li><strong>Usabilità:</strong> Interfacce user-friendly</li><li><strong>Regolamentazione:</strong> Framework normativi chiari</li><li><strong>Sostenibilità:</strong> Consumo energetico delle blockchain</li></ul><h3>Il Futuro del Web3</h3><p>Il futuro del Web3 è promettente con:</p><ul><li>Sviluppo di soluzioni di scaling (Layer 2)</li><li>Interoperabilità tra blockchain</li><li>Integrazione con AI e IoT</li><li>Adozione mainstream delle dApps</li></ul><p>Il Web3 non è solo una tendenza tecnologica, ma una vera rivoluzione che sta ridefinendo i concetti di proprietà, identità e valore nel mondo digitale.</p>",
-                "category": "blockchain",
-                "tags": ["Blockchain", "Web3", "DeFi", "NFT", "Smart Contracts"],
-                "date": "2024-01-30",
-                "readTime": "9 min",
-                "order": 4,
-                "image": "images/blockchain-2024.svg"
-            },
+
             {
                 "id": "quantum-computing-2024",
                 "title": "Quantum Computing: Il Futuro dell'Informatica",
@@ -106,7 +95,7 @@ class FreshCommitsApp {
                 "tags": ["Quantum Computing", "Qubit", "Crittografia", "Ottimizzazione", "Futuro"],
                 "date": "2024-02-01",
                 "readTime": "7 min",
-                "order": 5,
+                "order": 4,
                 "image": "images/quantum-computing-2024.svg"
             }
         ];
@@ -488,7 +477,6 @@ class FreshCommitsApp {
             'ai': '🧠',
             'web': '🌐',
             'security': '🔒',
-            'blockchain': '⛓️',
             'quantum': '⚛️'
         };
         return icons[category] || '📄';
@@ -499,7 +487,6 @@ class FreshCommitsApp {
             'ai': 'AI & ML',
             'web': 'Web Development',
             'security': 'Cybersecurity',
-            'blockchain': 'Blockchain & Web3',
             'quantum': 'Quantum Computing'
         };
         return names[category] || 'Altro';

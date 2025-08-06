@@ -1,0 +1,33 @@
+<svg width="400" height="200" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="webGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="200" fill="url(#webGradient)"/>
+  
+  <!-- Code brackets -->
+  <text x="50" y="80" font-family="monospace" font-size="24" fill="white" opacity="0.8">&lt;/&gt;</text>
+  
+  <!-- React logo style -->
+  <circle cx="200" cy="100" r="40" fill="none" stroke="white" stroke-width="3" opacity="0.6"/>
+  <circle cx="200" cy="100" r="25" fill="none" stroke="white" stroke-width="2" opacity="0.4"/>
+  <circle cx="200" cy="100" r="10" fill="white" opacity="0.8"/>
+  
+  <!-- Code elements -->
+  <rect x="280" y="60" width="80" height="8" fill="white" opacity="0.7"/>
+  <rect x="280" y="80" width="60" height="8" fill="white" opacity="0.5"/>
+  <rect x="280" y="100" width="70" height="8" fill="white" opacity="0.6"/>
+  <rect x="280" y="120" width="50" height="8" fill="white" opacity="0.4"/>
+  
+  <!-- Web elements -->
+  <circle cx="80" cy="140" r="15" fill="white" opacity="0.3"/>
+  <circle cx="120" cy="140" r="12" fill="white" opacity="0.4"/>
+  <circle cx="150" cy="140" r="18" fill="white" opacity="0.2"/>
+  
+  <!-- Title -->
+  <text x="200" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white" opacity="0.8">Web Development 2024</text>
+</svg> 

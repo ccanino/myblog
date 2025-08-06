@@ -1,0 +1,43 @@
+<svg width="400" height="200" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="quantumGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="200" fill="url(#quantumGradient)"/>
+  
+  <!-- Quantum atom -->
+  <circle cx="200" cy="100" r="30" fill="none" stroke="white" stroke-width="2" opacity="0.6"/>
+  <circle cx="200" cy="100" r="20" fill="none" stroke="white" stroke-width="1" opacity="0.4"/>
+  <circle cx="200" cy="100" r="10" fill="white" opacity="0.8"/>
+  
+  <!-- Electron orbits -->
+  <ellipse cx="200" cy="100" rx="50" ry="25" fill="none" stroke="white" stroke-width="1" opacity="0.3"/>
+  <ellipse cx="200" cy="100" rx="35" ry="40" fill="none" stroke="white" stroke-width="1" opacity="0.3"/>
+  
+  <!-- Electrons -->
+  <circle cx="250" cy="100" r="4" fill="white" opacity="0.9"/>
+  <circle cx="200" cy="60" r="4" fill="white" opacity="0.9"/>
+  <circle cx="150" cy="100" r="4" fill="white" opacity="0.9"/>
+  <circle cx="200" cy="140" r="4" fill="white" opacity="0.9"/>
+  
+  <!-- Quantum states -->
+  <text x="50" y="80" font-family="monospace" font-size="12" fill="white" opacity="0.7">|0⟩</text>
+  <text x="50" y="100" font-family="monospace" font-size="12" fill="white" opacity="0.7">|1⟩</text>
+  <text x="300" y="80" font-family="monospace" font-size="12" fill="white" opacity="0.7">|+⟩</text>
+  <text x="300" y="100" font-family="monospace" font-size="12" fill="white" opacity="0.7">|-⟩</text>
+  
+  <!-- Quantum circuit elements -->
+  <rect x="80" y="140" width="60" height="8" fill="white" opacity="0.5"/>
+  <rect x="260" y="140" width="60" height="8" fill="white" opacity="0.5"/>
+  
+  <!-- Qubit representation -->
+  <circle cx="120" cy="160" r="6" fill="white" opacity="0.6"/>
+  <circle cx="280" cy="160" r="6" fill="white" opacity="0.6"/>
+  
+  <!-- Title -->
+  <text x="200" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white" opacity="0.8">Quantum Computing 2024</text>
+</svg> 
