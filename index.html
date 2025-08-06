@@ -1,54 +1,138 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Il mio primo sito GitHub Pages</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            background-color: #f0f0f5;
-            color: #333;
-            text-align: center;
-        }
-        header {
-            margin-bottom: 40px;
-        }
-        h1 {
-            color: #007acc;
-        }
-        p {
-            font-size: 1.2em;
-        }
-        footer {
-            margin-top: 50px;
-            font-size: 0.9em;
-            color: #888;
-        }
-        a {
-            color: #007acc;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Any fresh commits? - Tech Blog</title>
+    
+    <!-- Google Fonts - Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.6.2/dist/dotlottie-wc.js" type="module"></script>
+
 </head>
 <body>
-    <header>
-        <h1>Benvenuto sul mio sito GitHub Pages!</h1>
-        <p>Questo è un sito creato con GitHub Pages e HTML semplice.</p>
-    </header>
-
-    <main>
-        <p>Puoi modificare questo contenuto per iniziare a creare il tuo sito web personale.</p>
-        <p>GitHub Pages è gratuito e facile da usare!</p>
-        <a href="https://pages.github.com/" target="_blank">Scopri di più su GitHub Pages</a>
+    <!-- Main Content (Home Page) -->
+    <main class="main">
+        <section class="hero-single">
+            <div class="hero-container">
+                <!-- Commentato il codice Lottie originale
+                <dotlottie-player
+                    src="https://lottie.host/embed/2c0c0c0c-0c0c-0c0c-0c0c-0c0c0c0c0c0c/rocket.json"
+                    background="transparent"
+                    speed="1"
+                    style="width: 350px; height: 350px;"
+                    loop
+                    autoplay = "true"
+                    loop = "false"
+                />
+                -->
+                <!-- Logo dell'app con dimensioni 350x350 -->
+                <img src="images/logo.png" alt="App Logo" style="width: 350px; height: 350px; object-fit: contain;">
+            </div>
+        </section>
     </main>
 
-    <footer>
-        &copy; 2025 Il mio sito web
-    </footer>
+    <!-- Article Page (Hidden by default) -->
+    <div class="article-page" id="articlePage">
+        <!-- Article Header -->
+        <header class="article-header">
+            <div class="article-header-content">
+                <h1 id="articlePageTitle">L'ascesa dell'Intelligenza Artificiale Generativa</h1>
+                <div class="article-meta">
+                    <span class="article-category" id="articlePageCategory">AI & ML</span>
+                    <div class="article-date-time">
+                        <span class="article-date" id="articlePageDate">15 Gennaio 2024</span>
+                        <span class="article-read-time">
+                            <span class="material-icons">hourglass_empty</span>
+                            <span id="articlePageReadTime">8 min</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Article Content -->
+        <div class="article-content">
+            <div class="article-body" id="articlePageBody">
+                <!-- Article content will be loaded here -->
+            </div>
+            <div class="article-footer">
+                <button class="view-all-articles-footer" id="viewAllArticlesFooterBtn">
+                    <span class="material-icons">library_books</span>
+                    Vedi tutti gli articoli
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Articles List Page (Hidden by default) -->
+    <div class="articles-list-page" id="articlesListPage">
+        <!-- Header with Search -->
+        <header class="articles-header">
+            <nav class="articles-nav">
+                <div class="nav-brand">
+                    <img src="images/logo.png" alt="Fresh Commits Logo" class="site-logo">
+                </div>
+                <div class="nav-actions">
+                    <button class="toggle-filters-btn" id="toggleFiltersBtn">
+                        <span class="material-icons">filter_list</span>
+                    </button>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Filter Section (Hidden by default) -->
+        <section class="filter-section" id="filterSection">
+            <div class="filter-container">
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Cerca articoli per titolo, categoria, tag...">
+                    <span class="material-icons search-icon">search</span>
+                </div>
+                <div class="filter-tags" id="filterTags">
+                    <button class="filter-tag active" data-tag="all">Tutti</button>
+                    <button class="filter-tag" data-tag="ai">AI & ML</button>
+                    <button class="filter-tag" data-tag="web">Web Development</button>
+                    <button class="filter-tag" data-tag="security">Cybersecurity</button>
+                    <button class="filter-tag" data-tag="blockchain">Blockchain & Web3</button>
+                    <button class="filter-tag" data-tag="quantum">Quantum Computing</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Articles Grid -->
+        <section class="articles-section">
+            <div class="articles-container">
+                <div class="articles-grid" id="articlesGrid">
+                    <!-- Articles will be loaded here dynamically -->
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Article Modal -->
+    <div class="article-modal" id="articleModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modalTitle"></h3>
+                <button class="modal-close" id="modalClose">
+                    <span class="material-icons">close</span>
+                </button>
+            </div>
+            <div class="modal-body" id="modalBody">
+                <!-- Article content will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
 </body>
-</html>
+</html> 
