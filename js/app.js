@@ -74,15 +74,27 @@ class FreshCommitsApp {
                 "image": "images/logo.png"
             },
             {
-                "id": "supporto-genitori-insegnanti",
-                "title": "Supporto per Genitori e Insegnanti",
-                "excerpt": "Come integrare gli strumenti di IA a casa e in classe. Consigli pratici per accompagnare i ragazzi nell'uso di queste nuove tecnologie.",
-                "content": "<h2>Un'Alleanza tra Scuola, Famiglia e Tecnologia</h2><p>L'introduzione di strumenti di IA nell'apprendimento dei ragazzi richiede una collaborazione attiva tra genitori e insegnanti. Ecco alcuni consigli per gestire al meglio questo processo.</p><h3>Per i Genitori</h3><p>A casa, potete supportare i vostri figli in diversi modi:</p><ul><li><strong>Creare un Ambiente di Apprendimento Positivo:</strong> Mostratevi curiosi e aperti verso queste nuove tecnologie, esplorandole insieme ai vostri figli.</li><li><strong>Stabilire delle Regole Chiare:</strong> Definite tempi e modi di utilizzo degli strumenti digitali per evitare distrazioni.</li><li><strong>Focalizzarsi sulle Competenze, non solo sulla Correzione:</strong> Usate gli strumenti di IA per incoraggiare la creatività e il pensiero critico, non solo per correggere errori.</li><li><strong>Dialogare con la Scuola:</strong> Mantenete un canale di comunicazione aperto con gli insegnanti per allineare le strategie e condividere i progressi.</li></ul><h3>Per gli Insegnanti</h3><p>In classe, l'IA può essere un potente alleato per la didattica inclusiva:</p><ul><li><strong>Personalizzare i Percorsi Didattici:</strong> Utilizzate piattaforme adattive per creare esercizi su misura per ogni studente.</li><li><strong>Risparmiare Tempo:</strong> Automatizzate compiti ripetitivi come la creazione di quiz o la correzione di bozze, per dedicare più tempo alla relazione con gli studenti.</li><li><strong>Promuovere l'Accessibilità:</strong> Utilizzate strumenti di sintesi vocale o sottotitolazione automatica per rendere i materiali accessibili a tutti.</li><li><strong>Formazione Continua:</strong> Rimanete aggiornati sulle nuove tecnologie e condividete le buone pratiche con i colleghi.</li></ul><p>L'obiettivo comune è quello di utilizzare l'IA come un mezzo per potenziare le capacità di ogni studente, promuovendo autonomia e autostima.</p>",
+                "id": "sintetizzatori-vocali-guida",
+                "title": "Sintetizzatori Vocali: Guida per iOS e Android",
+                "excerpt": "Impara ad attivare e utilizzare le funzioni di sintesi vocale integrate nel tuo smartphone per supportare la lettura e l'apprendimento.",
+                "content": "<h2>Come Usare la Sintesi Vocale su iOS e Android</h2><p>I moderni sistemi operativi per smartphone, come iOS e Android, includono potenti funzioni di accessibilità, tra cui la sintesi vocale (Text-to-Speech). Questi strumenti possono leggere ad alta voce qualsiasi testo sullo schermo, trasformando il dispositivo in un assistente per la lettura. Vediamo come attivarli.</p><h3>Su iOS (iPhone/iPad)</h3><p>La funzione si chiama 'Leggi Schermo' e 'Leggi selezione'.</p><ul><li><strong>Come si attiva:</strong> Vai su <strong>Impostazioni > Accessibilità > Contenuto letto ad alta voce</strong>. Qui puoi attivare le opzioni <strong>Leggi selezione</strong> e <strong>Leggi schermo</strong>.</li><li><strong>Leggi selezione:</strong> Dopo averla attivata, ti basterà selezionare una porzione di testo e, nel menu che compare, toccare 'Leggi'.</li><li><strong>Leggi schermo:</strong> Per attivare la lettura dell'intero schermo, scorri con due dita dall'alto verso il basso. Apparirà un pannello di controllo per gestire la riproduzione (play, pausa, velocità).</li></ul><h3>Su Android</h3><p>La funzione più comune è 'Selezione per ascoltare'.</p><ul><li><strong>Come si attiva:</strong> Vai su <strong>Impostazioni > Accessibilità > Selezione per ascoltare</strong>. Attiva il servizio. Una volta attivo, vedrai un'icona di un omino (o simile) in basso a destra sullo schermo.</li><li><strong>Come si usa:</strong> Tocca l'icona dell'omino e poi seleziona il testo che vuoi ascoltare. Puoi toccare un paragrafo specifico o trascinare il dito per selezionare più testo. La lettura partirà automaticamente.</li></ul><h3>Perché è Utile?</h3><p>Questi strumenti sono fondamentali per studenti con dislessia o difficoltà di lettura, ma sono utili per tutti. Permettono di riascoltare appunti, leggere articoli lunghi mentre si fa altro o semplicemente per migliorare la comprensione di un testo, associando la parola scritta al suono.</p>",
                 "category": "guide",
                 "tags": [],
-                "date": "2024-05-22",
-                "readTime": "4 min",
+                "date": "2024-05-24",
+                "readTime": "5 min",
                 "order": 3,
+                "image": "images/logo.png"
+            },
+            {
+                "id": "notebooklm-mappe-concettuali",
+                "title": "Creare Mappe Concettuali con NotebookLM",
+                "excerpt": "Una guida passo-passo per utilizzare NotebookLM di Google per trasformare appunti e documenti in mappe concettuali interattive.",
+                "content": "<h2>Sfruttare l'IA per Organizzare le Idee con NotebookLM</h2><p>NotebookLM è uno strumento di Google basato sull'intelligenza artificiale che ti aiuta a comprendere e a rielaborare i tuoi documenti. Una delle sue funzioni più potenti è la capacità di generare automaticamente mappe concettuali, un aiuto visivo prezioso per lo studio.</p><h3>Come Funziona?</h3><p>Il processo è molto semplice:</p><ol><li><strong>Carica le Tue Fonti:</strong> Puoi caricare file PDF, documenti Google, o semplicemente copiare e incollare del testo. Queste saranno le fonti su cui NotebookLM lavorerà.</li><li><strong>Fai le Domande Giuste:</strong> Una volta caricate le fonti, puoi 'conversare' con i tuoi documenti. Per creare una mappa concettuale, puoi chiedere: <em>'Crea una mappa concettuale di questo documento'</em>, oppure <em>'Quali sono i concetti chiave e come sono collegati tra loro?'</em>.</li><li><strong>Visualizza e Interagisci:</strong> NotebookLM genererà una rappresentazione visiva delle idee principali e delle loro connessioni. Spesso, queste mappe sono interattive: cliccando su un nodo, puoi approfondire quel concetto specifico all'interno dei tuoi documenti.</li></ol><h3>Perché Usarlo per le Mappe Concettuali?</h3><ul><li><strong>Risparmio di Tempo:</strong> Automatizza il processo di estrazione dei concetti chiave, che manualmente richiederebbe molto tempo.</li><li><strong>Scoperta di Connessioni:</strong> L'IA può identificare collegamenti tra idee che potrebbero non essere immediatamente evidenti.</li><li><strong>Studio Attivo:</strong> Invece di leggere passivamente, interagisci con il materiale, ponendo domande e visualizzando le risposte in modo strutturato.</li></ul><p>NotebookLM è uno strumento eccellente per studenti che vogliono un metodo di studio più dinamico ed efficace, specialmente per materie complesse ricche di informazioni.</p>",
+                "category": "strumenti",
+                "tags": [],
+                "date": "2024-05-25",
+                "readTime": "4 min",
+                "order": 4,
                 "image": "images/logo.png"
             },
             {
@@ -94,7 +106,19 @@ class FreshCommitsApp {
                 "tags": [],
                 "date": "2024-05-23",
                 "readTime": "6 min",
-                "order": 4,
+                "order": 5,
+                "image": "images/logo.png"
+            },
+            {
+                "id": "supporto-genitori-insegnanti",
+                "title": "Supporto per Genitori e Insegnanti",
+                "excerpt": "Come integrare gli strumenti di IA a casa e in classe. Consigli pratici per accompagnare i ragazzi nell'uso di queste nuove tecnologie.",
+                "content": "<h2>Un'Alleanza tra Scuola, Famiglia e Tecnologia</h2><p>L'introduzione di strumenti di IA nell'apprendimento dei ragazzi richiede una collaborazione attiva tra genitori e insegnanti. Ecco alcuni consigli per gestire al meglio questo processo.</p><h3>Per i Genitori</h3><p>A casa, potete supportare i vostri figli in diversi modi:</p><ul><li><strong>Creare un Ambiente di Apprendimento Positivo:</strong> Mostratevi curiosi e aperti verso queste nuove tecnologie, esplorandole insieme ai vostri figli.</li><li><strong>Stabilire delle Regole Chiare:</strong> Definite tempi e modi di utilizzo degli strumenti digitali per evitare distrazioni.</li><li><strong>Focalizzarsi sulle Competenze, non solo sulla Correzione:</strong> Usate gli strumenti di IA per incoraggiare la creatività e il pensiero critico, non solo per correggere errori.</li><li><strong>Dialogare con la Scuola:</strong> Mantenete un canale di comunicazione aperto con gli insegnanti per allineare le strategie e condividere i progressi.</li></ul><h3>Per gli Insegnanti</h3><p>In classe, l'IA può essere un potente alleato per la didattica inclusiva:</p><ul><li><strong>Personalizzare i Percorsi Didattici:</strong> Utilizzate piattaforme adattive per creare esercizi su misura per ogni studente.</li><li><strong>Risparmiare Tempo:</strong> Automatizzate compiti ripetitivi come la creazione di quiz o la correzione di bozze, per dedicare più tempo alla relazione con gli studenti.</li><li><strong>Promuovere l'Accessibilità:</strong> Utilizzate strumenti di sintesi vocale o sottotitolazione automatica per rendere i materiali accessibili a tutti.</li><li><strong>Formazione Continua:</strong> Rimanete aggiornati sulle nuove tecnologie e condividete le buone pratiche con i colleghi.</li></ul><p>L'obiettivo comune è quello di utilizzare l'IA come un mezzo per potenziare le capacità di ogni studente, promuovendo autonomia e autostima.</p>",
+                "category": "guide",
+                "tags": [],
+                "date": "2024-05-22",
+                "readTime": "4 min",
+                "order": 6,
                 "image": "images/logo.png"
             }
         ];
