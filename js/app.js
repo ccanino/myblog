@@ -21,10 +21,7 @@ class FreshCommitsApp {
         // Bind all events
         this.bindEvents();
         
-        // Show latest article after a short delay
-        setTimeout(() => {
-            this.showLatestArticle();
-        }, 3000);
+        // The homepage is now a static showcase, so we don't automatically load the first article.
     }
 
     loadArticles() {
@@ -50,53 +47,76 @@ class FreshCommitsApp {
     getAllArticles() {
         return [
             {
-                "id": "ai-generative-2024",
-                "title": "L'ascesa dell'Intelligenza Artificiale Generativa",
-                "excerpt": "Come ChatGPT, DALL-E e altri modelli stanno rivoluzionando il modo in cui creiamo contenuti digitali.",
-                "content": "<h2>L'Intelligenza Artificiale Generativa sta trasformando il mondo digitale</h2><p>L'Intelligenza Artificiale Generativa (Generative AI) rappresenta una delle più significative innovazioni tecnologiche degli ultimi anni. Modelli come ChatGPT, DALL-E, Midjourney e altri stanno rivoluzionando il modo in cui creiamo, consumiamo e interagiamo con i contenuti digitali.</p><h3>Cos'è l'AI Generativa?</h3><p>L'AI Generativa è una sottocategoria dell'intelligenza artificiale che si concentra sulla creazione di nuovi contenuti. A differenza dell'AI tradizionale che analizza e classifica dati esistenti, l'AI generativa può creare:</p><ul><li><strong>Testo:</strong> Articoli, poesie, codice, traduzioni</li><li><strong>Immagini:</strong> Illustrazioni, fotografie, disegni artistici</li><li><strong>Audio:</strong> Musica, sintesi vocale, effetti sonori</li><li><strong>Video:</strong> Animazioni, filmati, contenuti multimediali</li></ul><h3>Le Applicazioni Pratiche</h3><p>Le applicazioni dell'AI Generativa sono infinite e stanno già trasformando numerosi settori:</p><ul><li><strong>Marketing e Advertising:</strong> Creazione di contenuti personalizzati, copywriting automatizzato</li><li><strong>Design e Creatività:</strong> Generazione di loghi, illustrazioni, mockup</li><li><strong>Educazione:</strong> Creazione di materiali didattici personalizzati</li><li><strong>Ricerca Scientifica:</strong> Simulazioni, analisi di dati complessi</li><li><strong>Entertainment:</strong> Giochi, film, contenuti interattivi</li></ul><h3>Le Sfide e le Opportunità</h3><p>Nonostante le enormi potenzialità, l'AI Generativa presenta anche sfide significative:</p><ul><li><strong>Etica e Responsabilità:</strong> Questioni di copyright, deepfake, disinformazione</li><li><strong>Qualità e Affidabilità:</strong> Controllo della qualità dei contenuti generati</li><li><strong>Privacy e Sicurezza:</strong> Protezione dei dati personali</li><li><strong>Impatto sul Lavoro:</strong> Automazione di professioni creative</li></ul><h3>Il Futuro dell'AI Generativa</h3><p>Il futuro dell'AI Generativa è promettente e in rapida evoluzione. Stiamo assistendo a:</p><ul><li>Sviluppo di modelli sempre più potenti e specializzati</li><li>Integrazione con altre tecnologie emergenti (IoT, AR/VR)</li><li>Democratizzazione dell'accesso alle tecnologie AI</li><li>Nuove opportunità di business e innovazione</li></ul><p>L'AI Generativa non è solo una tendenza tecnologica, ma una vera rivoluzione che sta ridefinendo i confini tra creatività umana e artificiale. La chiave per il successo futuro sarà trovare il giusto equilibrio tra automazione e controllo umano, sfruttando le potenzialità dell'AI per amplificare, non sostituire, la creatività umana.</p>",
-                "category": "ai",
-                "tags": ["AI", "Machine Learning", "Generative AI", "ChatGPT", "Innovation"],
-                "date": "2024-01-15",
-                "readTime": "8 min",
+                "id": "benvenuti-ai-per-la-scuola",
+                "title": "Benvenuti in AI per la Scuola",
+                "excerpt": "La nostra missione è quella di diventare un punto di riferimento per genitori, insegnanti e studenti sull'uso dell'Intelligenza Artificiale come strumento compensativo e di supporto per l'apprendimento.",
+                "content": "<h2>La Nostra Missione</h2><p>Benvenuti in 'AI per la Scuola', il portale dedicato a esplorare come l'Intelligenza Artificiale possa trasformare l'educazione e supportare studenti con diverse esigenze di apprendimento. Il nostro obiettivo è quello di fornire risorse chiare, pratiche e accessibili per genitori, insegnanti e studenti.</p><h3>Perché l'IA nella Scuola?</h3><p>L'IA offre strumenti potentissimi per personalizzare l'insegnamento, creare materiali didattici su misura e fornire supporto individuale agli studenti. Dalle app che aiutano con la lettura e la scrittura, agli assistenti virtuali per l'organizzazione dello studio, le possibilità sono infinite.</p><h3>Cosa Troverete su Questo Sito?</h3><ul><li><strong>Guide agli Strumenti:</strong> Recensioni e tutorial su applicazioni e software basati sull'IA.</li><li><strong>Approfondimenti:</strong> Articoli che spiegano in modo semplice concetti complessi legati all'IA e all'educazione.</li><li><strong>Supporto per la Comunità:</strong> Consigli pratici per integrare questi strumenti nella vita scolastica e domestica.</li></ul><p>Siamo convinti che la tecnologia, se usata in modo consapevole, possa essere un'alleata preziosa per un'istruzione più inclusiva ed efficace. Unitevi a noi in questo viaggio alla scoperta del futuro dell'apprendimento.</p>",
+                "category": "about",
+                "tags": [],
+                "date": "2024-05-20",
+                "readTime": "3 min",
                 "order": 1,
-                "image": "images/ai-generative-2024.svg"
+                "image": "images/logo.png"
             },
             {
-                "id": "web-development-2024",
-                "title": "Web Development 2024: Le Nuove Frontiere",
-                "excerpt": "Framework moderni, performance optimization e nuove tecnologie che stanno plasmando il futuro del web.",
-                "content": "<h2>Il Web Development nel 2024: Un Panorama in Rapida Evoluzione</h2><p>Il mondo del web development sta attraversando una fase di trasformazione senza precedenti. Framework moderni, nuove tecnologie e approcci innovativi stanno ridefinendo il modo in cui costruiamo applicazioni web.</p><h3>Framework e Librerie Emergenti</h3><p>Il 2024 vede l'ascesa di nuovi framework e l'evoluzione di quelli esistenti:</p><ul><li><strong>React 18+:</strong> Concurrent Features, Suspense, Server Components</li><li><strong>Vue 3:</strong> Composition API, TypeScript support, Performance improvements</li><li><strong>Svelte/SvelteKit:</strong> Compile-time framework, Zero-runtime overhead</li><li><strong>Astro:</strong> Multi-framework support, Islands architecture</li><li><strong>Qwik:</strong> Resumability, Instant loading</li></ul><h3>Performance e Core Web Vitals</h3><p>La performance è diventata una priorità assoluta:</p><ul><li><strong>Largest Contentful Paint (LCP):</strong> Ottimizzazione del caricamento visivo</li><li><strong>First Input Delay (FID):</strong> Interattività immediata</li><li><strong>Cumulative Layout Shift (CLS):</strong> Stabilità visiva</li><li><strong>Core Web Vitals:</strong> Metriche essenziali per SEO e UX</li></ul><h3>Architetture Moderne</h3><p>Le nuove architetture stanno rivoluzionando il web development:</p><ul><li><strong>JAMstack:</strong> JavaScript, APIs, Markup</li><li><strong>Micro Frontends:</strong> Modularità e scalabilità</li><li><strong>Server-Side Rendering (SSR):</strong> Performance e SEO</li><li><strong>Static Site Generation (SSG):</strong> Velocità e sicurezza</li><li><strong>Edge Computing:</strong> Distribuzione globale</li></ul><h3>Nuove Tecnologie</h3><p>Il 2024 introduce tecnologie rivoluzionarie:</p><ul><li><strong>Web Components:</strong> Riutilizzabilità e standardizzazione</li><li><strong>WebAssembly (WASM):</strong> Performance native nel browser</li><li><strong>Progressive Web Apps (PWA):</strong> Esperienza app-like</li><li><strong>Web APIs Moderne:</strong> File System Access, Web Bluetooth</li><li><strong>CSS Grid e Flexbox:</strong> Layout avanzati</li></ul><h3>Developer Experience (DX)</h3><p>Gli strumenti per sviluppatori stanno migliorando significativamente:</p><ul><li><strong>TypeScript:</strong> Type safety e migliore DX</li><li><strong>ESLint e Prettier:</strong> Code quality e formatting</li><li><strong>Vite e Turbopack:</strong> Build tools ultra-veloci</li><li><strong>Storybook:</strong> Component development</li><li><strong>Testing Libraries:</strong> Jest, Vitest, Playwright</li></ul><h3>Il Futuro del Web Development</h3><p>Le tendenze emergenti indicano un futuro entusiasmante:</p><ul><li><strong>AI-Powered Development:</strong> GitHub Copilot, AI assistants</li><li><strong>Low-Code/No-Code:</strong> Democratizzazione dello sviluppo</li><li><strong>Web3 Integration:</strong> Blockchain e applicazioni decentralizzate</li><li><strong>Accessibility First:</strong> Design inclusivo</li><li><strong>Sustainability:</strong> Green web development</li></ul><p>Il web development nel 2024 richiede una combinazione di competenze tecniche solide, adattabilità alle nuove tecnologie e una visione strategica per creare esperienze digitali eccezionali.</p>",
-                "category": "web",
-                "tags": ["Web Development", "React", "Vue", "Performance", "Modern Web"],
-                "date": "2024-01-20",
-                "readTime": "6 min",
+                "id": "strumenti-ai-apprendimento",
+                "title": "Strumenti AI per l'Apprendimento",
+                "excerpt": "Scopri una selezione di strumenti basati sull'IA che possono aiutare gli studenti con la lettura, la scrittura, la matematica e l'organizzazione dello studio.",
+                "content": "<h2>Potenziare l'Apprendimento con l'IA</h2><p>L'intelligenza artificiale ha dato vita a una nuova generazione di strumenti didattici che possono supportare gli studenti in modi prima impensabili. Ecco una panoramica di alcune categorie di strumenti e come possono essere utilizzati.</p><h3>Lettura e Scrittura</h3><p>Per gli studenti con dislessia o altre difficoltà di lettura, esistono app che utilizzano l'IA per:</p><ul><li><strong>Sintesi Vocale (Text-to-Speech):</strong> Leggere ad alta voce testi digitali, aiutando la comprensione.</li><li><strong>Riconoscimento Vocale (Speech-to-Text):</strong> Trasformare il parlato in testo scritto, facilitando la scrittura di temi e appunti.</li><li><strong>Correzione Grammaticale Avanzata:</strong> Fornire suggerimenti contestuali per migliorare la grammatica e lo stile.</li></ul><h3>Matematica e Scienze</h3><p>L'IA può rendere le materie STEM più accessibili:</p><ul><li><strong>Risolutori di problemi passo-passo:</strong> App che non solo danno la soluzione, ma spiegano ogni singolo passaggio.</li><li><strong>Tutor Virtuali:</strong> Piattaforme che si adattano al livello di conoscenza dello studente, proponendo esercizi personalizzati.</li><li><strong>Simulazioni Interattive:</strong> Laboratori virtuali per esperimenti scientifici sicuri e ripetibili.</li></ul><h3>Organizzazione e Studio</h3><p>Per gli studenti che faticano con le funzioni esecutive, l'IA può essere un valido aiuto:</p><ul><li><strong>Planner Intelligenti:</strong> App che creano piani di studio personalizzati e inviano promemoria.</li><li><strong>Mappe Concettuali Automatiche:</strong> Strumenti che estraggono i concetti chiave da un testo e li organizzano in una mappa visuale.</li><li><strong>Riassunti Automatici:</strong> Piattaforme in grado di sintetizzare lunghi testi, evidenziando le informazioni più importanti.</li></ul><p>Questi sono solo alcuni esempi. L'importante è sperimentare e trovare gli strumenti più adatti alle esigenze specifiche di ogni studente.</p>",
+                "category": "strumenti",
+                "tags": [],
+                "date": "2024-05-21",
+                "readTime": "5 min",
                 "order": 2,
-                "image": "images/web-development-2024.svg"
+                "image": "images/logo.png"
             },
             {
-                "id": "cybersecurity-2024",
-                "title": "Cybersecurity: Le Minacce del 2024",
-                "excerpt": "Ransomware, phishing e attacchi zero-day: come proteggersi dalle nuove minacce informatiche.",
-                "content": "<h2>Cybersecurity 2024: Un Panorama delle Minacce Emergenti</h2><p>Il 2024 presenta sfide di cybersecurity senza precedenti. Con l'aumento della digitalizzazione e l'evoluzione delle tecnologie, le minacce informatiche stanno diventando sempre più sofisticate e pervasive.</p><h3>Le Principali Minacce del 2024</h3><p>Le organizzazioni devono affrontare un panorama di minacce in continua evoluzione:</p><ul><li><strong>Ransomware Avanzato:</strong> Attacchi mirati e doppia estorsione</li><li><strong>Supply Chain Attacks:</strong> Compromissione di fornitori e partner</li><li><strong>Zero-Day Exploits:</strong> Vulnerabilità sconosciute</li><li><strong>AI-Powered Attacks:</strong> Automazione delle minacce</li><li><strong>Cloud Security:</strong> Vulnerabilità delle infrastrutture cloud</li></ul><h3>Strategie di Protezione</h3><p>Le organizzazioni devono implementare strategie di sicurezza multilivello:</p><ul><li><strong>Zero Trust Architecture:</strong> Verifica continua dell'identità</li><li><strong>Multi-Factor Authentication (MFA):</strong> Autenticazione a più fattori</li><li><strong>Endpoint Detection and Response (EDR):</strong> Monitoraggio avanzato</li><li><strong>Security Awareness Training:</strong> Educazione degli utenti</li><li><strong>Incident Response Planning:</strong> Preparazione agli incidenti</li></ul><h3>Le Nuove Tecnologie di Sicurezza</h3><p>Le tecnologie emergenti stanno rivoluzionando la cybersecurity:</p><ul><li><strong>AI e Machine Learning:</strong> Rilevamento automatico delle minacce</li><li><strong>Behavioral Analytics:</strong> Analisi del comportamento anomalo</li><li><strong>Threat Intelligence:</strong> Condivisione di informazioni sulle minacce</li><li><strong>Automated Response:</strong> Risposta automatica agli incidenti</li><li><strong>Quantum Cryptography:</strong> Crittografia post-quantistica</li></ul><h3>Compliance e Regolamentazione</h3><p>Il panorama normativo sta evolvendo rapidamente:</p><ul><li><strong>GDPR e Privacy:</strong> Protezione dei dati personali</li><li><strong>NIS2 Directive:</strong> Sicurezza delle reti e sistemi</li><li><strong>Industry-Specific Regulations:</strong> Normative settoriali</li><li><strong>International Cooperation:</strong> Collaborazione globale</li></ul><h3>Il Futuro della Cybersecurity</h3><p>Le tendenze future indicano un'evoluzione continua:</p><ul><li><strong>Quantum Computing:</strong> Nuove sfide crittografiche</li><li><strong>IoT Security:</strong> Protezione dei dispositivi connessi</li><li><strong>5G Security:</strong> Sicurezza delle reti di nuova generazione</li><li><strong>Biometric Security:</strong> Autenticazione biometrica avanzata</li><li><strong>Decentralized Security:</strong> Sicurezza basata su blockchain</li></ul><p>La cybersecurity nel 2024 richiede un approccio proattivo, investimenti continui in tecnologie e formazione, e una cultura della sicurezza che coinvolga tutti i livelli dell'organizzazione.</p>",
-                "category": "security",
-                "tags": ["Cybersecurity", "Ransomware", "Zero-Day", "AI Security", "Compliance"],
-                "date": "2024-01-25",
-                "readTime": "7 min",
+                "id": "sintetizzatori-vocali-guida",
+                "title": "Sintetizzatori Vocali: Guida per iOS e Android",
+                "excerpt": "Impara ad attivare e utilizzare le funzioni di sintesi vocale integrate nel tuo smartphone per supportare la lettura e l'apprendimento.",
+                "content": "<h2>Come Usare la Sintesi Vocale su iOS e Android</h2><p>I moderni sistemi operativi per smartphone, come iOS e Android, includono potenti funzioni di accessibilità, tra cui la sintesi vocale (Text-to-Speech). Questi strumenti possono leggere ad alta voce qualsiasi testo sullo schermo, trasformando il dispositivo in un assistente per la lettura. Vediamo come attivarli.</p><h3>Su iOS (iPhone/iPad)</h3><p>La funzione si chiama 'Leggi Schermo' e 'Leggi selezione'.</p><ul><li><strong>Come si attiva:</strong> Vai su <strong>Impostazioni > Accessibilità > Contenuto letto ad alta voce</strong>. Qui puoi attivare le opzioni <strong>Leggi selezione</strong> e <strong>Leggi schermo</strong>.</li><li><strong>Leggi selezione:</strong> Dopo averla attivata, ti basterà selezionare una porzione di testo e, nel menu che compare, toccare 'Leggi'.</li><li><strong>Leggi schermo:</strong> Per attivare la lettura dell'intero schermo, scorri con due dita dall'alto verso il basso. Apparirà un pannello di controllo per gestire la riproduzione (play, pausa, velocità).</li></ul><h3>Su Android</h3><p>La funzione più comune è 'Selezione per ascoltare'.</p><ul><li><strong>Come si attiva:</strong> Vai su <strong>Impostazioni > Accessibilità > Selezione per ascoltare</strong>. Attiva il servizio. Una volta attivo, vedrai un'icona di un omino (o simile) in basso a destra sullo schermo.</li><li><strong>Come si usa:</strong> Tocca l'icona dell'omino e poi seleziona il testo che vuoi ascoltare. Puoi toccare un paragrafo specifico o trascinare il dito per selezionare più testo. La lettura partirà automaticamente.</li></ul><h3>Perché è Utile?</h3><p>Questi strumenti sono fondamentali per studenti con dislessia o difficoltà di lettura, ma sono utili per tutti. Permettono di riascoltare appunti, leggere articoli lunghi mentre si fa altro o semplicemente per migliorare la comprensione di un testo, associando la parola scritta al suono.</p>",
+                "category": "guide",
+                "tags": [],
+                "date": "2024-05-24",
+                "readTime": "5 min",
                 "order": 3,
-                "image": "images/cybersecurity-2024.svg"
+                "image": "images/logo.png"
             },
-
             {
-                "id": "quantum-computing-2024",
-                "title": "Quantum Computing: Il Futuro dell'Informatica",
-                "excerpt": "Come i computer quantistici stanno rivoluzionando il calcolo e aprendo nuove frontiere tecnologiche.",
-                "content": "<h2>Quantum Computing: La Prossima Rivoluzione Informatica</h2><p>Il quantum computing rappresenta una delle più significative innovazioni tecnologiche del nostro tempo. A differenza dei computer tradizionali che utilizzano bit binari (0 e 1), i computer quantistici utilizzano qubit che possono esistere in stati multipli simultaneamente.</p><h3>Principi Fondamentali</h3><p>Il quantum computing si basa su tre principi fondamentali:</p><ul><li><strong>Superposizione:</strong> I qubit possono essere in più stati contemporaneamente</li><li><strong>Entanglement:</strong> I qubit possono essere correlati a distanza</li><li><strong>Interferenza:</strong> Le onde quantistiche possono interferire tra loro</li></ul><h3>Applicazioni Pratiche</h3><p>Il quantum computing sta già trasformando numerosi settori:</p><ul><li><strong>Crittografia:</strong> Rottura e creazione di nuovi algoritmi di sicurezza</li><li><strong>Ottimizzazione:</strong> Risoluzione di problemi complessi di logistica</li><li><strong>Simulazioni:</strong> Modellazione di sistemi molecolari e materiali</li><li><strong>Machine Learning:</strong> Accelerazione degli algoritmi di AI</li></ul><h3>Le Sfide Tecnologiche</h3><p>Nonostante le enormi potenzialità, il quantum computing presenta sfide significative:</p><ul><li><strong>Decoerenza:</strong> Perdita di informazioni quantistiche</li><li><strong>Errori:</strong> Sensibilità agli errori ambientali</li><li><strong>Scalabilità:</strong> Aumento del numero di qubit</li><li><strong>Raffreddamento:</strong> Necessità di temperature criogeniche</li></ul><h3>Il Futuro del Quantum Computing</h3><p>Il futuro del quantum computing è promettente con:</p><ul><li>Sviluppo di qubit più stabili</li><li>Algoritmi di correzione degli errori</li><li>Integrazione con AI classica</li><li>Applicazioni commerciali pratiche</li></ul><p>Il quantum computing non sostituirà i computer tradizionali, ma li completerà, aprendo nuove possibilità per risolvere problemi che oggi sono impossibili da affrontare.</p>",
-                "category": "quantum",
-                "tags": ["Quantum Computing", "Qubit", "Crittografia", "Ottimizzazione", "Futuro"],
-                "date": "2024-02-01",
-                "readTime": "7 min",
+                "id": "notebooklm-mappe-concettuali",
+                "title": "Creare Mappe Concettuali con NotebookLM",
+                "excerpt": "Una guida passo-passo per utilizzare NotebookLM di Google per trasformare appunti e documenti in mappe concettuali interattive.",
+                "content": "<h2>Sfruttare l'IA per Organizzare le Idee con le Mappe Concettuali</h2><p>Le mappe concettuali sono uno strumento visivo potentissimo per lo studio, perché aiutano a organizzare le informazioni e a comprendere le relazioni tra i diversi concetti. Oggi, grazie all'intelligenza artificiale, esistono strumenti che possono automatizzare e arricchire la creazione di queste mappe.</p><h3>NotebookLM di Google</h3><p><strong>NotebookLM</strong> è uno strumento di Google che ti permette di 'conversare' con i tuoi documenti. Puoi caricare appunti, PDF o altri testi e chiedere all'IA di creare una mappa concettuale. I suoi punti di forza sono:</p><ul><li><strong>Automazione:</strong> Estrae i concetti chiave e le loro connessioni in automatico.</li><li><strong>Interattività:</strong> Le mappe generate sono spesso interattive, permettendoti di approfondire ogni concetto.</li></ul><h3>Altri Strumenti Utili per Creare Mappe Concettuali</h3><p>Oltre a NotebookLM, esistono molte altre applicazioni, alcune delle quali integrano funzioni di IA:</p><ul><li><strong>MindMeister:</strong> Un classico per il mind mapping online, ottimo per la collaborazione in tempo reale.</li><li><strong>XMind:</strong> Un software molto popolare con potenti funzionalità di personalizzazione e la possibilità di esportare in diversi formati. Recentemente ha integrato funzioni AI per generare idee e rami della mappa.</li><li><strong>Coggle:</strong> Un'altra ottima opzione basata sul web, nota per la sua semplicità e la facilità con cui si possono creare mappe dall'aspetto organico.</li><li><strong>Miro:</strong> Una lavagna virtuale infinita che, tra le sue tante funzioni, permette di creare mappe concettuali e diagrammi di flusso, ideale per il brainstorming di gruppo.</li></ul><h3>Perché Usare Questi Strumenti?</h3><ul><li><strong>Risparmio di Tempo:</strong> Riduci il tempo necessario per strutturare le idee.</li><li><strong>Chiarezza Visiva:</strong> Una mappa ben fatta può semplificare anche l'argomento più complesso.</li><li><strong>Collaborazione:</strong> Molti di questi strumenti permettono di lavorare insieme ad altri in tempo reale.</li></ul><p>Sperimentare con diversi strumenti ti aiuterà a trovare quello più adatto al tuo metodo di studio. L'importante è sfruttare queste tecnologie per rendere l'apprendimento più attivo, visivo ed efficace.</p>",
+                "category": "strumenti",
+                "tags": [],
+                "date": "2024-05-25",
+                "readTime": "4 min",
                 "order": 4,
-                "image": "images/quantum-computing-2024.svg"
+                "image": "images/logo.png"
+            },
+            {
+                "id": "ai-accessibilita-guida",
+                "title": "AI e Accessibilità: Una Guida per Tutti",
+                "excerpt": "L'Intelligenza Artificiale sta abbattendo molte barriere. Scopriamo come le tecnologie assistive basate sull'IA promuovono l'inclusione.",
+                "content": "<h2>Tecnologia al Servizio dell'Inclusione</h2><p>L'accessibilità è un diritto fondamentale, e l'Intelligenza Artificiale sta offrendo soluzioni innovative per rendere il mondo digitale e fisico più inclusivo per le persone con disabilità.</p><h3>Come l'IA aiuta l'Accessibilità</h3><p>Le applicazioni dell'IA nell'ambito dell'accessibilità sono numerose e in continua crescita:</p><ul><li><strong>Per le Disabilità Visive:</strong> App che utilizzano la fotocamera dello smartphone per descrivere l'ambiente circostante, leggere testi o riconoscere oggetti e persone.</li><li><strong>Per le Disabilità Uditive:</strong> Servizi di sottotitolazione e trascrizione automatica in tempo reale per video, lezioni e conversazioni.</li><li><strong>Per le Disabilità Motorie:</strong> Sistemi di controllo vocale e interfacce cervello-computer che permettono di interagire con i dispositivi senza l'uso delle mani.</li><li><strong>Per le Disabilità Cognitive:</strong> Strumenti che semplificano testi complessi, organizzano le attività quotidiane o forniscono supporto per la comunicazione.</li></ul><h3>Il Futuro dell'Accessibilità</h3><p>Stiamo andando verso un futuro in cui la tecnologia si adatterà sempre di più alle esigenze individuali. L'IA promette di creare ambienti di apprendimento e di vita veramente personalizzati, dove ogni persona ha la possibilità di esprimere il proprio potenziale.</p><h3>Etica e Responsabilità</h3><p>È fondamentale che lo sviluppo di queste tecnologie avvenga in modo etico e responsabile, coinvolgendo direttamente le persone con disabilità nel processo di progettazione (principio del \"Nothing About Us Without Us\"). Solo così potremo garantire che l'IA sia veramente uno strumento di emancipazione e inclusione per tutti.</p>",
+                "category": "approfondimenti",
+                "tags": [],
+                "date": "2024-05-23",
+                "readTime": "6 min",
+                "order": 5,
+                "image": "images/logo.png"
+            },
+            {
+                "id": "supporto-genitori-insegnanti",
+                "title": "Supporto per Genitori e Insegnanti",
+                "excerpt": "Come integrare gli strumenti di IA a casa e in classe. Consigli pratici per accompagnare i ragazzi nell'uso di queste nuove tecnologie.",
+                "content": "<h2>Un'Alleanza tra Scuola, Famiglia e Tecnologia</h2><p>L'introduzione di strumenti di IA nell'apprendimento dei ragazzi richiede una collaborazione attiva tra genitori e insegnanti. Ecco alcuni consigli per gestire al meglio questo processo.</p><h3>Per i Genitori</h3><p>A casa, potete supportare i vostri figli in diversi modi:</p><ul><li><strong>Creare un Ambiente di Apprendimento Positivo:</strong> Mostratevi curiosi e aperti verso queste nuove tecnologie, esplorandole insieme ai vostri figli.</li><li><strong>Stabilire delle Regole Chiare:</strong> Definite tempi e modi di utilizzo degli strumenti digitali per evitare distrazioni.</li><li><strong>Focalizzarsi sulle Competenze, non solo sulla Correzione:</strong> Usate gli strumenti di IA per incoraggiare la creatività e il pensiero critico, non solo per correggere errori.</li><li><strong>Dialogare con la Scuola:</strong> Mantenete un canale di comunicazione aperto con gli insegnanti per allineare le strategie e condividere i progressi.</li></ul><h3>Per gli Insegnanti</h3><p>In classe, l'IA può essere un potente alleato per la didattica inclusiva:</p><ul><li><strong>Personalizzare i Percorsi Didattici:</strong> Utilizzate piattaforme adattive per creare esercizi su misura per ogni studente.</li><li><strong>Risparmiare Tempo:</strong> Automatizzate compiti ripetitivi come la creazione di quiz o la correzione di bozze, per dedicare più tempo alla relazione con gli studenti.</li><li><strong>Promuovere l'Accessibilità:</strong> Utilizzate strumenti di sintesi vocale o sottotitolazione automatica per rendere i materiali accessibili a tutti.</li><li><strong>Formazione Continua:</strong> Rimanete aggiornati sulle nuove tecnologie e condividete le buone pratiche con i colleghi.</li></ul><p>L'obiettivo comune è quello di utilizzare l'IA come un mezzo per potenziare le capacità di ogni studente, promuovendo autonomia e autostima.</p>",
+                "category": "guide",
+                "tags": [],
+                "date": "2024-05-22",
+                "readTime": "4 min",
+                "order": 6,
+                "image": "images/logo.png"
             }
         ];
     }
@@ -106,11 +126,20 @@ class FreshCommitsApp {
     bindEvents() {
         // Article page navigation
         const viewAllArticlesFooterBtn = document.getElementById('viewAllArticlesFooterBtn');
+        const discoverArticlesBtn = document.getElementById('discoverArticlesBtn');
 
         if (viewAllArticlesFooterBtn) {
             viewAllArticlesFooterBtn.addEventListener('click', (e) => {
                 e.preventDefault();
                 console.log('View all articles footer button clicked');
+                this.showArticlesListPage();
+            });
+        }
+
+        if (discoverArticlesBtn) {
+            discoverArticlesBtn.addEventListener('click', (e) => {
+                e.preventDefault();
+                console.log('Discover articles button clicked');
                 this.showArticlesListPage();
             });
         }
@@ -266,22 +295,7 @@ class FreshCommitsApp {
         }
     }
 
-    showHomePage() {
-        // Hide all pages
-        this.hideAllPages();
-        
-        // Show main content (home page)
-        const main = document.querySelector('.main');
-        if (main) {
-            main.style.display = 'flex';
-            this.currentPage = 'home';
-        }
-
-        // Show latest article after a short delay
-            setTimeout(() => {
-            this.showLatestArticle();
-        }, 3000);
-    }
+    // The showHomePage function is no longer needed as the homepage is now static.
 
     hideAllPages() {
         // Hide main content
@@ -484,10 +498,10 @@ class FreshCommitsApp {
 
     getCategoryName(category) {
         const names = {
-            'ai': 'AI & ML',
-            'web': 'Web Development',
-            'security': 'Cybersecurity',
-            'quantum': 'Quantum Computing'
+            'about': 'About',
+            'strumenti': 'Strumenti',
+            'guide': 'Guide',
+            'approfondimenti': 'Approfondimenti'
         };
         return names[category] || 'Altro';
     }
