@@ -20,113 +20,152 @@
 
 </head>
 <body>
-    <!-- Main Content (Home Page) -->
-    <main class="main">
-        <section class="hero-single">
-            <div class="hero-container">
-                <!-- Commentato il codice Lottie originale
-                <dotlottie-player
-                    src="https://lottie.host/embed/2c0c0c0c-0c0c-0c0c-0c0c-0c0c0c0c0c0c/rocket.json"
-                    background="transparent"
-                    speed="1"
-                    style="width: 350px; height: 350px;"
-                    loop
-                    autoplay = "true"
-                    loop = "false"
-                />
-                -->
-                <!-- Logo dell'app con dimensioni 350x350 -->
-                <img src="images/logo.png" alt="App Logo" style="width: 350px; height: 350px; object-fit: contain;">
+    <div class="app-shell">
+        <header class="topbar" aria-label="Barra principale">
+            <div class="brand">
+                <img src="images/logo.png" alt="AI per la scuola logo" class="logo-small">
+                <span>AI per la Scuola</span>
             </div>
-        </section>
-    </main>
+            <div class="topbar-actions">
+                <button class="icon-btn" id="langToggle" aria-label="Cambia lingua">IT/EN</button>
+                <button class="icon-btn" id="themeToggle" aria-label="Cambia tema">🌓</button>
+            </div>
+        </header>
 
-    <!-- Article Page (Hidden by default) -->
-    <div class="article-page" id="articlePage">
-        <!-- Article Header -->
-        <header class="article-header">
-            <div class="article-header-content">
-                <h1 id="articlePageTitle">L'ascesa dell'Intelligenza Artificiale Generativa</h1>
-                <div class="article-meta">
-                    <span class="article-category" id="articlePageCategory">AI & ML</span>
-                    <div class="article-date-time">
-                        <span class="article-date" id="articlePageDate">15 Gennaio 2024</span>
-                        <span class="article-read-time">
-                            <span class="material-icons">hourglass_empty</span>
-                            <span id="articlePageReadTime">8 min</span>
-                        </span>
+        <main>
+            <section class="hero">
+                <div class="hero-card">
+                    <div class="hero-copy">
+                        <p class="eyebrow">Inclusione, accessibilità, privacy</p>
+                        <h1 id="heroTitle">Catalogo di strumenti IA per la scuola</h1>
+                        <p id="heroSubtitle">Seleziona il bisogno, scopri gli strumenti, confronta privacy e accessibilità.</p>
+                        <div class="cta-group">
+                            <button class="btn primary" data-open-wizard="true" aria-label="Apri wizard rapido" id="heroWizardBtn">Avvia wizard rapido</button>
+                            <a class="btn ghost" href="#problemsSection" aria-label="Vai ai problemi">Sfoglia i problemi</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </header>
+                <div class="hero-visual" aria-hidden="true">
+                    <img src="images/logo.png" alt="" class="hero-image">
+                </div>
+            </section>
 
-        <!-- Article Content -->
-        <div class="article-content">
-            <div class="article-body" id="articlePageBody">
-                <!-- Article content will be loaded here -->
+            <section class="section" id="problemsSection">
+                <div class="section-header">
+                    <div>
+                        <p class="eyebrow">Percorsi guidati</p>
+                        <h2 id="frequentProblemsTitle">Problemi più frequenti</h2>
+                        <p class="muted">Mappa le esigenze tipiche e apri le schede problema.</p>
+                    </div>
+                    <div class="search-group">
+                        <label for="searchProblems" class="sr-only">Cerca problema</label>
+                        <input type="search" id="searchProblems" placeholder="Cerca per titolo o bisogno" aria-label="Cerca problema">
+                    </div>
+                </div>
+                <div class="section-card">
+                    <div class="problems-grid" id="problemsGrid" aria-live="polite"></div>
+                </div>
+            </section>
+
+            <section class="section" aria-labelledby="quickPathsTitle">
+                <div class="section-card">
+                    <div class="section-header">
+                        <div>
+                            <p class="eyebrow">Scorciatoie</p>
+                            <h2 id="quickPathsTitle">Percorsi rapidi</h2>
+                        </div>
+                        <button class="btn ghost" data-open-wizard="true" id="quickWizardBtn">Apri il wizard</button>
+                    </div>
+                    <div class="chips" id="quickPaths"></div>
+                </div>
+            </section>
+
+            <section class="section" id="problemDetail" aria-label="Scheda problema">
+            </section>
+
+            <section class="section" id="toolsSection" aria-labelledby="toolsCatalogTitle">
+                <div class="section-card">
+                    <div class="section-header">
+                        <div>
+                            <p class="eyebrow" id="filtersTitle">Filtri combinati</p>
+                            <h2 id="toolsCatalogTitle">Catalogo strumenti</h2>
+                        </div>
+                        <div class="filters-grid">
+                            <label>
+                                <span class="sr-only">Categoria problema</span>
+                                <select id="filterProblemCategory" aria-label="Categoria problema"></select>
+                            </label>
+                            <label>
+                                <span class="sr-only">Tipo strumento</span>
+                                <select id="filterToolType" aria-label="Tipo strumento"></select>
+                            </label>
+                            <label>
+                                <span class="sr-only">Costo o licenza</span>
+                                <select id="filterCost" aria-label="Costo o licenza"></select>
+                            </label>
+                            <label>
+                                <span class="sr-only">Lingua</span>
+                                <select id="filterLanguage" aria-label="Lingua"></select>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="filters-row">
+                        <div class="search-group">
+                            <label for="searchTools" class="sr-only">Cerca strumenti</label>
+                            <input type="search" id="searchTools" placeholder="Cerca per titolo, descrizione o glossario…" aria-label="Cerca strumenti">
+                        </div>
+                        <button class="btn ghost" id="clearFilters">Azzera filtri</button>
+                    </div>
+                    <div class="tools-grid" id="toolsGrid" aria-live="polite"></div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <button class="fab" data-open-wizard="true" id="fabWizard" aria-label="Apri wizard rapido">
+        <span class="material-icons">bolt</span>
+    </button>
+
+    <div class="modal-backdrop" id="wizardBackdrop"></div>
+    <div class="modal" id="wizardModal" role="dialog" aria-modal="true" aria-labelledby="wizardTitle">
+        <div class="modal-header">
+            <h3 id="wizardTitle">Wizard di scelta rapida</h3>
+            <button class="icon-btn" id="wizardClose" aria-label="Chiudi wizard">×</button>
+        </div>
+        <div class="stepper" id="wizardStepper"></div>
+        <div class="wizard-body">
+            <div class="wizard-step" data-wizard-step="need" aria-label="Seleziona bisogno">
+                <p class="eyebrow">Bisogno</p>
+                <div class="chips">
+                    <button class="chip" data-value="mappe-concettuali">Mappe</button>
+                    <button class="chip" data-value="riassunti-veloci">Riassunti</button>
+                    <button class="chip" data-value="dettatura-e-speech">Dettatura</button>
+                    <button class="chip" data-value="quiz-e-autovalutazione">Quiz</button>
+                    <button class="chip" data-value="lettura-assistita">Lettura assistita</button>
+                </div>
             </div>
-            <div class="article-footer">
-                <button class="view-all-articles-footer" id="viewAllArticlesFooterBtn">
-                    <span class="material-icons">library_books</span>
-                    Vedi tutti gli articoli
-                </button>
+            <div class="wizard-step" data-wizard-step="context" aria-label="Seleziona contesto">
+                <p class="eyebrow">Contesto</p>
+                <div class="chips">
+                    <button class="chip" data-value="classe">In classe</button>
+                    <button class="chip" data-value="casa">A casa</button>
+                    <button class="chip" data-value="multilingua">Multilingua</button>
+                </div>
             </div>
+            <div class="wizard-step" data-wizard-step="output" aria-label="Seleziona output">
+                <p class="eyebrow">Output preferito</p>
+                <div class="chips">
+                    <button class="chip" data-value="modificabile">Modificabile</button>
+                    <button class="chip" data-value="audio">Audio</button>
+                    <button class="chip" data-value="quiz">Quiz / verifica</button>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button class="btn primary" id="wizardApply">Trova strumenti compatibili</button>
         </div>
     </div>
 
-    <!-- Articles List Page (Hidden by default) -->
-    <div class="articles-list-page" id="articlesListPage">
-        <!-- Header with Search -->
-        <header class="articles-header">
-            <nav class="articles-nav">
-                <div class="nav-brand">
-                    <img src="images/logo.png" alt="Fresh Commits Logo" class="site-logo">
-                </div>
-                <div class="nav-actions">
-                    <button class="toggle-filters-btn" id="toggleFiltersBtn">
-                        <span class="material-icons">filter_list</span>
-                    </button>
-                </div>
-            </nav>
-        </header>
-
-        <!-- Filter Section (Hidden by default) -->
-        <section class="filter-section" id="filterSection">
-            <div class="filter-container">
-                <div class="search-container">
-                    <input type="text" id="searchInput" placeholder="Cerca articoli per titolo, categoria, tag...">
-                    <span class="material-icons search-icon">search</span>
-                </div>
-                <div class="filter-tags" id="filterTags">
-                </div>
-            </div>
-        </section>
-
-        <!-- Articles Grid -->
-        <section class="articles-section">
-            <div class="articles-container">
-                <div class="articles-grid" id="articlesGrid">
-                    <!-- Articles will be loaded here dynamically -->
-                </div>
-            </div>
-        </section>
-    </div>
-
-    <!-- Article Modal -->
-    <div class="article-modal" id="articleModal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h3 id="modalTitle"></h3>
-                <button class="modal-close" id="modalClose">
-                    <span class="material-icons">close</span>
-                </button>
-            </div>
-            <div class="modal-body" id="modalBody">
-                <!-- Article content will be loaded here -->
-            </div>
-        </div>
-    </div>
-
-    <script src="js/app.js"></script>
+    <script type="module" src="js/app.js"></script>
 </body>
 </html> 
