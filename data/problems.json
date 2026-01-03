@@ -1,0 +1,226 @@
+[
+  {
+    "id": "mappe-concettuali",
+    "category": "organizzazione",
+    "title": "Mappe concettuali da testi lunghi",
+    "shortDescription": "Trasforma capitoli o appunti in mappe visive modificabili per studiare e ripassare.",
+    "userProfile": "Studenti con bisogno di visualizzare relazioni e insegnanti che preparano schede sintetiche.",
+    "useCase": "Ridurre un capitolo complesso in una mappa di concetti collegati con immagini o parole chiave.",
+    "steps": [
+      "Carica il testo o incolla gli appunti",
+      "Evidenzia concetti chiave e relazioni",
+      "Scegli layout e livello di dettaglio",
+      "Esporta in formato modificabile (DOCX, PNG, slides)"
+    ],
+    "recommendedTools": ["mappapro", "sintesi-facile", "studio-planner"],
+    "technicalRequirements": "Browser moderno, supporto download file, esportazione in DOCX/PNG.",
+    "privacyNotes": "Evita di caricare dati sensibili; preferisci strumenti con elaborazione locale o con data retention limitata.",
+    "benefits": [
+      "Riduce il carico cognitivo con una struttura visiva",
+      "Facilita il ripasso veloce per interrogazioni",
+      "Permette collaborazione tra compagni o docenti"
+    ],
+    "warnings": [
+      "Controlla i concetti generati per evitare semplificazioni eccessive",
+      "Verifica le fonti se il testo proviene dal web"
+    ],
+    "quickActions": ["Avvia il wizard con 'Mappe'", "Filtra per strumenti offline"],
+    "pathTriggers": ["mappe", "visuale", "relazioni"]
+  },
+  {
+    "id": "riassunti-veloci",
+    "category": "comprensione",
+    "title": "Riassunti e schemi sintetici",
+    "shortDescription": "Ottenere riassunti con punti chiave e glossari per testi scolastici.",
+    "userProfile": "Studenti con poco tempo o difficoltà di comprensione del testo.",
+    "useCase": "Preparare una versione breve di un capitolo con domande di autoverifica.",
+    "steps": [
+      "Carica il testo o incolla il link alla lettura",
+      "Imposta il livello scolastico e la lunghezza",
+      "Richiedi punti chiave, glossario e domande",
+      "Scarica o copia negli appunti"
+    ],
+    "recommendedTools": ["sintesi-facile", "explain-it", "lettura-assist"],
+    "technicalRequirements": "Connessione stabile; preferibile supporto per PDF e pagine web.",
+    "privacyNotes": "Usa fonti legittime; non caricare dati personali dello studente.",
+    "benefits": [
+      "Riduce il tempo di preparazione",
+      "Aggiunge domande per l'autovalutazione",
+      "Supporta diversi livelli scolastici"
+    ],
+    "warnings": [
+      "Rileggi per assicurarti che il riassunto non perda concetti chiave",
+      "Controlla la corretta citazione delle fonti"
+    ],
+    "quickActions": ["Apri gli strumenti consigliati", "Mostra top 3 suggeriti"],
+    "pathTriggers": ["riassunti", "sintesi", "glossario"]
+  },
+  {
+    "id": "dettatura-e-speech",
+    "category": "produzione",
+    "title": "Dettatura e scrittura assistita",
+    "shortDescription": "Trasformare la voce in testo con correzioni smart e suggerimenti di stile.",
+    "userProfile": "Studenti con disortografia o difficoltà motorie; docenti che preparano materiali parlando.",
+    "useCase": "Redigere un tema o un verbale parlando e rivedendo subito gli errori.",
+    "steps": [
+      "Attiva il microfono e verifica i permessi",
+      "Detta a frasi brevi per una migliore precisione",
+      "Applica suggerimenti di punteggiatura e stile",
+      "Esporta o condividi il documento"
+    ],
+    "recommendedTools": ["dettatura-360", "studio-planner", "explain-it"],
+    "technicalRequirements": "Microfono funzionante; browser con Web Speech API o app dedicata.",
+    "privacyNotes": "Controlla se l'audio viene salvato lato server; preferisci strumenti con cancellazione immediata.",
+    "benefits": [
+      "Riduce l'affaticamento nella scrittura",
+      "Migliora l'accessibilità per DSA",
+      "Consente revisione rapida"
+    ],
+    "warnings": [
+      "Registra in ambienti silenziosi per maggiore accuratezza",
+      "Verifica sempre le parole omofone"
+    ],
+    "quickActions": ["Mostra strumenti compatibili con microfono", "Filtra per uso offline"],
+    "pathTriggers": ["dettatura", "speech to text", "scrittura"]
+  },
+  {
+    "id": "quiz-e-autovalutazione",
+    "category": "verifica",
+    "title": "Generazione di quiz e flashcard",
+    "shortDescription": "Creare quiz personalizzati con livelli di difficoltà e autocorrezione.",
+    "userProfile": "Docenti che preparano verifiche rapide; studenti che vogliono auto-valutarsi.",
+    "useCase": "Generare 10 domande a scelta multipla da un testo e condividerle con la classe.",
+    "steps": [
+      "Seleziona l'argomento e il livello",
+      "Carica testo o inserisci gli obiettivi di apprendimento",
+      "Scegli formato (scelta multipla, V/F, flashcard)",
+      "Esporta o condividi il link"
+    ],
+    "recommendedTools": ["quiz-builder", "sintesi-facile", "explain-it"],
+    "technicalRequirements": "Browser moderno, esportazione PDF/CSV; opzionale LMS export.",
+    "privacyNotes": "Non inserire dati personali degli studenti; verifica il trattamento dei risultati.",
+    "benefits": [
+      "Velocizza la creazione di verifiche",
+      "Permette livelli differenziati",
+      "Integra feedback immediato"
+    ],
+    "warnings": [
+      "Rivedi le domande per evitare bias",
+      "Testa la resa su dispositivi mobili"
+    ],
+    "quickActions": ["Apri il wizard filtrato su 'Quiz'", "Mostra strumenti con export CSV"],
+    "pathTriggers": ["quiz", "verifica", "flashcard"]
+  },
+  {
+    "id": "lettura-assistita",
+    "category": "accessibilita",
+    "title": "Lettura assistita e semplificazione",
+    "shortDescription": "Leggere ad alta voce, semplificare testi e generare versioni ad alta leggibilità.",
+    "userProfile": "Studenti con dislessia, BES o non madrelingua; docenti che preparano materiali inclusivi.",
+    "useCase": "Caricare un PDF e ottenere versione facilitata con sintesi vocale e glossario.",
+    "steps": [
+      "Carica PDF o incolla testo",
+      "Attiva sintesi vocale e regola velocità/tono",
+      "Chiedi semplificazione e glossario",
+      "Salva la versione ad alta leggibilità"
+    ],
+    "recommendedTools": ["lettura-assist", "traduci-semplice", "mappapro"],
+    "technicalRequirements": "Supporto per PDF e TTS; eventuale estensione browser.",
+    "privacyNotes": "Controlla se il file viene archiviato; privilegia modalità offline per documenti sensibili.",
+    "benefits": [
+      "Aumenta l'accessibilità",
+      "Supporta studenti non madrelingua",
+      "Offre multi-canale (audio + testo)"
+    ],
+    "warnings": [
+      "Verifica la qualità della voce sintetica",
+      "Controlla la corretta formattazione dopo la conversione"
+    ],
+    "quickActions": ["Avvia lettura immediata", "Mostra strumenti con TTS"],
+    "pathTriggers": ["lettura", "tts", "semplificazione"]
+  },
+  {
+    "id": "traduzione-semplificata",
+    "category": "lingue",
+    "title": "Traduzione semplificata e glossari",
+    "shortDescription": "Tradurre testi scolastici con controllo del livello e glossari bilingue.",
+    "userProfile": "Studenti CLIL o non madrelingua; docenti di lingue.",
+    "useCase": "Tradurre un articolo e ottenere glossario con definizioni semplici.",
+    "steps": [
+      "Incolla o carica il testo",
+      "Seleziona lingua di origine e target",
+      "Imposta livello e tono (es. A2/B1)",
+      "Genera glossario e flashcard"
+    ],
+    "recommendedTools": ["traduci-semplice", "lettura-assist", "explain-it"],
+    "technicalRequirements": "Supporto multilingua; esportazione glossari.",
+    "privacyNotes": "Evita dati personali; verifica la localizzazione dei server.",
+    "benefits": [
+      "Facilita la comprensione per studenti ELL",
+      "Produce glossari pronti all'uso",
+      "Consente controllo del livello linguistico"
+    ],
+    "warnings": [
+      "Ricontrolla termini specialistici",
+      "Gestisci correttamente il tono culturale"
+    ],
+    "quickActions": ["Mostra strumenti con glossari", "Filtro lingua italiana"],
+    "pathTriggers": ["traduzione", "glossario", "lingue"]
+  },
+  {
+    "id": "spiegazioni-guidate",
+    "category": "ripasso",
+    "title": "Spiegazioni guidate e tutor virtuale",
+    "shortDescription": "Chiedere chiarimenti passo-passo su esercizi e problemi aperti.",
+    "userProfile": "Studenti che necessitano di tutoring personalizzato; docenti che preparano spiegazioni guidate.",
+    "useCase": "Caricare un esercizio di matematica e ottenere guida passo-passo con domande di controllo.",
+    "steps": [
+      "Definisci l'obiettivo o l'esercizio",
+      "Seleziona il grado scolastico",
+      "Richiedi spiegazione guidata con esempi",
+      "Salva o condividi la sequenza di passi"
+    ],
+    "recommendedTools": ["explain-it", "quiz-builder", "studio-planner"],
+    "technicalRequirements": "Supporto per rendering di formule o immagini.",
+    "privacyNotes": "Evita screenshot con dati personali; verifica la cancellazione dei dati caricati.",
+    "benefits": [
+      "Fornisce supporto individualizzato",
+      "Favorisce il problem solving",
+      "Si adatta al livello dello studente"
+    ],
+    "warnings": [
+      "Controlla la correttezza matematica",
+      "Non sostituire il confronto con il docente"
+    ],
+    "quickActions": ["Apri wizard per 'Tutor'", "Mostra strumenti con walkthrough"],
+    "pathTriggers": ["spiegazione", "tutor", "passo passo"]
+  },
+  {
+    "id": "organizzazione-studio",
+    "category": "organizzazione",
+    "title": "Pianificazione e percorsi rapidi",
+    "shortDescription": "Creare piani di studio con scadenze, promemoria e materiali suggeriti.",
+    "userProfile": "Studenti che faticano con la gestione del tempo; docenti che creano percorsi guidati.",
+    "useCase": "Generare un percorso di studio settimanale con link a strumenti e materiali consigliati.",
+    "steps": [
+      "Inserisci obiettivi e scadenze",
+      "Seleziona materie e tempo disponibile",
+      "Ricevi piano settimanale con reminder",
+      "Esporta e condividi con famiglia o classe"
+    ],
+    "recommendedTools": ["studio-planner", "mappapro", "sintesi-facile"],
+    "technicalRequirements": "Notifiche browser o email; sincronizzazione calendario (opzionale).",
+    "privacyNotes": "Non inserire dati sanitari o sensibili; controlla le policy di sincronizzazione.",
+    "benefits": [
+      "Riduce l'ansia da scadenza",
+      "Crea routine sostenibili",
+      "Integra strumenti diversi in un unico percorso"
+    ],
+    "warnings": [
+      "Rivedi periodicamente il piano",
+      "Evita sovraccarico di attività giornaliere"
+    ],
+    "quickActions": ["Mostra percorso rapido per piani settimanali", "Filtra strumenti con reminder"],
+    "pathTriggers": ["piano", "organizzazione", "reminder"]
+  }
+]
