@@ -3,6 +3,7 @@ import { filterProblems, filterTools } from "./filterService.js";
 import { renderProblemCards, renderQuickPaths, renderProblemDetail, renderTools, renderFilters, setStaticText } from "./renderService.js";
 import { WizardController } from "./wizardController.js";
 import { strings } from "./i18n/strings.js";
+import { demoProblems, demoTools } from "./demoData.js";
 
 class SchoolAIApp {
   constructor() {
@@ -45,6 +46,12 @@ class SchoolAIApp {
       this.state.filters.problemId = this.state.activeProblemId;
     } catch (error) {
       console.error("Errore nel caricamento dati", error);
+      // Fallback per testing rapido senza server
+      this.state.problems = [...demoProblems];
+      this.state.tools = [...demoTools];
+      this.state.toolsIndex = buildToolsIndex(this.state.tools);
+      this.state.activeProblemId = this.state.problems[0]?.id || null;
+      this.state.filters.problemId = this.state.activeProblemId;
     }
   }
 
