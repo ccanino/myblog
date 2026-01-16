@@ -674,6 +674,7 @@ input {
   flex-wrap: wrap;
   font-size: 13px;
   row-gap: 12px;
+  margin-top: auto;
 }
 
 .footer-links {
@@ -812,6 +813,20 @@ input {
 
   .logo-description {
     margin-top: 6px;
+  }
+
+  body.no-scroll .footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--bg);
+    padding: 12px 16px;
+    border-top: 1px solid var(--stroke);
+  }
+
+  body.no-scroll .page {
+    padding-bottom: 72px;
   }
 
   .page::before,
