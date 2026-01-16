@@ -1,0 +1,4412 @@
+[
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "category": "riassunti",
+    "badge": "Riassunti",
+    "description": "Strumento AI per riassumere testi e documenti in pochi minuti.",
+    "summary": "Aiuta a sintetizzare contenuti lunghi in punti chiave per studio e ripasso.",
+    "tags": [
+      "riassunti",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Riassunti automatici",
+      "Punti chiave ed evidenze",
+      "Esportazione o copia rapida"
+    ],
+    "requirements": [
+      "Browser moderno",
+      "Connessione internet",
+      "Testi o documenti da caricare"
+    ],
+    "privacy": [
+      "I contenuti seguono le policy del fornitore",
+      "Possibilita di cancellare i dati",
+      "Condivisione controllata"
+    ],
+    "pricing": [
+      "Piano gratuito con limiti",
+      "Piani premium per uso intensivo"
+    ],
+    "classroomExamples": [
+      "Sintesi di capitoli di storia",
+      "Riassunto per preparare una lezione"
+    ],
+    "installSteps": [
+      "Accedi al sito ufficiale",
+      "Crea un account se richiesto",
+      "Carica o incolla il testo"
+    ],
+    "useSteps": [
+      "Seleziona la lunghezza del riassunto",
+      "Genera il riepilogo",
+      "Rivedi e salva i punti chiave"
+    ],
+    "faq": [
+      "Supporta PDF? Dipende dal piano.",
+      "Si puo usare senza account? Spesso si, con limiti."
+    ],
+    "resources": [
+      "Guida rapida ai riassunti",
+      "Suggerimenti per prompt efficaci"
+    ],
+    "website": "https://chat.openai.com/",
+    "rating": 4.9,
+    "rank": 1,
+    "rankTotal": 12
+  },
+  {
+    "id": "claude",
+    "name": "Claude",
+    "category": "riassunti",
+    "badge": "Riassunti",
+    "description": "Strumento AI per riassumere testi e documenti in pochi minuti.",
+    "summary": "Aiuta a sintetizzare contenuti lunghi in punti chiave per studio e ripasso.",
+    "tags": [
+      "riassunti",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Riassunti automatici",
+      "Punti chiave ed evidenze",
+      "Esportazione o copia rapida"
+    ],
+    "requirements": [
+      "Browser moderno",
+      "Connessione internet",
+      "Testi o documenti da caricare"
+    ],
+    "privacy": [
+      "I contenuti seguono le policy del fornitore",
+      "Possibilita di cancellare i dati",
+      "Condivisione controllata"
+    ],
+    "pricing": [
+      "Piano gratuito con limiti",
+      "Piani premium per uso intensivo"
+    ],
+    "classroomExamples": [
+      "Sintesi di capitoli di storia",
+      "Riassunto per preparare una lezione"
+    ],
+    "installSteps": [
+      "Accedi al sito ufficiale",
+      "Crea un account se richiesto",
+      "Carica o incolla il testo"
+    ],
+    "useSteps": [
+      "Seleziona la lunghezza del riassunto",
+      "Genera il riepilogo",
+      "Rivedi e salva i punti chiave"
+    ],
+    "faq": [
+      "Supporta PDF? Dipende dal piano.",
+      "Si puo usare senza account? Spesso si, con limiti."
+    ],
+    "resources": [
+      "Guida rapida ai riassunti",
+      "Suggerimenti per prompt efficaci"
+    ],
+    "website": "https://claude.ai/",
+    "rating": 4.8,
+    "rank": 2,
+    "rankTotal": 12
+  },
+  {
+    "id": "gemini",
+    "name": "Gemini",
+    "category": "riassunti",
+    "badge": "Riassunti",
+    "description": "Strumento AI per riassumere testi e documenti in pochi minuti.",
+    "summary": "Aiuta a sintetizzare contenuti lunghi in punti chiave per studio e ripasso.",
+    "tags": [
+      "riassunti",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Riassunti automatici",
+      "Punti chiave ed evidenze",
+      "Esportazione o copia rapida"
+    ],
+    "requirements": [
+      "Browser moderno",
+      "Connessione internet",
+      "Testi o documenti da caricare"
+    ],
+    "privacy": [
+      "I contenuti seguono le policy del fornitore",
+      "Possibilita di cancellare i dati",
+      "Condivisione controllata"
+    ],
+    "pricing": [
+      "Piano gratuito con limiti",
+      "Piani premium per uso intensivo"
+    ],
+    "classroomExamples": [
+      "Sintesi di capitoli di storia",
+      "Riassunto per preparare una lezione"
+    ],
+    "installSteps": [
+      "Accedi al sito ufficiale",
+      "Crea un account se richiesto",
+      "Carica o incolla il testo"
+    ],
+    "useSteps": [
+      "Seleziona la lunghezza del riassunto",
+      "Genera il riepilogo",
+      "Rivedi e salva i punti chiave"
+    ],
+    "faq": [
+      "Supporta PDF? Dipende dal piano.",
+      "Si puo usare senza account? Spesso si, con limiti."
+    ],
+    "resources": [
+      "Guida rapida ai riassunti",
+      "Suggerimenti per prompt efficaci"
+    ],
+    "website": "https://gemini.google.com/",
+    "rating": 4.7,
+    "rank": 3,
+    "rankTotal": 12
+  },
+  {
+    "id": "perplexity",
+    "name": "Perplexity",
+    "category": "riassunti",
+    "badge": "Riassunti",
+    "description": "Strumento AI per riassumere testi e documenti in pochi minuti.",
+    "summary": "Aiuta a sintetizzare contenuti lunghi in punti chiave per studio e ripasso.",
+    "tags": [
+      "riassunti",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Riassunti automatici",
+      "Punti chiave ed evidenze",
+      "Esportazione o copia rapida"
+    ],
+    "requirements": [
+      "Browser moderno",
+      "Connessione internet",
+      "Testi o documenti da caricare"
+    ],
+    "privacy": [
+      "I contenuti seguono le policy del fornitore",
+      "Possibilita di cancellare i dati",
+      "Condivisione controllata"
+    ],
+    "pricing": [
+      "Piano gratuito con limiti",
+      "Piani premium per uso intensivo"
+    ],
+    "classroomExamples": [
+      "Sintesi di capitoli di storia",
+      "Riassunto per preparare una lezione"
+    ],
+    "installSteps": [
+      "Accedi al sito ufficiale",
+      "Crea un account se richiesto",
+      "Carica o incolla il testo"
+    ],
+    "useSteps": [
+      "Seleziona la lunghezza del riassunto",
+      "Genera il riepilogo",
+      "Rivedi e salva i punti chiave"
+    ],
+    "faq": [
+      "Supporta PDF? Dipende dal piano.",
+      "Si puo usare senza account? Spesso si, con limiti."
+    ],
+    "resources": [
+      "Guida rapida ai riassunti",
+      "Suggerimenti per prompt efficaci"
+    ],
+    "website": "https://www.perplexity.ai/",
+    "rating": 4.6,
+    "rank": 4,
+    "rankTotal": 12
+  },
+  {
+    "id": "quillbot-summarizer",
+    "name": "QuillBot Summarizer",
+    "category": "riassunti",
+    "badge": "Riassunti",
+    "description": "Strumento AI per riassumere testi e documenti in pochi minuti.",
+    "summary": "Aiuta a sintetizzare contenuti lunghi in punti chiave per studio e ripasso.",
+    "tags": [
+      "riassunti",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Riassunti automatici",
+      "Punti chiave ed evidenze",
+      "Esportazione o copia rapida"
+    ],
+    "requirements": [
+      "Browser moderno",
+      "Connessione internet",
+      "Testi o documenti da caricare"
+    ],
+    "privacy": [
+      "I contenuti seguono le policy del fornitore",
+      "Possibilita di cancellare i dati",
+      "Condivisione controllata"
+    ],
+    "pricing": [
+      "Piano gratuito con limiti",
+      "Piani premium per uso intensivo"
+    ],
+    "classroomExamples": [
+      "Sintesi di capitoli di storia",
+      "Riassunto per preparare una lezione"
+    ],
+    "installSteps": [
+      "Accedi al sito ufficiale",
+      "Crea un account se richiesto",
+      "Carica o incolla il testo"
+    ],
+    "useSteps": [
+      "Seleziona la lunghezza del riassunto",
+      "Genera il riepilogo",
+      "Rivedi e salva i punti chiave"
+    ],
+    "faq": [
+      "Supporta PDF? Dipende dal piano.",
+      "Si puo usare senza account? Spesso si, con limiti."
+    ],
+    "resources": [
+      "Guida rapida ai riassunti",
+      "Suggerimenti per prompt efficaci"
+    ],
+    "website": "https://quillbot.com/summarize",
+    "rating": 4.5,
+    "rank": 5,
+    "rankTotal": 12
+  },
+  {
+    "id": "tldr-this",
+    "name": "TLDR This",
+    "category": "riassunti",
+    "badge": "Riassunti",
+    "description": "Strumento AI per riassumere testi e documenti in pochi minuti.",
+    "summary": "Aiuta a sintetizzare contenuti lunghi in punti chiave per studio e ripasso.",
+    "tags": [
+      "riassunti",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Riassunti automatici",
+      "Punti chiave ed evidenze",
+      "Esportazione o copia rapida"
+    ],
+    "requirements": [
+      "Browser moderno",
+      "Connessione internet",
+      "Testi o documenti da caricare"
+    ],
+    "privacy": [
+      "I contenuti seguono le policy del fornitore",
+      "Possibilita di cancellare i dati",
+      "Condivisione controllata"
+    ],
+    "pricing": [
+      "Piano gratuito con limiti",
+      "Piani premium per uso intensivo"
+    ],
+    "classroomExamples": [
+      "Sintesi di capitoli di storia",
+      "Riassunto per preparare una lezione"
+    ],
+    "installSteps": [
+      "Accedi al sito ufficiale",
+      "Crea un account se richiesto",
+      "Carica o incolla il testo"
+    ],
+    "useSteps": [
+      "Seleziona la lunghezza del riassunto",
+      "Genera il riepilogo",
+      "Rivedi e salva i punti chiave"
+    ],
+    "faq": [
+      "Supporta PDF? Dipende dal piano.",
+      "Si puo usare senza account? Spesso si, con limiti."
+    ],
+    "resources": [
+      "Guida rapida ai riassunti",
+      "Suggerimenti per prompt efficaci"
+    ],
+    "website": "https://www.tldrthis.com/",
+    "rating": 4.4,
+    "rank": 6,
+    "rankTotal": 12
+  },
+  {
+    "id": "resoomer",
+    "name": "Resoomer",
+    "category": "riassunti",
+    "badge": "Riassunti",
+    "description": "Strumento AI per riassumere testi e documenti in pochi minuti.",
+    "summary": "Aiuta a sintetizzare contenuti lunghi in punti chiave per studio e ripasso.",
+    "tags": [
+      "riassunti",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Riassunti automatici",
+      "Punti chiave ed evidenze",
+      "Esportazione o copia rapida"
+    ],
+    "requirements": [
+      "Browser moderno",
+      "Connessione internet",
+      "Testi o documenti da caricare"
+    ],
+    "privacy": [
+      "I contenuti seguono le policy del fornitore",
+      "Possibilita di cancellare i dati",
+      "Condivisione controllata"
+    ],
+    "pricing": [
+      "Piano gratuito con limiti",
+      "Piani premium per uso intensivo"
+    ],
+    "classroomExamples": [
+      "Sintesi di capitoli di storia",
+      "Riassunto per preparare una lezione"
+    ],
+    "installSteps": [
+      "Accedi al sito ufficiale",
+      "Crea un account se richiesto",
+      "Carica o incolla il testo"
+    ],
+    "useSteps": [
+      "Seleziona la lunghezza del riassunto",
+      "Genera il riepilogo",
+      "Rivedi e salva i punti chiave"
+    ],
+    "faq": [
+      "Supporta PDF? Dipende dal piano.",
+      "Si puo usare senza account? Spesso si, con limiti."
+    ],
+    "resources": [
+      "Guida rapida ai riassunti",
+      "Suggerimenti per prompt efficaci"
+    ],
+    "website": "https://resoomer.com/",
+    "rating": 4.3,
+    "rank": 7,
+    "rankTotal": 12
+  },
+  {
+    "id": "scholarcy",
+    "name": "Scholarcy",
+    "category": "riassunti",
+    "badge": "Riassunti",
+    "description": "Strumento AI per riassumere testi e documenti in pochi minuti.",
+    "summary": "Aiuta a sintetizzare contenuti lunghi in punti chiave per studio e ripasso.",
+    "tags": [
+      "riassunti",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Riassunti automatici",
+      "Punti chiave ed evidenze",
+      "Esportazione o copia rapida"
+    ],
+    "requirements": [
+      "Browser moderno",
+      "Connessione internet",
+      "Testi o documenti da caricare"
+    ],
+    "privacy": [
+      "I contenuti seguono le policy del fornitore",
+      "Possibilita di cancellare i dati",
+      "Condivisione controllata"
+    ],
+    "pricing": [
+      "Piano gratuito con limiti",
+      "Piani premium per uso intensivo"
+    ],
+    "classroomExamples": [
+      "Sintesi di capitoli di storia",
+      "Riassunto per preparare una lezione"
+    ],
+    "installSteps": [
+      "Accedi al sito ufficiale",
+      "Crea un account se richiesto",
+      "Carica o incolla il testo"
+    ],
+    "useSteps": [
+      "Seleziona la lunghezza del riassunto",
+      "Genera il riepilogo",
+      "Rivedi e salva i punti chiave"
+    ],
+    "faq": [
+      "Supporta PDF? Dipende dal piano.",
+      "Si puo usare senza account? Spesso si, con limiti."
+    ],
+    "resources": [
+      "Guida rapida ai riassunti",
+      "Suggerimenti per prompt efficaci"
+    ],
+    "website": "https://www.scholarcy.com/",
+    "rating": 4.2,
+    "rank": 8,
+    "rankTotal": 12
+  },
+  {
+    "id": "summarizebot",
+    "name": "SummarizeBot",
+    "category": "riassunti",
+    "badge": "Riassunti",
+    "description": "Strumento AI per riassumere testi e documenti in pochi minuti.",
+    "summary": "Aiuta a sintetizzare contenuti lunghi in punti chiave per studio e ripasso.",
+    "tags": [
+      "riassunti",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Riassunti automatici",
+      "Punti chiave ed evidenze",
+      "Esportazione o copia rapida"
+    ],
+    "requirements": [
+      "Browser moderno",
+      "Connessione internet",
+      "Testi o documenti da caricare"
+    ],
+    "privacy": [
+      "I contenuti seguono le policy del fornitore",
+      "Possibilita di cancellare i dati",
+      "Condivisione controllata"
+    ],
+    "pricing": [
+      "Piano gratuito con limiti",
+      "Piani premium per uso intensivo"
+    ],
+    "classroomExamples": [
+      "Sintesi di capitoli di storia",
+      "Riassunto per preparare una lezione"
+    ],
+    "installSteps": [
+      "Accedi al sito ufficiale",
+      "Crea un account se richiesto",
+      "Carica o incolla il testo"
+    ],
+    "useSteps": [
+      "Seleziona la lunghezza del riassunto",
+      "Genera il riepilogo",
+      "Rivedi e salva i punti chiave"
+    ],
+    "faq": [
+      "Supporta PDF? Dipende dal piano.",
+      "Si puo usare senza account? Spesso si, con limiti."
+    ],
+    "resources": [
+      "Guida rapida ai riassunti",
+      "Suggerimenti per prompt efficaci"
+    ],
+    "website": "https://summarizebot.com/",
+    "rating": 4.1,
+    "rank": 9,
+    "rankTotal": 12
+  },
+  {
+    "id": "wordtune-read",
+    "name": "Wordtune Read",
+    "category": "riassunti",
+    "badge": "Riassunti",
+    "description": "Strumento AI per riassumere testi e documenti in pochi minuti.",
+    "summary": "Aiuta a sintetizzare contenuti lunghi in punti chiave per studio e ripasso.",
+    "tags": [
+      "riassunti",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Riassunti automatici",
+      "Punti chiave ed evidenze",
+      "Esportazione o copia rapida"
+    ],
+    "requirements": [
+      "Browser moderno",
+      "Connessione internet",
+      "Testi o documenti da caricare"
+    ],
+    "privacy": [
+      "I contenuti seguono le policy del fornitore",
+      "Possibilita di cancellare i dati",
+      "Condivisione controllata"
+    ],
+    "pricing": [
+      "Piano gratuito con limiti",
+      "Piani premium per uso intensivo"
+    ],
+    "classroomExamples": [
+      "Sintesi di capitoli di storia",
+      "Riassunto per preparare una lezione"
+    ],
+    "installSteps": [
+      "Accedi al sito ufficiale",
+      "Crea un account se richiesto",
+      "Carica o incolla il testo"
+    ],
+    "useSteps": [
+      "Seleziona la lunghezza del riassunto",
+      "Genera il riepilogo",
+      "Rivedi e salva i punti chiave"
+    ],
+    "faq": [
+      "Supporta PDF? Dipende dal piano.",
+      "Si puo usare senza account? Spesso si, con limiti."
+    ],
+    "resources": [
+      "Guida rapida ai riassunti",
+      "Suggerimenti per prompt efficaci"
+    ],
+    "website": "https://www.wordtune.com/read",
+    "rating": 4.0,
+    "rank": 10,
+    "rankTotal": 12
+  },
+  {
+    "id": "smmry",
+    "name": "SMMRY",
+    "category": "riassunti",
+    "badge": "Riassunti",
+    "description": "Strumento AI per riassumere testi e documenti in pochi minuti.",
+    "summary": "Aiuta a sintetizzare contenuti lunghi in punti chiave per studio e ripasso.",
+    "tags": [
+      "riassunti",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Riassunti automatici",
+      "Punti chiave ed evidenze",
+      "Esportazione o copia rapida"
+    ],
+    "requirements": [
+      "Browser moderno",
+      "Connessione internet",
+      "Testi o documenti da caricare"
+    ],
+    "privacy": [
+      "I contenuti seguono le policy del fornitore",
+      "Possibilita di cancellare i dati",
+      "Condivisione controllata"
+    ],
+    "pricing": [
+      "Piano gratuito con limiti",
+      "Piani premium per uso intensivo"
+    ],
+    "classroomExamples": [
+      "Sintesi di capitoli di storia",
+      "Riassunto per preparare una lezione"
+    ],
+    "installSteps": [
+      "Accedi al sito ufficiale",
+      "Crea un account se richiesto",
+      "Carica o incolla il testo"
+    ],
+    "useSteps": [
+      "Seleziona la lunghezza del riassunto",
+      "Genera il riepilogo",
+      "Rivedi e salva i punti chiave"
+    ],
+    "faq": [
+      "Supporta PDF? Dipende dal piano.",
+      "Si puo usare senza account? Spesso si, con limiti."
+    ],
+    "resources": [
+      "Guida rapida ai riassunti",
+      "Suggerimenti per prompt efficaci"
+    ],
+    "website": "https://smmry.com/",
+    "rating": 3.9,
+    "rank": 11,
+    "rankTotal": 12
+  },
+  {
+    "id": "elicit",
+    "name": "Elicit",
+    "category": "riassunti",
+    "badge": "Riassunti",
+    "description": "Strumento AI per riassumere testi e documenti in pochi minuti.",
+    "summary": "Aiuta a sintetizzare contenuti lunghi in punti chiave per studio e ripasso.",
+    "tags": [
+      "riassunti",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Riassunti automatici",
+      "Punti chiave ed evidenze",
+      "Esportazione o copia rapida"
+    ],
+    "requirements": [
+      "Browser moderno",
+      "Connessione internet",
+      "Testi o documenti da caricare"
+    ],
+    "privacy": [
+      "I contenuti seguono le policy del fornitore",
+      "Possibilita di cancellare i dati",
+      "Condivisione controllata"
+    ],
+    "pricing": [
+      "Piano gratuito con limiti",
+      "Piani premium per uso intensivo"
+    ],
+    "classroomExamples": [
+      "Sintesi di capitoli di storia",
+      "Riassunto per preparare una lezione"
+    ],
+    "installSteps": [
+      "Accedi al sito ufficiale",
+      "Crea un account se richiesto",
+      "Carica o incolla il testo"
+    ],
+    "useSteps": [
+      "Seleziona la lunghezza del riassunto",
+      "Genera il riepilogo",
+      "Rivedi e salva i punti chiave"
+    ],
+    "faq": [
+      "Supporta PDF? Dipende dal piano.",
+      "Si puo usare senza account? Spesso si, con limiti."
+    ],
+    "resources": [
+      "Guida rapida ai riassunti",
+      "Suggerimenti per prompt efficaci"
+    ],
+    "website": "https://elicit.com/",
+    "rating": 3.8,
+    "rank": 12,
+    "rankTotal": 12
+  },
+  {
+    "id": "mindmeister",
+    "name": "MindMeister",
+    "category": "mappe",
+    "badge": "Mappe",
+    "description": "Crea mappe concettuali e schemi visivi con supporto AI.",
+    "summary": "Organizza concetti e collegamenti con template intelligenti.",
+    "tags": [
+      "mappe",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Nodi e collegamenti automatici",
+      "Template per lezioni",
+      "Esportazione in PDF/immagini"
+    ],
+    "requirements": [
+      "Browser o app desktop",
+      "Mouse o trackpad",
+      "Connessione internet"
+    ],
+    "privacy": [
+      "Mappe salvate nel profilo",
+      "Condivisione con permessi",
+      "Esportazione locale disponibile"
+    ],
+    "pricing": [
+      "Piano gratuito base",
+      "Licenze scuola o team"
+    ],
+    "classroomExamples": [
+      "Schema di un capitolo",
+      "Mappa di un processo scientifico"
+    ],
+    "installSteps": [
+      "Accedi al sito o installa l'app",
+      "Crea un nuovo progetto",
+      "Scegli un template"
+    ],
+    "useSteps": [
+      "Inserisci i concetti principali",
+      "Aggiungi collegamenti e colori",
+      "Condividi o esporta"
+    ],
+    "faq": [
+      "Si puo lavorare in gruppo? Si, con condivisione.",
+      "Le mappe si stampano? Si, in PDF."
+    ],
+    "resources": [
+      "Template per mappe",
+      "Checklist per mappe efficaci"
+    ],
+    "website": "https://www.mindmeister.com/",
+    "rating": 4.9,
+    "rank": 1,
+    "rankTotal": 12
+  },
+  {
+    "id": "xmind",
+    "name": "XMind",
+    "category": "mappe",
+    "badge": "Mappe",
+    "description": "Crea mappe concettuali e schemi visivi con supporto AI.",
+    "summary": "Organizza concetti e collegamenti con template intelligenti.",
+    "tags": [
+      "mappe",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Nodi e collegamenti automatici",
+      "Template per lezioni",
+      "Esportazione in PDF/immagini"
+    ],
+    "requirements": [
+      "Browser o app desktop",
+      "Mouse o trackpad",
+      "Connessione internet"
+    ],
+    "privacy": [
+      "Mappe salvate nel profilo",
+      "Condivisione con permessi",
+      "Esportazione locale disponibile"
+    ],
+    "pricing": [
+      "Piano gratuito base",
+      "Licenze scuola o team"
+    ],
+    "classroomExamples": [
+      "Schema di un capitolo",
+      "Mappa di un processo scientifico"
+    ],
+    "installSteps": [
+      "Accedi al sito o installa l'app",
+      "Crea un nuovo progetto",
+      "Scegli un template"
+    ],
+    "useSteps": [
+      "Inserisci i concetti principali",
+      "Aggiungi collegamenti e colori",
+      "Condividi o esporta"
+    ],
+    "faq": [
+      "Si puo lavorare in gruppo? Si, con condivisione.",
+      "Le mappe si stampano? Si, in PDF."
+    ],
+    "resources": [
+      "Template per mappe",
+      "Checklist per mappe efficaci"
+    ],
+    "website": "https://xmind.app/",
+    "rating": 4.8,
+    "rank": 2,
+    "rankTotal": 12
+  },
+  {
+    "id": "miro",
+    "name": "Miro",
+    "category": "mappe",
+    "badge": "Mappe",
+    "description": "Crea mappe concettuali e schemi visivi con supporto AI.",
+    "summary": "Organizza concetti e collegamenti con template intelligenti.",
+    "tags": [
+      "mappe",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Nodi e collegamenti automatici",
+      "Template per lezioni",
+      "Esportazione in PDF/immagini"
+    ],
+    "requirements": [
+      "Browser o app desktop",
+      "Mouse o trackpad",
+      "Connessione internet"
+    ],
+    "privacy": [
+      "Mappe salvate nel profilo",
+      "Condivisione con permessi",
+      "Esportazione locale disponibile"
+    ],
+    "pricing": [
+      "Piano gratuito base",
+      "Licenze scuola o team"
+    ],
+    "classroomExamples": [
+      "Schema di un capitolo",
+      "Mappa di un processo scientifico"
+    ],
+    "installSteps": [
+      "Accedi al sito o installa l'app",
+      "Crea un nuovo progetto",
+      "Scegli un template"
+    ],
+    "useSteps": [
+      "Inserisci i concetti principali",
+      "Aggiungi collegamenti e colori",
+      "Condividi o esporta"
+    ],
+    "faq": [
+      "Si puo lavorare in gruppo? Si, con condivisione.",
+      "Le mappe si stampano? Si, in PDF."
+    ],
+    "resources": [
+      "Template per mappe",
+      "Checklist per mappe efficaci"
+    ],
+    "website": "https://miro.com/",
+    "rating": 4.7,
+    "rank": 3,
+    "rankTotal": 12
+  },
+  {
+    "id": "whimsical",
+    "name": "Whimsical",
+    "category": "mappe",
+    "badge": "Mappe",
+    "description": "Crea mappe concettuali e schemi visivi con supporto AI.",
+    "summary": "Organizza concetti e collegamenti con template intelligenti.",
+    "tags": [
+      "mappe",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Nodi e collegamenti automatici",
+      "Template per lezioni",
+      "Esportazione in PDF/immagini"
+    ],
+    "requirements": [
+      "Browser o app desktop",
+      "Mouse o trackpad",
+      "Connessione internet"
+    ],
+    "privacy": [
+      "Mappe salvate nel profilo",
+      "Condivisione con permessi",
+      "Esportazione locale disponibile"
+    ],
+    "pricing": [
+      "Piano gratuito base",
+      "Licenze scuola o team"
+    ],
+    "classroomExamples": [
+      "Schema di un capitolo",
+      "Mappa di un processo scientifico"
+    ],
+    "installSteps": [
+      "Accedi al sito o installa l'app",
+      "Crea un nuovo progetto",
+      "Scegli un template"
+    ],
+    "useSteps": [
+      "Inserisci i concetti principali",
+      "Aggiungi collegamenti e colori",
+      "Condividi o esporta"
+    ],
+    "faq": [
+      "Si puo lavorare in gruppo? Si, con condivisione.",
+      "Le mappe si stampano? Si, in PDF."
+    ],
+    "resources": [
+      "Template per mappe",
+      "Checklist per mappe efficaci"
+    ],
+    "website": "https://whimsical.com/",
+    "rating": 4.6,
+    "rank": 4,
+    "rankTotal": 12
+  },
+  {
+    "id": "mindnode",
+    "name": "MindNode",
+    "category": "mappe",
+    "badge": "Mappe",
+    "description": "Crea mappe concettuali e schemi visivi con supporto AI.",
+    "summary": "Organizza concetti e collegamenti con template intelligenti.",
+    "tags": [
+      "mappe",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Nodi e collegamenti automatici",
+      "Template per lezioni",
+      "Esportazione in PDF/immagini"
+    ],
+    "requirements": [
+      "Browser o app desktop",
+      "Mouse o trackpad",
+      "Connessione internet"
+    ],
+    "privacy": [
+      "Mappe salvate nel profilo",
+      "Condivisione con permessi",
+      "Esportazione locale disponibile"
+    ],
+    "pricing": [
+      "Piano gratuito base",
+      "Licenze scuola o team"
+    ],
+    "classroomExamples": [
+      "Schema di un capitolo",
+      "Mappa di un processo scientifico"
+    ],
+    "installSteps": [
+      "Accedi al sito o installa l'app",
+      "Crea un nuovo progetto",
+      "Scegli un template"
+    ],
+    "useSteps": [
+      "Inserisci i concetti principali",
+      "Aggiungi collegamenti e colori",
+      "Condividi o esporta"
+    ],
+    "faq": [
+      "Si puo lavorare in gruppo? Si, con condivisione.",
+      "Le mappe si stampano? Si, in PDF."
+    ],
+    "resources": [
+      "Template per mappe",
+      "Checklist per mappe efficaci"
+    ],
+    "website": "https://mindnode.com/",
+    "rating": 4.5,
+    "rank": 5,
+    "rankTotal": 12
+  },
+  {
+    "id": "coggle",
+    "name": "Coggle",
+    "category": "mappe",
+    "badge": "Mappe",
+    "description": "Crea mappe concettuali e schemi visivi con supporto AI.",
+    "summary": "Organizza concetti e collegamenti con template intelligenti.",
+    "tags": [
+      "mappe",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Nodi e collegamenti automatici",
+      "Template per lezioni",
+      "Esportazione in PDF/immagini"
+    ],
+    "requirements": [
+      "Browser o app desktop",
+      "Mouse o trackpad",
+      "Connessione internet"
+    ],
+    "privacy": [
+      "Mappe salvate nel profilo",
+      "Condivisione con permessi",
+      "Esportazione locale disponibile"
+    ],
+    "pricing": [
+      "Piano gratuito base",
+      "Licenze scuola o team"
+    ],
+    "classroomExamples": [
+      "Schema di un capitolo",
+      "Mappa di un processo scientifico"
+    ],
+    "installSteps": [
+      "Accedi al sito o installa l'app",
+      "Crea un nuovo progetto",
+      "Scegli un template"
+    ],
+    "useSteps": [
+      "Inserisci i concetti principali",
+      "Aggiungi collegamenti e colori",
+      "Condividi o esporta"
+    ],
+    "faq": [
+      "Si puo lavorare in gruppo? Si, con condivisione.",
+      "Le mappe si stampano? Si, in PDF."
+    ],
+    "resources": [
+      "Template per mappe",
+      "Checklist per mappe efficaci"
+    ],
+    "website": "https://coggle.it/",
+    "rating": 4.4,
+    "rank": 6,
+    "rankTotal": 12
+  },
+  {
+    "id": "lucidchart",
+    "name": "Lucidchart",
+    "category": "mappe",
+    "badge": "Mappe",
+    "description": "Crea mappe concettuali e schemi visivi con supporto AI.",
+    "summary": "Organizza concetti e collegamenti con template intelligenti.",
+    "tags": [
+      "mappe",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Nodi e collegamenti automatici",
+      "Template per lezioni",
+      "Esportazione in PDF/immagini"
+    ],
+    "requirements": [
+      "Browser o app desktop",
+      "Mouse o trackpad",
+      "Connessione internet"
+    ],
+    "privacy": [
+      "Mappe salvate nel profilo",
+      "Condivisione con permessi",
+      "Esportazione locale disponibile"
+    ],
+    "pricing": [
+      "Piano gratuito base",
+      "Licenze scuola o team"
+    ],
+    "classroomExamples": [
+      "Schema di un capitolo",
+      "Mappa di un processo scientifico"
+    ],
+    "installSteps": [
+      "Accedi al sito o installa l'app",
+      "Crea un nuovo progetto",
+      "Scegli un template"
+    ],
+    "useSteps": [
+      "Inserisci i concetti principali",
+      "Aggiungi collegamenti e colori",
+      "Condividi o esporta"
+    ],
+    "faq": [
+      "Si puo lavorare in gruppo? Si, con condivisione.",
+      "Le mappe si stampano? Si, in PDF."
+    ],
+    "resources": [
+      "Template per mappe",
+      "Checklist per mappe efficaci"
+    ],
+    "website": "https://www.lucidchart.com/",
+    "rating": 4.3,
+    "rank": 7,
+    "rankTotal": 12
+  },
+  {
+    "id": "mindomo",
+    "name": "Mindomo",
+    "category": "mappe",
+    "badge": "Mappe",
+    "description": "Crea mappe concettuali e schemi visivi con supporto AI.",
+    "summary": "Organizza concetti e collegamenti con template intelligenti.",
+    "tags": [
+      "mappe",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Nodi e collegamenti automatici",
+      "Template per lezioni",
+      "Esportazione in PDF/immagini"
+    ],
+    "requirements": [
+      "Browser o app desktop",
+      "Mouse o trackpad",
+      "Connessione internet"
+    ],
+    "privacy": [
+      "Mappe salvate nel profilo",
+      "Condivisione con permessi",
+      "Esportazione locale disponibile"
+    ],
+    "pricing": [
+      "Piano gratuito base",
+      "Licenze scuola o team"
+    ],
+    "classroomExamples": [
+      "Schema di un capitolo",
+      "Mappa di un processo scientifico"
+    ],
+    "installSteps": [
+      "Accedi al sito o installa l'app",
+      "Crea un nuovo progetto",
+      "Scegli un template"
+    ],
+    "useSteps": [
+      "Inserisci i concetti principali",
+      "Aggiungi collegamenti e colori",
+      "Condividi o esporta"
+    ],
+    "faq": [
+      "Si puo lavorare in gruppo? Si, con condivisione.",
+      "Le mappe si stampano? Si, in PDF."
+    ],
+    "resources": [
+      "Template per mappe",
+      "Checklist per mappe efficaci"
+    ],
+    "website": "https://www.mindomo.com/",
+    "rating": 4.2,
+    "rank": 8,
+    "rankTotal": 12
+  },
+  {
+    "id": "ayoa",
+    "name": "Ayoa",
+    "category": "mappe",
+    "badge": "Mappe",
+    "description": "Crea mappe concettuali e schemi visivi con supporto AI.",
+    "summary": "Organizza concetti e collegamenti con template intelligenti.",
+    "tags": [
+      "mappe",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Nodi e collegamenti automatici",
+      "Template per lezioni",
+      "Esportazione in PDF/immagini"
+    ],
+    "requirements": [
+      "Browser o app desktop",
+      "Mouse o trackpad",
+      "Connessione internet"
+    ],
+    "privacy": [
+      "Mappe salvate nel profilo",
+      "Condivisione con permessi",
+      "Esportazione locale disponibile"
+    ],
+    "pricing": [
+      "Piano gratuito base",
+      "Licenze scuola o team"
+    ],
+    "classroomExamples": [
+      "Schema di un capitolo",
+      "Mappa di un processo scientifico"
+    ],
+    "installSteps": [
+      "Accedi al sito o installa l'app",
+      "Crea un nuovo progetto",
+      "Scegli un template"
+    ],
+    "useSteps": [
+      "Inserisci i concetti principali",
+      "Aggiungi collegamenti e colori",
+      "Condividi o esporta"
+    ],
+    "faq": [
+      "Si puo lavorare in gruppo? Si, con condivisione.",
+      "Le mappe si stampano? Si, in PDF."
+    ],
+    "resources": [
+      "Template per mappe",
+      "Checklist per mappe efficaci"
+    ],
+    "website": "https://www.ayoa.com/",
+    "rating": 4.1,
+    "rank": 9,
+    "rankTotal": 12
+  },
+  {
+    "id": "mural",
+    "name": "Mural",
+    "category": "mappe",
+    "badge": "Mappe",
+    "description": "Crea mappe concettuali e schemi visivi con supporto AI.",
+    "summary": "Organizza concetti e collegamenti con template intelligenti.",
+    "tags": [
+      "mappe",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Nodi e collegamenti automatici",
+      "Template per lezioni",
+      "Esportazione in PDF/immagini"
+    ],
+    "requirements": [
+      "Browser o app desktop",
+      "Mouse o trackpad",
+      "Connessione internet"
+    ],
+    "privacy": [
+      "Mappe salvate nel profilo",
+      "Condivisione con permessi",
+      "Esportazione locale disponibile"
+    ],
+    "pricing": [
+      "Piano gratuito base",
+      "Licenze scuola o team"
+    ],
+    "classroomExamples": [
+      "Schema di un capitolo",
+      "Mappa di un processo scientifico"
+    ],
+    "installSteps": [
+      "Accedi al sito o installa l'app",
+      "Crea un nuovo progetto",
+      "Scegli un template"
+    ],
+    "useSteps": [
+      "Inserisci i concetti principali",
+      "Aggiungi collegamenti e colori",
+      "Condividi o esporta"
+    ],
+    "faq": [
+      "Si puo lavorare in gruppo? Si, con condivisione.",
+      "Le mappe si stampano? Si, in PDF."
+    ],
+    "resources": [
+      "Template per mappe",
+      "Checklist per mappe efficaci"
+    ],
+    "website": "https://www.mural.co/",
+    "rating": 4.0,
+    "rank": 10,
+    "rankTotal": 12
+  },
+  {
+    "id": "canva",
+    "name": "Canva",
+    "category": "mappe",
+    "badge": "Mappe",
+    "description": "Crea mappe concettuali e schemi visivi con supporto AI.",
+    "summary": "Organizza concetti e collegamenti con template intelligenti.",
+    "tags": [
+      "mappe",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Nodi e collegamenti automatici",
+      "Template per lezioni",
+      "Esportazione in PDF/immagini"
+    ],
+    "requirements": [
+      "Browser o app desktop",
+      "Mouse o trackpad",
+      "Connessione internet"
+    ],
+    "privacy": [
+      "Mappe salvate nel profilo",
+      "Condivisione con permessi",
+      "Esportazione locale disponibile"
+    ],
+    "pricing": [
+      "Piano gratuito base",
+      "Licenze scuola o team"
+    ],
+    "classroomExamples": [
+      "Schema di un capitolo",
+      "Mappa di un processo scientifico"
+    ],
+    "installSteps": [
+      "Accedi al sito o installa l'app",
+      "Crea un nuovo progetto",
+      "Scegli un template"
+    ],
+    "useSteps": [
+      "Inserisci i concetti principali",
+      "Aggiungi collegamenti e colori",
+      "Condividi o esporta"
+    ],
+    "faq": [
+      "Si puo lavorare in gruppo? Si, con condivisione.",
+      "Le mappe si stampano? Si, in PDF."
+    ],
+    "resources": [
+      "Template per mappe",
+      "Checklist per mappe efficaci"
+    ],
+    "website": "https://www.canva.com/",
+    "rating": 3.9,
+    "rank": 11,
+    "rankTotal": 12
+  },
+  {
+    "id": "edrawmind",
+    "name": "EdrawMind",
+    "category": "mappe",
+    "badge": "Mappe",
+    "description": "Crea mappe concettuali e schemi visivi con supporto AI.",
+    "summary": "Organizza concetti e collegamenti con template intelligenti.",
+    "tags": [
+      "mappe",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Nodi e collegamenti automatici",
+      "Template per lezioni",
+      "Esportazione in PDF/immagini"
+    ],
+    "requirements": [
+      "Browser o app desktop",
+      "Mouse o trackpad",
+      "Connessione internet"
+    ],
+    "privacy": [
+      "Mappe salvate nel profilo",
+      "Condivisione con permessi",
+      "Esportazione locale disponibile"
+    ],
+    "pricing": [
+      "Piano gratuito base",
+      "Licenze scuola o team"
+    ],
+    "classroomExamples": [
+      "Schema di un capitolo",
+      "Mappa di un processo scientifico"
+    ],
+    "installSteps": [
+      "Accedi al sito o installa l'app",
+      "Crea un nuovo progetto",
+      "Scegli un template"
+    ],
+    "useSteps": [
+      "Inserisci i concetti principali",
+      "Aggiungi collegamenti e colori",
+      "Condividi o esporta"
+    ],
+    "faq": [
+      "Si puo lavorare in gruppo? Si, con condivisione.",
+      "Le mappe si stampano? Si, in PDF."
+    ],
+    "resources": [
+      "Template per mappe",
+      "Checklist per mappe efficaci"
+    ],
+    "website": "https://www.edrawsoft.com/edrawmind/",
+    "rating": 3.8,
+    "rank": 12,
+    "rankTotal": 12
+  },
+  {
+    "id": "otter-ai",
+    "name": "Otter.ai",
+    "category": "vocale",
+    "badge": "Vocale",
+    "description": "Trascrizione AI da voce a testo per lezioni, riunioni o appunti.",
+    "summary": "Converte audio in testo con timestamp e ricerca.",
+    "tags": [
+      "vocale",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Trascrizione automatica",
+      "Riconoscimento parlanti",
+      "Esportazione in testo"
+    ],
+    "requirements": [
+      "Microfono o file audio",
+      "Connessione internet",
+      "Browser o app"
+    ],
+    "privacy": [
+      "Consenso per uso audio",
+      "File salvati nel profilo",
+      "Opzioni di cancellazione"
+    ],
+    "pricing": [
+      "Prova gratuita o minuti inclusi",
+      "Piani a consumo o abbonamento"
+    ],
+    "classroomExamples": [
+      "Trascrizione di una lezione",
+      "Appunti per studenti assenti"
+    ],
+    "installSteps": [
+      "Accedi o installa l'app",
+      "Consenti l'accesso al microfono",
+      "Crea un nuovo progetto"
+    ],
+    "useSteps": [
+      "Registra o carica l'audio",
+      "Rivedi la trascrizione",
+      "Esporta o condividi"
+    ],
+    "faq": [
+      "Supporta italiano? Dipende dal servizio.",
+      "Funziona offline? In genere no."
+    ],
+    "resources": [
+      "Guida alla trascrizione",
+      "Suggerimenti per audio pulito"
+    ],
+    "website": "https://otter.ai/",
+    "rating": 4.9,
+    "rank": 1,
+    "rankTotal": 11
+  },
+  {
+    "id": "openai-whisper",
+    "name": "OpenAI Whisper",
+    "category": "vocale",
+    "badge": "Vocale",
+    "description": "Trascrizione AI da voce a testo per lezioni, riunioni o appunti.",
+    "summary": "Converte audio in testo con timestamp e ricerca.",
+    "tags": [
+      "vocale",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Trascrizione automatica",
+      "Riconoscimento parlanti",
+      "Esportazione in testo"
+    ],
+    "requirements": [
+      "Microfono o file audio",
+      "Connessione internet",
+      "Browser o app"
+    ],
+    "privacy": [
+      "Consenso per uso audio",
+      "File salvati nel profilo",
+      "Opzioni di cancellazione"
+    ],
+    "pricing": [
+      "Prova gratuita o minuti inclusi",
+      "Piani a consumo o abbonamento"
+    ],
+    "classroomExamples": [
+      "Trascrizione di una lezione",
+      "Appunti per studenti assenti"
+    ],
+    "installSteps": [
+      "Accedi o installa l'app",
+      "Consenti l'accesso al microfono",
+      "Crea un nuovo progetto"
+    ],
+    "useSteps": [
+      "Registra o carica l'audio",
+      "Rivedi la trascrizione",
+      "Esporta o condividi"
+    ],
+    "faq": [
+      "Supporta italiano? Dipende dal servizio.",
+      "Funziona offline? In genere no."
+    ],
+    "resources": [
+      "Guida alla trascrizione",
+      "Suggerimenti per audio pulito"
+    ],
+    "website": "https://openai.com/research/whisper",
+    "rating": 4.8,
+    "rank": 2,
+    "rankTotal": 11
+  },
+  {
+    "id": "google-speech-to-text",
+    "name": "Google Speech-to-Text",
+    "category": "vocale",
+    "badge": "Vocale",
+    "description": "Trascrizione AI da voce a testo per lezioni, riunioni o appunti.",
+    "summary": "Converte audio in testo con timestamp e ricerca.",
+    "tags": [
+      "vocale",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Trascrizione automatica",
+      "Riconoscimento parlanti",
+      "Esportazione in testo"
+    ],
+    "requirements": [
+      "Microfono o file audio",
+      "Connessione internet",
+      "Browser o app"
+    ],
+    "privacy": [
+      "Consenso per uso audio",
+      "File salvati nel profilo",
+      "Opzioni di cancellazione"
+    ],
+    "pricing": [
+      "Prova gratuita o minuti inclusi",
+      "Piani a consumo o abbonamento"
+    ],
+    "classroomExamples": [
+      "Trascrizione di una lezione",
+      "Appunti per studenti assenti"
+    ],
+    "installSteps": [
+      "Accedi o installa l'app",
+      "Consenti l'accesso al microfono",
+      "Crea un nuovo progetto"
+    ],
+    "useSteps": [
+      "Registra o carica l'audio",
+      "Rivedi la trascrizione",
+      "Esporta o condividi"
+    ],
+    "faq": [
+      "Supporta italiano? Dipende dal servizio.",
+      "Funziona offline? In genere no."
+    ],
+    "resources": [
+      "Guida alla trascrizione",
+      "Suggerimenti per audio pulito"
+    ],
+    "website": "https://cloud.google.com/speech-to-text",
+    "rating": 4.7,
+    "rank": 3,
+    "rankTotal": 11
+  },
+  {
+    "id": "azure-speech-to-text",
+    "name": "Azure Speech to Text",
+    "category": "vocale",
+    "badge": "Vocale",
+    "description": "Trascrizione AI da voce a testo per lezioni, riunioni o appunti.",
+    "summary": "Converte audio in testo con timestamp e ricerca.",
+    "tags": [
+      "vocale",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Trascrizione automatica",
+      "Riconoscimento parlanti",
+      "Esportazione in testo"
+    ],
+    "requirements": [
+      "Microfono o file audio",
+      "Connessione internet",
+      "Browser o app"
+    ],
+    "privacy": [
+      "Consenso per uso audio",
+      "File salvati nel profilo",
+      "Opzioni di cancellazione"
+    ],
+    "pricing": [
+      "Prova gratuita o minuti inclusi",
+      "Piani a consumo o abbonamento"
+    ],
+    "classroomExamples": [
+      "Trascrizione di una lezione",
+      "Appunti per studenti assenti"
+    ],
+    "installSteps": [
+      "Accedi o installa l'app",
+      "Consenti l'accesso al microfono",
+      "Crea un nuovo progetto"
+    ],
+    "useSteps": [
+      "Registra o carica l'audio",
+      "Rivedi la trascrizione",
+      "Esporta o condividi"
+    ],
+    "faq": [
+      "Supporta italiano? Dipende dal servizio.",
+      "Funziona offline? In genere no."
+    ],
+    "resources": [
+      "Guida alla trascrizione",
+      "Suggerimenti per audio pulito"
+    ],
+    "website": "https://azure.microsoft.com/products/ai-services/speech-to-text/",
+    "rating": 4.6,
+    "rank": 4,
+    "rankTotal": 11
+  },
+  {
+    "id": "amazon-transcribe",
+    "name": "Amazon Transcribe",
+    "category": "vocale",
+    "badge": "Vocale",
+    "description": "Trascrizione AI da voce a testo per lezioni, riunioni o appunti.",
+    "summary": "Converte audio in testo con timestamp e ricerca.",
+    "tags": [
+      "vocale",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Trascrizione automatica",
+      "Riconoscimento parlanti",
+      "Esportazione in testo"
+    ],
+    "requirements": [
+      "Microfono o file audio",
+      "Connessione internet",
+      "Browser o app"
+    ],
+    "privacy": [
+      "Consenso per uso audio",
+      "File salvati nel profilo",
+      "Opzioni di cancellazione"
+    ],
+    "pricing": [
+      "Prova gratuita o minuti inclusi",
+      "Piani a consumo o abbonamento"
+    ],
+    "classroomExamples": [
+      "Trascrizione di una lezione",
+      "Appunti per studenti assenti"
+    ],
+    "installSteps": [
+      "Accedi o installa l'app",
+      "Consenti l'accesso al microfono",
+      "Crea un nuovo progetto"
+    ],
+    "useSteps": [
+      "Registra o carica l'audio",
+      "Rivedi la trascrizione",
+      "Esporta o condividi"
+    ],
+    "faq": [
+      "Supporta italiano? Dipende dal servizio.",
+      "Funziona offline? In genere no."
+    ],
+    "resources": [
+      "Guida alla trascrizione",
+      "Suggerimenti per audio pulito"
+    ],
+    "website": "https://aws.amazon.com/transcribe/",
+    "rating": 4.5,
+    "rank": 5,
+    "rankTotal": 11
+  },
+  {
+    "id": "ibm-watson-speech-to-text",
+    "name": "IBM Watson Speech to Text",
+    "category": "vocale",
+    "badge": "Vocale",
+    "description": "Trascrizione AI da voce a testo per lezioni, riunioni o appunti.",
+    "summary": "Converte audio in testo con timestamp e ricerca.",
+    "tags": [
+      "vocale",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Trascrizione automatica",
+      "Riconoscimento parlanti",
+      "Esportazione in testo"
+    ],
+    "requirements": [
+      "Microfono o file audio",
+      "Connessione internet",
+      "Browser o app"
+    ],
+    "privacy": [
+      "Consenso per uso audio",
+      "File salvati nel profilo",
+      "Opzioni di cancellazione"
+    ],
+    "pricing": [
+      "Prova gratuita o minuti inclusi",
+      "Piani a consumo o abbonamento"
+    ],
+    "classroomExamples": [
+      "Trascrizione di una lezione",
+      "Appunti per studenti assenti"
+    ],
+    "installSteps": [
+      "Accedi o installa l'app",
+      "Consenti l'accesso al microfono",
+      "Crea un nuovo progetto"
+    ],
+    "useSteps": [
+      "Registra o carica l'audio",
+      "Rivedi la trascrizione",
+      "Esporta o condividi"
+    ],
+    "faq": [
+      "Supporta italiano? Dipende dal servizio.",
+      "Funziona offline? In genere no."
+    ],
+    "resources": [
+      "Guida alla trascrizione",
+      "Suggerimenti per audio pulito"
+    ],
+    "website": "https://www.ibm.com/products/speech-to-text",
+    "rating": 4.4,
+    "rank": 6,
+    "rankTotal": 11
+  },
+  {
+    "id": "rev-ai",
+    "name": "Rev AI",
+    "category": "vocale",
+    "badge": "Vocale",
+    "description": "Trascrizione AI da voce a testo per lezioni, riunioni o appunti.",
+    "summary": "Converte audio in testo con timestamp e ricerca.",
+    "tags": [
+      "vocale",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Trascrizione automatica",
+      "Riconoscimento parlanti",
+      "Esportazione in testo"
+    ],
+    "requirements": [
+      "Microfono o file audio",
+      "Connessione internet",
+      "Browser o app"
+    ],
+    "privacy": [
+      "Consenso per uso audio",
+      "File salvati nel profilo",
+      "Opzioni di cancellazione"
+    ],
+    "pricing": [
+      "Prova gratuita o minuti inclusi",
+      "Piani a consumo o abbonamento"
+    ],
+    "classroomExamples": [
+      "Trascrizione di una lezione",
+      "Appunti per studenti assenti"
+    ],
+    "installSteps": [
+      "Accedi o installa l'app",
+      "Consenti l'accesso al microfono",
+      "Crea un nuovo progetto"
+    ],
+    "useSteps": [
+      "Registra o carica l'audio",
+      "Rivedi la trascrizione",
+      "Esporta o condividi"
+    ],
+    "faq": [
+      "Supporta italiano? Dipende dal servizio.",
+      "Funziona offline? In genere no."
+    ],
+    "resources": [
+      "Guida alla trascrizione",
+      "Suggerimenti per audio pulito"
+    ],
+    "website": "https://www.rev.ai/",
+    "rating": 4.2,
+    "rank": 7,
+    "rankTotal": 11
+  },
+  {
+    "id": "speechmatics",
+    "name": "Speechmatics",
+    "category": "vocale",
+    "badge": "Vocale",
+    "description": "Trascrizione AI da voce a testo per lezioni, riunioni o appunti.",
+    "summary": "Converte audio in testo con timestamp e ricerca.",
+    "tags": [
+      "vocale",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Trascrizione automatica",
+      "Riconoscimento parlanti",
+      "Esportazione in testo"
+    ],
+    "requirements": [
+      "Microfono o file audio",
+      "Connessione internet",
+      "Browser o app"
+    ],
+    "privacy": [
+      "Consenso per uso audio",
+      "File salvati nel profilo",
+      "Opzioni di cancellazione"
+    ],
+    "pricing": [
+      "Prova gratuita o minuti inclusi",
+      "Piani a consumo o abbonamento"
+    ],
+    "classroomExamples": [
+      "Trascrizione di una lezione",
+      "Appunti per studenti assenti"
+    ],
+    "installSteps": [
+      "Accedi o installa l'app",
+      "Consenti l'accesso al microfono",
+      "Crea un nuovo progetto"
+    ],
+    "useSteps": [
+      "Registra o carica l'audio",
+      "Rivedi la trascrizione",
+      "Esporta o condividi"
+    ],
+    "faq": [
+      "Supporta italiano? Dipende dal servizio.",
+      "Funziona offline? In genere no."
+    ],
+    "resources": [
+      "Guida alla trascrizione",
+      "Suggerimenti per audio pulito"
+    ],
+    "website": "https://www.speechmatics.com/",
+    "rating": 4.1,
+    "rank": 8,
+    "rankTotal": 11
+  },
+  {
+    "id": "sonix",
+    "name": "Sonix",
+    "category": "vocale",
+    "badge": "Vocale",
+    "description": "Trascrizione AI da voce a testo per lezioni, riunioni o appunti.",
+    "summary": "Converte audio in testo con timestamp e ricerca.",
+    "tags": [
+      "vocale",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Trascrizione automatica",
+      "Riconoscimento parlanti",
+      "Esportazione in testo"
+    ],
+    "requirements": [
+      "Microfono o file audio",
+      "Connessione internet",
+      "Browser o app"
+    ],
+    "privacy": [
+      "Consenso per uso audio",
+      "File salvati nel profilo",
+      "Opzioni di cancellazione"
+    ],
+    "pricing": [
+      "Prova gratuita o minuti inclusi",
+      "Piani a consumo o abbonamento"
+    ],
+    "classroomExamples": [
+      "Trascrizione di una lezione",
+      "Appunti per studenti assenti"
+    ],
+    "installSteps": [
+      "Accedi o installa l'app",
+      "Consenti l'accesso al microfono",
+      "Crea un nuovo progetto"
+    ],
+    "useSteps": [
+      "Registra o carica l'audio",
+      "Rivedi la trascrizione",
+      "Esporta o condividi"
+    ],
+    "faq": [
+      "Supporta italiano? Dipende dal servizio.",
+      "Funziona offline? In genere no."
+    ],
+    "resources": [
+      "Guida alla trascrizione",
+      "Suggerimenti per audio pulito"
+    ],
+    "website": "https://sonix.ai/",
+    "rating": 4.0,
+    "rank": 9,
+    "rankTotal": 11
+  },
+  {
+    "id": "descript",
+    "name": "Descript",
+    "category": "vocale",
+    "badge": "Vocale",
+    "description": "Trascrizione AI da voce a testo per lezioni, riunioni o appunti.",
+    "summary": "Converte audio in testo con timestamp e ricerca.",
+    "tags": [
+      "vocale",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Trascrizione automatica",
+      "Riconoscimento parlanti",
+      "Esportazione in testo"
+    ],
+    "requirements": [
+      "Microfono o file audio",
+      "Connessione internet",
+      "Browser o app"
+    ],
+    "privacy": [
+      "Consenso per uso audio",
+      "File salvati nel profilo",
+      "Opzioni di cancellazione"
+    ],
+    "pricing": [
+      "Prova gratuita o minuti inclusi",
+      "Piani a consumo o abbonamento"
+    ],
+    "classroomExamples": [
+      "Trascrizione di una lezione",
+      "Appunti per studenti assenti"
+    ],
+    "installSteps": [
+      "Accedi o installa l'app",
+      "Consenti l'accesso al microfono",
+      "Crea un nuovo progetto"
+    ],
+    "useSteps": [
+      "Registra o carica l'audio",
+      "Rivedi la trascrizione",
+      "Esporta o condividi"
+    ],
+    "faq": [
+      "Supporta italiano? Dipende dal servizio.",
+      "Funziona offline? In genere no."
+    ],
+    "resources": [
+      "Guida alla trascrizione",
+      "Suggerimenti per audio pulito"
+    ],
+    "website": "https://www.descript.com/",
+    "rating": 3.9,
+    "rank": 10,
+    "rankTotal": 11
+  },
+  {
+    "id": "trint",
+    "name": "Trint",
+    "category": "vocale",
+    "badge": "Vocale",
+    "description": "Trascrizione AI da voce a testo per lezioni, riunioni o appunti.",
+    "summary": "Converte audio in testo con timestamp e ricerca.",
+    "tags": [
+      "vocale",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Trascrizione automatica",
+      "Riconoscimento parlanti",
+      "Esportazione in testo"
+    ],
+    "requirements": [
+      "Microfono o file audio",
+      "Connessione internet",
+      "Browser o app"
+    ],
+    "privacy": [
+      "Consenso per uso audio",
+      "File salvati nel profilo",
+      "Opzioni di cancellazione"
+    ],
+    "pricing": [
+      "Prova gratuita o minuti inclusi",
+      "Piani a consumo o abbonamento"
+    ],
+    "classroomExamples": [
+      "Trascrizione di una lezione",
+      "Appunti per studenti assenti"
+    ],
+    "installSteps": [
+      "Accedi o installa l'app",
+      "Consenti l'accesso al microfono",
+      "Crea un nuovo progetto"
+    ],
+    "useSteps": [
+      "Registra o carica l'audio",
+      "Rivedi la trascrizione",
+      "Esporta o condividi"
+    ],
+    "faq": [
+      "Supporta italiano? Dipende dal servizio.",
+      "Funziona offline? In genere no."
+    ],
+    "resources": [
+      "Guida alla trascrizione",
+      "Suggerimenti per audio pulito"
+    ],
+    "website": "https://trint.com/",
+    "rating": 3.8,
+    "rank": 11,
+    "rankTotal": 11
+  },
+  {
+    "id": "google-cloud-vision-ocr",
+    "name": "Google Cloud Vision OCR",
+    "category": "ocr",
+    "badge": "OCR",
+    "description": "Riconoscimento testuale AI da immagini o PDF.",
+    "summary": "Trasforma documenti scansionati in testo modificabile.",
+    "tags": [
+      "ocr",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "OCR multi-lingua",
+      "Conversione in testo editabile",
+      "Esportazione in PDF/TXT"
+    ],
+    "requirements": [
+      "Immagini o PDF",
+      "Connessione internet",
+      "Browser o app"
+    ],
+    "privacy": [
+      "Documenti trattati secondo policy",
+      "Cancellazione manuale",
+      "Condivisione controllata"
+    ],
+    "pricing": [
+      "Piano gratuito con limiti",
+      "Piani pro per volumi"
+    ],
+    "classroomExamples": [
+      "Digitalizzare schede cartacee",
+      "Convertire dispense in testo"
+    ],
+    "installSteps": [
+      "Accedi o installa l'app",
+      "Carica un file",
+      "Seleziona lingua OCR"
+    ],
+    "useSteps": [
+      "Avvia il riconoscimento",
+      "Correggi eventuali errori",
+      "Scarica il testo"
+    ],
+    "faq": [
+      "Supporta scrittura a mano? A volte parziale.",
+      "Funziona su PDF? Si."
+    ],
+    "resources": [
+      "Guida OCR",
+      "Best practice per scansioni"
+    ],
+    "website": "https://cloud.google.com/vision",
+    "rating": 4.9,
+    "rank": 1,
+    "rankTotal": 11
+  },
+  {
+    "id": "azure-computer-vision-ocr",
+    "name": "Azure Computer Vision OCR",
+    "category": "ocr",
+    "badge": "OCR",
+    "description": "Riconoscimento testuale AI da immagini o PDF.",
+    "summary": "Trasforma documenti scansionati in testo modificabile.",
+    "tags": [
+      "ocr",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "OCR multi-lingua",
+      "Conversione in testo editabile",
+      "Esportazione in PDF/TXT"
+    ],
+    "requirements": [
+      "Immagini o PDF",
+      "Connessione internet",
+      "Browser o app"
+    ],
+    "privacy": [
+      "Documenti trattati secondo policy",
+      "Cancellazione manuale",
+      "Condivisione controllata"
+    ],
+    "pricing": [
+      "Piano gratuito con limiti",
+      "Piani pro per volumi"
+    ],
+    "classroomExamples": [
+      "Digitalizzare schede cartacee",
+      "Convertire dispense in testo"
+    ],
+    "installSteps": [
+      "Accedi o installa l'app",
+      "Carica un file",
+      "Seleziona lingua OCR"
+    ],
+    "useSteps": [
+      "Avvia il riconoscimento",
+      "Correggi eventuali errori",
+      "Scarica il testo"
+    ],
+    "faq": [
+      "Supporta scrittura a mano? A volte parziale.",
+      "Funziona su PDF? Si."
+    ],
+    "resources": [
+      "Guida OCR",
+      "Best practice per scansioni"
+    ],
+    "website": "https://azure.microsoft.com/products/ai-services/computer-vision/",
+    "rating": 4.8,
+    "rank": 2,
+    "rankTotal": 11
+  },
+  {
+    "id": "abbyy-finereader",
+    "name": "ABBYY FineReader",
+    "category": "ocr",
+    "badge": "OCR",
+    "description": "Riconoscimento testuale AI da immagini o PDF.",
+    "summary": "Trasforma documenti scansionati in testo modificabile.",
+    "tags": [
+      "ocr",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "OCR multi-lingua",
+      "Conversione in testo editabile",
+      "Esportazione in PDF/TXT"
+    ],
+    "requirements": [
+      "Immagini o PDF",
+      "Connessione internet",
+      "Browser o app"
+    ],
+    "privacy": [
+      "Documenti trattati secondo policy",
+      "Cancellazione manuale",
+      "Condivisione controllata"
+    ],
+    "pricing": [
+      "Piano gratuito con limiti",
+      "Piani pro per volumi"
+    ],
+    "classroomExamples": [
+      "Digitalizzare schede cartacee",
+      "Convertire dispense in testo"
+    ],
+    "installSteps": [
+      "Accedi o installa l'app",
+      "Carica un file",
+      "Seleziona lingua OCR"
+    ],
+    "useSteps": [
+      "Avvia il riconoscimento",
+      "Correggi eventuali errori",
+      "Scarica il testo"
+    ],
+    "faq": [
+      "Supporta scrittura a mano? A volte parziale.",
+      "Funziona su PDF? Si."
+    ],
+    "resources": [
+      "Guida OCR",
+      "Best practice per scansioni"
+    ],
+    "website": "https://www.abbyy.com/finereader/",
+    "rating": 4.7,
+    "rank": 3,
+    "rankTotal": 11
+  },
+  {
+    "id": "tesseract-ocr",
+    "name": "Tesseract OCR",
+    "category": "ocr",
+    "badge": "OCR",
+    "description": "Riconoscimento testuale AI da immagini o PDF.",
+    "summary": "Trasforma documenti scansionati in testo modificabile.",
+    "tags": [
+      "ocr",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "OCR multi-lingua",
+      "Conversione in testo editabile",
+      "Esportazione in PDF/TXT"
+    ],
+    "requirements": [
+      "Immagini o PDF",
+      "Connessione internet",
+      "Browser o app"
+    ],
+    "privacy": [
+      "Documenti trattati secondo policy",
+      "Cancellazione manuale",
+      "Condivisione controllata"
+    ],
+    "pricing": [
+      "Piano gratuito con limiti",
+      "Piani pro per volumi"
+    ],
+    "classroomExamples": [
+      "Digitalizzare schede cartacee",
+      "Convertire dispense in testo"
+    ],
+    "installSteps": [
+      "Accedi o installa l'app",
+      "Carica un file",
+      "Seleziona lingua OCR"
+    ],
+    "useSteps": [
+      "Avvia il riconoscimento",
+      "Correggi eventuali errori",
+      "Scarica il testo"
+    ],
+    "faq": [
+      "Supporta scrittura a mano? A volte parziale.",
+      "Funziona su PDF? Si."
+    ],
+    "resources": [
+      "Guida OCR",
+      "Best practice per scansioni"
+    ],
+    "website": "https://github.com/tesseract-ocr/tesseract",
+    "rating": 4.6,
+    "rank": 4,
+    "rankTotal": 11
+  },
+  {
+    "id": "adobe-acrobat-ocr",
+    "name": "Adobe Acrobat OCR",
+    "category": "ocr",
+    "badge": "OCR",
+    "description": "Riconoscimento testuale AI da immagini o PDF.",
+    "summary": "Trasforma documenti scansionati in testo modificabile.",
+    "tags": [
+      "ocr",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "OCR multi-lingua",
+      "Conversione in testo editabile",
+      "Esportazione in PDF/TXT"
+    ],
+    "requirements": [
+      "Immagini o PDF",
+      "Connessione internet",
+      "Browser o app"
+    ],
+    "privacy": [
+      "Documenti trattati secondo policy",
+      "Cancellazione manuale",
+      "Condivisione controllata"
+    ],
+    "pricing": [
+      "Piano gratuito con limiti",
+      "Piani pro per volumi"
+    ],
+    "classroomExamples": [
+      "Digitalizzare schede cartacee",
+      "Convertire dispense in testo"
+    ],
+    "installSteps": [
+      "Accedi o installa l'app",
+      "Carica un file",
+      "Seleziona lingua OCR"
+    ],
+    "useSteps": [
+      "Avvia il riconoscimento",
+      "Correggi eventuali errori",
+      "Scarica il testo"
+    ],
+    "faq": [
+      "Supporta scrittura a mano? A volte parziale.",
+      "Funziona su PDF? Si."
+    ],
+    "resources": [
+      "Guida OCR",
+      "Best practice per scansioni"
+    ],
+    "website": "https://www.adobe.com/acrobat.html",
+    "rating": 4.5,
+    "rank": 5,
+    "rankTotal": 11
+  },
+  {
+    "id": "rossum",
+    "name": "Rossum",
+    "category": "ocr",
+    "badge": "OCR",
+    "description": "Riconoscimento testuale AI da immagini o PDF.",
+    "summary": "Trasforma documenti scansionati in testo modificabile.",
+    "tags": [
+      "ocr",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "OCR multi-lingua",
+      "Conversione in testo editabile",
+      "Esportazione in PDF/TXT"
+    ],
+    "requirements": [
+      "Immagini o PDF",
+      "Connessione internet",
+      "Browser o app"
+    ],
+    "privacy": [
+      "Documenti trattati secondo policy",
+      "Cancellazione manuale",
+      "Condivisione controllata"
+    ],
+    "pricing": [
+      "Piano gratuito con limiti",
+      "Piani pro per volumi"
+    ],
+    "classroomExamples": [
+      "Digitalizzare schede cartacee",
+      "Convertire dispense in testo"
+    ],
+    "installSteps": [
+      "Accedi o installa l'app",
+      "Carica un file",
+      "Seleziona lingua OCR"
+    ],
+    "useSteps": [
+      "Avvia il riconoscimento",
+      "Correggi eventuali errori",
+      "Scarica il testo"
+    ],
+    "faq": [
+      "Supporta scrittura a mano? A volte parziale.",
+      "Funziona su PDF? Si."
+    ],
+    "resources": [
+      "Guida OCR",
+      "Best practice per scansioni"
+    ],
+    "website": "https://rossum.ai/",
+    "rating": 4.4,
+    "rank": 6,
+    "rankTotal": 11
+  },
+  {
+    "id": "nanonets-ocr",
+    "name": "Nanonets OCR",
+    "category": "ocr",
+    "badge": "OCR",
+    "description": "Riconoscimento testuale AI da immagini o PDF.",
+    "summary": "Trasforma documenti scansionati in testo modificabile.",
+    "tags": [
+      "ocr",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "OCR multi-lingua",
+      "Conversione in testo editabile",
+      "Esportazione in PDF/TXT"
+    ],
+    "requirements": [
+      "Immagini o PDF",
+      "Connessione internet",
+      "Browser o app"
+    ],
+    "privacy": [
+      "Documenti trattati secondo policy",
+      "Cancellazione manuale",
+      "Condivisione controllata"
+    ],
+    "pricing": [
+      "Piano gratuito con limiti",
+      "Piani pro per volumi"
+    ],
+    "classroomExamples": [
+      "Digitalizzare schede cartacee",
+      "Convertire dispense in testo"
+    ],
+    "installSteps": [
+      "Accedi o installa l'app",
+      "Carica un file",
+      "Seleziona lingua OCR"
+    ],
+    "useSteps": [
+      "Avvia il riconoscimento",
+      "Correggi eventuali errori",
+      "Scarica il testo"
+    ],
+    "faq": [
+      "Supporta scrittura a mano? A volte parziale.",
+      "Funziona su PDF? Si."
+    ],
+    "resources": [
+      "Guida OCR",
+      "Best practice per scansioni"
+    ],
+    "website": "https://nanonets.com/ocr",
+    "rating": 4.2,
+    "rank": 7,
+    "rankTotal": 11
+  },
+  {
+    "id": "mindee",
+    "name": "Mindee",
+    "category": "ocr",
+    "badge": "OCR",
+    "description": "Riconoscimento testuale AI da immagini o PDF.",
+    "summary": "Trasforma documenti scansionati in testo modificabile.",
+    "tags": [
+      "ocr",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "OCR multi-lingua",
+      "Conversione in testo editabile",
+      "Esportazione in PDF/TXT"
+    ],
+    "requirements": [
+      "Immagini o PDF",
+      "Connessione internet",
+      "Browser o app"
+    ],
+    "privacy": [
+      "Documenti trattati secondo policy",
+      "Cancellazione manuale",
+      "Condivisione controllata"
+    ],
+    "pricing": [
+      "Piano gratuito con limiti",
+      "Piani pro per volumi"
+    ],
+    "classroomExamples": [
+      "Digitalizzare schede cartacee",
+      "Convertire dispense in testo"
+    ],
+    "installSteps": [
+      "Accedi o installa l'app",
+      "Carica un file",
+      "Seleziona lingua OCR"
+    ],
+    "useSteps": [
+      "Avvia il riconoscimento",
+      "Correggi eventuali errori",
+      "Scarica il testo"
+    ],
+    "faq": [
+      "Supporta scrittura a mano? A volte parziale.",
+      "Funziona su PDF? Si."
+    ],
+    "resources": [
+      "Guida OCR",
+      "Best practice per scansioni"
+    ],
+    "website": "https://www.mindee.com/",
+    "rating": 4.1,
+    "rank": 8,
+    "rankTotal": 11
+  },
+  {
+    "id": "veryfi",
+    "name": "Veryfi",
+    "category": "ocr",
+    "badge": "OCR",
+    "description": "Riconoscimento testuale AI da immagini o PDF.",
+    "summary": "Trasforma documenti scansionati in testo modificabile.",
+    "tags": [
+      "ocr",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "OCR multi-lingua",
+      "Conversione in testo editabile",
+      "Esportazione in PDF/TXT"
+    ],
+    "requirements": [
+      "Immagini o PDF",
+      "Connessione internet",
+      "Browser o app"
+    ],
+    "privacy": [
+      "Documenti trattati secondo policy",
+      "Cancellazione manuale",
+      "Condivisione controllata"
+    ],
+    "pricing": [
+      "Piano gratuito con limiti",
+      "Piani pro per volumi"
+    ],
+    "classroomExamples": [
+      "Digitalizzare schede cartacee",
+      "Convertire dispense in testo"
+    ],
+    "installSteps": [
+      "Accedi o installa l'app",
+      "Carica un file",
+      "Seleziona lingua OCR"
+    ],
+    "useSteps": [
+      "Avvia il riconoscimento",
+      "Correggi eventuali errori",
+      "Scarica il testo"
+    ],
+    "faq": [
+      "Supporta scrittura a mano? A volte parziale.",
+      "Funziona su PDF? Si."
+    ],
+    "resources": [
+      "Guida OCR",
+      "Best practice per scansioni"
+    ],
+    "website": "https://www.veryfi.com/",
+    "rating": 4.0,
+    "rank": 9,
+    "rankTotal": 11
+  },
+  {
+    "id": "klippa-ocr",
+    "name": "Klippa OCR",
+    "category": "ocr",
+    "badge": "OCR",
+    "description": "Riconoscimento testuale AI da immagini o PDF.",
+    "summary": "Trasforma documenti scansionati in testo modificabile.",
+    "tags": [
+      "ocr",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "OCR multi-lingua",
+      "Conversione in testo editabile",
+      "Esportazione in PDF/TXT"
+    ],
+    "requirements": [
+      "Immagini o PDF",
+      "Connessione internet",
+      "Browser o app"
+    ],
+    "privacy": [
+      "Documenti trattati secondo policy",
+      "Cancellazione manuale",
+      "Condivisione controllata"
+    ],
+    "pricing": [
+      "Piano gratuito con limiti",
+      "Piani pro per volumi"
+    ],
+    "classroomExamples": [
+      "Digitalizzare schede cartacee",
+      "Convertire dispense in testo"
+    ],
+    "installSteps": [
+      "Accedi o installa l'app",
+      "Carica un file",
+      "Seleziona lingua OCR"
+    ],
+    "useSteps": [
+      "Avvia il riconoscimento",
+      "Correggi eventuali errori",
+      "Scarica il testo"
+    ],
+    "faq": [
+      "Supporta scrittura a mano? A volte parziale.",
+      "Funziona su PDF? Si."
+    ],
+    "resources": [
+      "Guida OCR",
+      "Best practice per scansioni"
+    ],
+    "website": "https://www.klippa.com/",
+    "rating": 3.9,
+    "rank": 10,
+    "rankTotal": 11
+  },
+  {
+    "id": "hyperscience",
+    "name": "Hyperscience",
+    "category": "ocr",
+    "badge": "OCR",
+    "description": "Riconoscimento testuale AI da immagini o PDF.",
+    "summary": "Trasforma documenti scansionati in testo modificabile.",
+    "tags": [
+      "ocr",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "OCR multi-lingua",
+      "Conversione in testo editabile",
+      "Esportazione in PDF/TXT"
+    ],
+    "requirements": [
+      "Immagini o PDF",
+      "Connessione internet",
+      "Browser o app"
+    ],
+    "privacy": [
+      "Documenti trattati secondo policy",
+      "Cancellazione manuale",
+      "Condivisione controllata"
+    ],
+    "pricing": [
+      "Piano gratuito con limiti",
+      "Piani pro per volumi"
+    ],
+    "classroomExamples": [
+      "Digitalizzare schede cartacee",
+      "Convertire dispense in testo"
+    ],
+    "installSteps": [
+      "Accedi o installa l'app",
+      "Carica un file",
+      "Seleziona lingua OCR"
+    ],
+    "useSteps": [
+      "Avvia il riconoscimento",
+      "Correggi eventuali errori",
+      "Scarica il testo"
+    ],
+    "faq": [
+      "Supporta scrittura a mano? A volte parziale.",
+      "Funziona su PDF? Si."
+    ],
+    "resources": [
+      "Guida OCR",
+      "Best practice per scansioni"
+    ],
+    "website": "https://www.hyperscience.com/",
+    "rating": 3.8,
+    "rank": 11,
+    "rankTotal": 11
+  },
+  {
+    "id": "naturalreader",
+    "name": "NaturalReader",
+    "category": "lettura",
+    "badge": "Lettura",
+    "description": "Lettura assistita e text-to-speech per testi digitali.",
+    "summary": "Migliora la comprensione con voce sintetica e strumenti di focus.",
+    "tags": [
+      "lettura",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Sintesi vocale",
+      "Evidenziazione durante la lettura",
+      "Velocita regolabile"
+    ],
+    "requirements": [
+      "Browser o app",
+      "Cuffie consigliate",
+      "Connessione internet"
+    ],
+    "privacy": [
+      "Testi gestiti nel profilo",
+      "Cancellazione rapida",
+      "Condivisione manuale"
+    ],
+    "pricing": [
+      "Versione gratuita base",
+      "Piani premium con voci avanzate"
+    ],
+    "classroomExamples": [
+      "Lettura guidata di un capitolo",
+      "Supporto per studio individuale"
+    ],
+    "installSteps": [
+      "Accedi o installa l'app",
+      "Carica o incolla il testo",
+      "Seleziona la voce"
+    ],
+    "useSteps": [
+      "Avvia la lettura",
+      "Regola velocita e tono",
+      "Salva i passaggi chiave"
+    ],
+    "faq": [
+      "Supporta PDF? Spesso si.",
+      "Funziona offline? Dipende dal servizio."
+    ],
+    "resources": [
+      "Guida alla lettura assistita",
+      "Suggerimenti per comprensione"
+    ],
+    "website": "https://www.naturalreaders.com/",
+    "rating": 4.9,
+    "rank": 1,
+    "rankTotal": 12
+  },
+  {
+    "id": "speechify",
+    "name": "Speechify",
+    "category": "lettura",
+    "badge": "Lettura",
+    "description": "Lettura assistita e text-to-speech per testi digitali.",
+    "summary": "Migliora la comprensione con voce sintetica e strumenti di focus.",
+    "tags": [
+      "lettura",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Sintesi vocale",
+      "Evidenziazione durante la lettura",
+      "Velocita regolabile"
+    ],
+    "requirements": [
+      "Browser o app",
+      "Cuffie consigliate",
+      "Connessione internet"
+    ],
+    "privacy": [
+      "Testi gestiti nel profilo",
+      "Cancellazione rapida",
+      "Condivisione manuale"
+    ],
+    "pricing": [
+      "Versione gratuita base",
+      "Piani premium con voci avanzate"
+    ],
+    "classroomExamples": [
+      "Lettura guidata di un capitolo",
+      "Supporto per studio individuale"
+    ],
+    "installSteps": [
+      "Accedi o installa l'app",
+      "Carica o incolla il testo",
+      "Seleziona la voce"
+    ],
+    "useSteps": [
+      "Avvia la lettura",
+      "Regola velocita e tono",
+      "Salva i passaggi chiave"
+    ],
+    "faq": [
+      "Supporta PDF? Spesso si.",
+      "Funziona offline? Dipende dal servizio."
+    ],
+    "resources": [
+      "Guida alla lettura assistita",
+      "Suggerimenti per comprensione"
+    ],
+    "website": "https://speechify.com/",
+    "rating": 4.8,
+    "rank": 2,
+    "rankTotal": 12
+  },
+  {
+    "id": "voice-dream-reader",
+    "name": "Voice Dream Reader",
+    "category": "lettura",
+    "badge": "Lettura",
+    "description": "Lettura assistita e text-to-speech per testi digitali.",
+    "summary": "Migliora la comprensione con voce sintetica e strumenti di focus.",
+    "tags": [
+      "lettura",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Sintesi vocale",
+      "Evidenziazione durante la lettura",
+      "Velocita regolabile"
+    ],
+    "requirements": [
+      "Browser o app",
+      "Cuffie consigliate",
+      "Connessione internet"
+    ],
+    "privacy": [
+      "Testi gestiti nel profilo",
+      "Cancellazione rapida",
+      "Condivisione manuale"
+    ],
+    "pricing": [
+      "Versione gratuita base",
+      "Piani premium con voci avanzate"
+    ],
+    "classroomExamples": [
+      "Lettura guidata di un capitolo",
+      "Supporto per studio individuale"
+    ],
+    "installSteps": [
+      "Accedi o installa l'app",
+      "Carica o incolla il testo",
+      "Seleziona la voce"
+    ],
+    "useSteps": [
+      "Avvia la lettura",
+      "Regola velocita e tono",
+      "Salva i passaggi chiave"
+    ],
+    "faq": [
+      "Supporta PDF? Spesso si.",
+      "Funziona offline? Dipende dal servizio."
+    ],
+    "resources": [
+      "Guida alla lettura assistita",
+      "Suggerimenti per comprensione"
+    ],
+    "website": "https://www.voicedream.com/",
+    "rating": 4.7,
+    "rank": 3,
+    "rankTotal": 12
+  },
+  {
+    "id": "read-write",
+    "name": "Read&Write",
+    "category": "lettura",
+    "badge": "Lettura",
+    "description": "Lettura assistita e text-to-speech per testi digitali.",
+    "summary": "Migliora la comprensione con voce sintetica e strumenti di focus.",
+    "tags": [
+      "lettura",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Sintesi vocale",
+      "Evidenziazione durante la lettura",
+      "Velocita regolabile"
+    ],
+    "requirements": [
+      "Browser o app",
+      "Cuffie consigliate",
+      "Connessione internet"
+    ],
+    "privacy": [
+      "Testi gestiti nel profilo",
+      "Cancellazione rapida",
+      "Condivisione manuale"
+    ],
+    "pricing": [
+      "Versione gratuita base",
+      "Piani premium con voci avanzate"
+    ],
+    "classroomExamples": [
+      "Lettura guidata di un capitolo",
+      "Supporto per studio individuale"
+    ],
+    "installSteps": [
+      "Accedi o installa l'app",
+      "Carica o incolla il testo",
+      "Seleziona la voce"
+    ],
+    "useSteps": [
+      "Avvia la lettura",
+      "Regola velocita e tono",
+      "Salva i passaggi chiave"
+    ],
+    "faq": [
+      "Supporta PDF? Spesso si.",
+      "Funziona offline? Dipende dal servizio."
+    ],
+    "resources": [
+      "Guida alla lettura assistita",
+      "Suggerimenti per comprensione"
+    ],
+    "website": "https://www.texthelp.com/products/read-write/",
+    "rating": 4.6,
+    "rank": 4,
+    "rankTotal": 12
+  },
+  {
+    "id": "microsoft-immersive-reader",
+    "name": "Microsoft Immersive Reader",
+    "category": "lettura",
+    "badge": "Lettura",
+    "description": "Lettura assistita e text-to-speech per testi digitali.",
+    "summary": "Migliora la comprensione con voce sintetica e strumenti di focus.",
+    "tags": [
+      "lettura",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Sintesi vocale",
+      "Evidenziazione durante la lettura",
+      "Velocita regolabile"
+    ],
+    "requirements": [
+      "Browser o app",
+      "Cuffie consigliate",
+      "Connessione internet"
+    ],
+    "privacy": [
+      "Testi gestiti nel profilo",
+      "Cancellazione rapida",
+      "Condivisione manuale"
+    ],
+    "pricing": [
+      "Versione gratuita base",
+      "Piani premium con voci avanzate"
+    ],
+    "classroomExamples": [
+      "Lettura guidata di un capitolo",
+      "Supporto per studio individuale"
+    ],
+    "installSteps": [
+      "Accedi o installa l'app",
+      "Carica o incolla il testo",
+      "Seleziona la voce"
+    ],
+    "useSteps": [
+      "Avvia la lettura",
+      "Regola velocita e tono",
+      "Salva i passaggi chiave"
+    ],
+    "faq": [
+      "Supporta PDF? Spesso si.",
+      "Funziona offline? Dipende dal servizio."
+    ],
+    "resources": [
+      "Guida alla lettura assistita",
+      "Suggerimenti per comprensione"
+    ],
+    "website": "https://www.microsoft.com/education/products/immersive-reader",
+    "rating": 4.5,
+    "rank": 5,
+    "rankTotal": 12
+  },
+  {
+    "id": "capti-voice",
+    "name": "Capti Voice",
+    "category": "lettura",
+    "badge": "Lettura",
+    "description": "Lettura assistita e text-to-speech per testi digitali.",
+    "summary": "Migliora la comprensione con voce sintetica e strumenti di focus.",
+    "tags": [
+      "lettura",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Sintesi vocale",
+      "Evidenziazione durante la lettura",
+      "Velocita regolabile"
+    ],
+    "requirements": [
+      "Browser o app",
+      "Cuffie consigliate",
+      "Connessione internet"
+    ],
+    "privacy": [
+      "Testi gestiti nel profilo",
+      "Cancellazione rapida",
+      "Condivisione manuale"
+    ],
+    "pricing": [
+      "Versione gratuita base",
+      "Piani premium con voci avanzate"
+    ],
+    "classroomExamples": [
+      "Lettura guidata di un capitolo",
+      "Supporto per studio individuale"
+    ],
+    "installSteps": [
+      "Accedi o installa l'app",
+      "Carica o incolla il testo",
+      "Seleziona la voce"
+    ],
+    "useSteps": [
+      "Avvia la lettura",
+      "Regola velocita e tono",
+      "Salva i passaggi chiave"
+    ],
+    "faq": [
+      "Supporta PDF? Spesso si.",
+      "Funziona offline? Dipende dal servizio."
+    ],
+    "resources": [
+      "Guida alla lettura assistita",
+      "Suggerimenti per comprensione"
+    ],
+    "website": "https://www.captivoice.com/",
+    "rating": 4.4,
+    "rank": 6,
+    "rankTotal": 12
+  },
+  {
+    "id": "claroread",
+    "name": "ClaroRead",
+    "category": "lettura",
+    "badge": "Lettura",
+    "description": "Lettura assistita e text-to-speech per testi digitali.",
+    "summary": "Migliora la comprensione con voce sintetica e strumenti di focus.",
+    "tags": [
+      "lettura",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Sintesi vocale",
+      "Evidenziazione durante la lettura",
+      "Velocita regolabile"
+    ],
+    "requirements": [
+      "Browser o app",
+      "Cuffie consigliate",
+      "Connessione internet"
+    ],
+    "privacy": [
+      "Testi gestiti nel profilo",
+      "Cancellazione rapida",
+      "Condivisione manuale"
+    ],
+    "pricing": [
+      "Versione gratuita base",
+      "Piani premium con voci avanzate"
+    ],
+    "classroomExamples": [
+      "Lettura guidata di un capitolo",
+      "Supporto per studio individuale"
+    ],
+    "installSteps": [
+      "Accedi o installa l'app",
+      "Carica o incolla il testo",
+      "Seleziona la voce"
+    ],
+    "useSteps": [
+      "Avvia la lettura",
+      "Regola velocita e tono",
+      "Salva i passaggi chiave"
+    ],
+    "faq": [
+      "Supporta PDF? Spesso si.",
+      "Funziona offline? Dipende dal servizio."
+    ],
+    "resources": [
+      "Guida alla lettura assistita",
+      "Suggerimenti per comprensione"
+    ],
+    "website": "https://www.clarosoftware.com/",
+    "rating": 4.3,
+    "rank": 7,
+    "rankTotal": 12
+  },
+  {
+    "id": "balabolka",
+    "name": "Balabolka",
+    "category": "lettura",
+    "badge": "Lettura",
+    "description": "Lettura assistita e text-to-speech per testi digitali.",
+    "summary": "Migliora la comprensione con voce sintetica e strumenti di focus.",
+    "tags": [
+      "lettura",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Sintesi vocale",
+      "Evidenziazione durante la lettura",
+      "Velocita regolabile"
+    ],
+    "requirements": [
+      "Browser o app",
+      "Cuffie consigliate",
+      "Connessione internet"
+    ],
+    "privacy": [
+      "Testi gestiti nel profilo",
+      "Cancellazione rapida",
+      "Condivisione manuale"
+    ],
+    "pricing": [
+      "Versione gratuita base",
+      "Piani premium con voci avanzate"
+    ],
+    "classroomExamples": [
+      "Lettura guidata di un capitolo",
+      "Supporto per studio individuale"
+    ],
+    "installSteps": [
+      "Accedi o installa l'app",
+      "Carica o incolla il testo",
+      "Seleziona la voce"
+    ],
+    "useSteps": [
+      "Avvia la lettura",
+      "Regola velocita e tono",
+      "Salva i passaggi chiave"
+    ],
+    "faq": [
+      "Supporta PDF? Spesso si.",
+      "Funziona offline? Dipende dal servizio."
+    ],
+    "resources": [
+      "Guida alla lettura assistita",
+      "Suggerimenti per comprensione"
+    ],
+    "website": "http://www.cross-plus-a.com/balabolka.htm",
+    "rating": 4.2,
+    "rank": 8,
+    "rankTotal": 12
+  },
+  {
+    "id": "read-aloud",
+    "name": "Read Aloud",
+    "category": "lettura",
+    "badge": "Lettura",
+    "description": "Lettura assistita e text-to-speech per testi digitali.",
+    "summary": "Migliora la comprensione con voce sintetica e strumenti di focus.",
+    "tags": [
+      "lettura",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Sintesi vocale",
+      "Evidenziazione durante la lettura",
+      "Velocita regolabile"
+    ],
+    "requirements": [
+      "Browser o app",
+      "Cuffie consigliate",
+      "Connessione internet"
+    ],
+    "privacy": [
+      "Testi gestiti nel profilo",
+      "Cancellazione rapida",
+      "Condivisione manuale"
+    ],
+    "pricing": [
+      "Versione gratuita base",
+      "Piani premium con voci avanzate"
+    ],
+    "classroomExamples": [
+      "Lettura guidata di un capitolo",
+      "Supporto per studio individuale"
+    ],
+    "installSteps": [
+      "Accedi o installa l'app",
+      "Carica o incolla il testo",
+      "Seleziona la voce"
+    ],
+    "useSteps": [
+      "Avvia la lettura",
+      "Regola velocita e tono",
+      "Salva i passaggi chiave"
+    ],
+    "faq": [
+      "Supporta PDF? Spesso si.",
+      "Funziona offline? Dipende dal servizio."
+    ],
+    "resources": [
+      "Guida alla lettura assistita",
+      "Suggerimenti per comprensione"
+    ],
+    "website": "https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp",
+    "rating": 4.1,
+    "rank": 9,
+    "rankTotal": 12
+  },
+  {
+    "id": "amazon-polly",
+    "name": "Amazon Polly",
+    "category": "lettura",
+    "badge": "Lettura",
+    "description": "Lettura assistita e text-to-speech per testi digitali.",
+    "summary": "Migliora la comprensione con voce sintetica e strumenti di focus.",
+    "tags": [
+      "lettura",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Sintesi vocale",
+      "Evidenziazione durante la lettura",
+      "Velocita regolabile"
+    ],
+    "requirements": [
+      "Browser o app",
+      "Cuffie consigliate",
+      "Connessione internet"
+    ],
+    "privacy": [
+      "Testi gestiti nel profilo",
+      "Cancellazione rapida",
+      "Condivisione manuale"
+    ],
+    "pricing": [
+      "Versione gratuita base",
+      "Piani premium con voci avanzate"
+    ],
+    "classroomExamples": [
+      "Lettura guidata di un capitolo",
+      "Supporto per studio individuale"
+    ],
+    "installSteps": [
+      "Accedi o installa l'app",
+      "Carica o incolla il testo",
+      "Seleziona la voce"
+    ],
+    "useSteps": [
+      "Avvia la lettura",
+      "Regola velocita e tono",
+      "Salva i passaggi chiave"
+    ],
+    "faq": [
+      "Supporta PDF? Spesso si.",
+      "Funziona offline? Dipende dal servizio."
+    ],
+    "resources": [
+      "Guida alla lettura assistita",
+      "Suggerimenti per comprensione"
+    ],
+    "website": "https://aws.amazon.com/polly/",
+    "rating": 4.0,
+    "rank": 10,
+    "rankTotal": 12
+  },
+  {
+    "id": "google-text-to-speech",
+    "name": "Google Text-to-Speech",
+    "category": "lettura",
+    "badge": "Lettura",
+    "description": "Lettura assistita e text-to-speech per testi digitali.",
+    "summary": "Migliora la comprensione con voce sintetica e strumenti di focus.",
+    "tags": [
+      "lettura",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Sintesi vocale",
+      "Evidenziazione durante la lettura",
+      "Velocita regolabile"
+    ],
+    "requirements": [
+      "Browser o app",
+      "Cuffie consigliate",
+      "Connessione internet"
+    ],
+    "privacy": [
+      "Testi gestiti nel profilo",
+      "Cancellazione rapida",
+      "Condivisione manuale"
+    ],
+    "pricing": [
+      "Versione gratuita base",
+      "Piani premium con voci avanzate"
+    ],
+    "classroomExamples": [
+      "Lettura guidata di un capitolo",
+      "Supporto per studio individuale"
+    ],
+    "installSteps": [
+      "Accedi o installa l'app",
+      "Carica o incolla il testo",
+      "Seleziona la voce"
+    ],
+    "useSteps": [
+      "Avvia la lettura",
+      "Regola velocita e tono",
+      "Salva i passaggi chiave"
+    ],
+    "faq": [
+      "Supporta PDF? Spesso si.",
+      "Funziona offline? Dipende dal servizio."
+    ],
+    "resources": [
+      "Guida alla lettura assistita",
+      "Suggerimenti per comprensione"
+    ],
+    "website": "https://cloud.google.com/text-to-speech",
+    "rating": 3.9,
+    "rank": 11,
+    "rankTotal": 12
+  },
+  {
+    "id": "elevenlabs",
+    "name": "ElevenLabs",
+    "category": "lettura",
+    "badge": "Lettura",
+    "description": "Lettura assistita e text-to-speech per testi digitali.",
+    "summary": "Migliora la comprensione con voce sintetica e strumenti di focus.",
+    "tags": [
+      "lettura",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Sintesi vocale",
+      "Evidenziazione durante la lettura",
+      "Velocita regolabile"
+    ],
+    "requirements": [
+      "Browser o app",
+      "Cuffie consigliate",
+      "Connessione internet"
+    ],
+    "privacy": [
+      "Testi gestiti nel profilo",
+      "Cancellazione rapida",
+      "Condivisione manuale"
+    ],
+    "pricing": [
+      "Versione gratuita base",
+      "Piani premium con voci avanzate"
+    ],
+    "classroomExamples": [
+      "Lettura guidata di un capitolo",
+      "Supporto per studio individuale"
+    ],
+    "installSteps": [
+      "Accedi o installa l'app",
+      "Carica o incolla il testo",
+      "Seleziona la voce"
+    ],
+    "useSteps": [
+      "Avvia la lettura",
+      "Regola velocita e tono",
+      "Salva i passaggi chiave"
+    ],
+    "faq": [
+      "Supporta PDF? Spesso si.",
+      "Funziona offline? Dipende dal servizio."
+    ],
+    "resources": [
+      "Guida alla lettura assistita",
+      "Suggerimenti per comprensione"
+    ],
+    "website": "https://elevenlabs.io/",
+    "rating": 3.8,
+    "rank": 12,
+    "rankTotal": 12
+  },
+  {
+    "id": "beautiful-ai",
+    "name": "Beautiful.ai",
+    "category": "presentazioni",
+    "badge": "Presentazioni",
+    "description": "Creazione di presentazioni con supporto AI per testi e layout.",
+    "summary": "Genera slide da prompt o documenti con design automatico.",
+    "tags": [
+      "presentazioni",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Template intelligenti",
+      "Generazione slide da testo",
+      "Esportazione PPT/PDF"
+    ],
+    "requirements": [
+      "Browser moderno",
+      "Account",
+      "Connessione internet"
+    ],
+    "privacy": [
+      "Dati secondo policy del provider",
+      "Condivisione controllata",
+      "Esportazione locale"
+    ],
+    "pricing": [
+      "Piano gratuito con limiti",
+      "Piani pro per team/scuole"
+    ],
+    "classroomExamples": [
+      "Lezione su un argomento",
+      "Presentazione di progetto"
+    ],
+    "installSteps": [
+      "Accedi al sito",
+      "Scegli un template",
+      "Crea una nuova presentazione"
+    ],
+    "useSteps": [
+      "Inserisci i contenuti o un prompt",
+      "Rifinisci layout e immagini",
+      "Presenta o esporta"
+    ],
+    "faq": [
+      "Si integra con PowerPoint? Spesso si.",
+      "Si puo collaborare in team? Si."
+    ],
+    "resources": [
+      "Template per lezioni",
+      "Guida alla presentazione efficace"
+    ],
+    "website": "https://www.beautiful.ai/",
+    "rating": 4.9,
+    "rank": 1,
+    "rankTotal": 12
+  },
+  {
+    "id": "tome",
+    "name": "Tome",
+    "category": "presentazioni",
+    "badge": "Presentazioni",
+    "description": "Creazione di presentazioni con supporto AI per testi e layout.",
+    "summary": "Genera slide da prompt o documenti con design automatico.",
+    "tags": [
+      "presentazioni",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Template intelligenti",
+      "Generazione slide da testo",
+      "Esportazione PPT/PDF"
+    ],
+    "requirements": [
+      "Browser moderno",
+      "Account",
+      "Connessione internet"
+    ],
+    "privacy": [
+      "Dati secondo policy del provider",
+      "Condivisione controllata",
+      "Esportazione locale"
+    ],
+    "pricing": [
+      "Piano gratuito con limiti",
+      "Piani pro per team/scuole"
+    ],
+    "classroomExamples": [
+      "Lezione su un argomento",
+      "Presentazione di progetto"
+    ],
+    "installSteps": [
+      "Accedi al sito",
+      "Scegli un template",
+      "Crea una nuova presentazione"
+    ],
+    "useSteps": [
+      "Inserisci i contenuti o un prompt",
+      "Rifinisci layout e immagini",
+      "Presenta o esporta"
+    ],
+    "faq": [
+      "Si integra con PowerPoint? Spesso si.",
+      "Si puo collaborare in team? Si."
+    ],
+    "resources": [
+      "Template per lezioni",
+      "Guida alla presentazione efficace"
+    ],
+    "website": "https://tome.app/",
+    "rating": 4.8,
+    "rank": 2,
+    "rankTotal": 12
+  },
+  {
+    "id": "gamma",
+    "name": "Gamma",
+    "category": "presentazioni",
+    "badge": "Presentazioni",
+    "description": "Creazione di presentazioni con supporto AI per testi e layout.",
+    "summary": "Genera slide da prompt o documenti con design automatico.",
+    "tags": [
+      "presentazioni",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Template intelligenti",
+      "Generazione slide da testo",
+      "Esportazione PPT/PDF"
+    ],
+    "requirements": [
+      "Browser moderno",
+      "Account",
+      "Connessione internet"
+    ],
+    "privacy": [
+      "Dati secondo policy del provider",
+      "Condivisione controllata",
+      "Esportazione locale"
+    ],
+    "pricing": [
+      "Piano gratuito con limiti",
+      "Piani pro per team/scuole"
+    ],
+    "classroomExamples": [
+      "Lezione su un argomento",
+      "Presentazione di progetto"
+    ],
+    "installSteps": [
+      "Accedi al sito",
+      "Scegli un template",
+      "Crea una nuova presentazione"
+    ],
+    "useSteps": [
+      "Inserisci i contenuti o un prompt",
+      "Rifinisci layout e immagini",
+      "Presenta o esporta"
+    ],
+    "faq": [
+      "Si integra con PowerPoint? Spesso si.",
+      "Si puo collaborare in team? Si."
+    ],
+    "resources": [
+      "Template per lezioni",
+      "Guida alla presentazione efficace"
+    ],
+    "website": "https://gamma.app/",
+    "rating": 4.7,
+    "rank": 3,
+    "rankTotal": 12
+  },
+  {
+    "id": "pitch",
+    "name": "Pitch",
+    "category": "presentazioni",
+    "badge": "Presentazioni",
+    "description": "Creazione di presentazioni con supporto AI per testi e layout.",
+    "summary": "Genera slide da prompt o documenti con design automatico.",
+    "tags": [
+      "presentazioni",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Template intelligenti",
+      "Generazione slide da testo",
+      "Esportazione PPT/PDF"
+    ],
+    "requirements": [
+      "Browser moderno",
+      "Account",
+      "Connessione internet"
+    ],
+    "privacy": [
+      "Dati secondo policy del provider",
+      "Condivisione controllata",
+      "Esportazione locale"
+    ],
+    "pricing": [
+      "Piano gratuito con limiti",
+      "Piani pro per team/scuole"
+    ],
+    "classroomExamples": [
+      "Lezione su un argomento",
+      "Presentazione di progetto"
+    ],
+    "installSteps": [
+      "Accedi al sito",
+      "Scegli un template",
+      "Crea una nuova presentazione"
+    ],
+    "useSteps": [
+      "Inserisci i contenuti o un prompt",
+      "Rifinisci layout e immagini",
+      "Presenta o esporta"
+    ],
+    "faq": [
+      "Si integra con PowerPoint? Spesso si.",
+      "Si puo collaborare in team? Si."
+    ],
+    "resources": [
+      "Template per lezioni",
+      "Guida alla presentazione efficace"
+    ],
+    "website": "https://pitch.com/",
+    "rating": 4.6,
+    "rank": 4,
+    "rankTotal": 12
+  },
+  {
+    "id": "prezi",
+    "name": "Prezi",
+    "category": "presentazioni",
+    "badge": "Presentazioni",
+    "description": "Creazione di presentazioni con supporto AI per testi e layout.",
+    "summary": "Genera slide da prompt o documenti con design automatico.",
+    "tags": [
+      "presentazioni",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Template intelligenti",
+      "Generazione slide da testo",
+      "Esportazione PPT/PDF"
+    ],
+    "requirements": [
+      "Browser moderno",
+      "Account",
+      "Connessione internet"
+    ],
+    "privacy": [
+      "Dati secondo policy del provider",
+      "Condivisione controllata",
+      "Esportazione locale"
+    ],
+    "pricing": [
+      "Piano gratuito con limiti",
+      "Piani pro per team/scuole"
+    ],
+    "classroomExamples": [
+      "Lezione su un argomento",
+      "Presentazione di progetto"
+    ],
+    "installSteps": [
+      "Accedi al sito",
+      "Scegli un template",
+      "Crea una nuova presentazione"
+    ],
+    "useSteps": [
+      "Inserisci i contenuti o un prompt",
+      "Rifinisci layout e immagini",
+      "Presenta o esporta"
+    ],
+    "faq": [
+      "Si integra con PowerPoint? Spesso si.",
+      "Si puo collaborare in team? Si."
+    ],
+    "resources": [
+      "Template per lezioni",
+      "Guida alla presentazione efficace"
+    ],
+    "website": "https://prezi.com/",
+    "rating": 4.5,
+    "rank": 5,
+    "rankTotal": 12
+  },
+  {
+    "id": "haiku-deck",
+    "name": "Haiku Deck",
+    "category": "presentazioni",
+    "badge": "Presentazioni",
+    "description": "Creazione di presentazioni con supporto AI per testi e layout.",
+    "summary": "Genera slide da prompt o documenti con design automatico.",
+    "tags": [
+      "presentazioni",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Template intelligenti",
+      "Generazione slide da testo",
+      "Esportazione PPT/PDF"
+    ],
+    "requirements": [
+      "Browser moderno",
+      "Account",
+      "Connessione internet"
+    ],
+    "privacy": [
+      "Dati secondo policy del provider",
+      "Condivisione controllata",
+      "Esportazione locale"
+    ],
+    "pricing": [
+      "Piano gratuito con limiti",
+      "Piani pro per team/scuole"
+    ],
+    "classroomExamples": [
+      "Lezione su un argomento",
+      "Presentazione di progetto"
+    ],
+    "installSteps": [
+      "Accedi al sito",
+      "Scegli un template",
+      "Crea una nuova presentazione"
+    ],
+    "useSteps": [
+      "Inserisci i contenuti o un prompt",
+      "Rifinisci layout e immagini",
+      "Presenta o esporta"
+    ],
+    "faq": [
+      "Si integra con PowerPoint? Spesso si.",
+      "Si puo collaborare in team? Si."
+    ],
+    "resources": [
+      "Template per lezioni",
+      "Guida alla presentazione efficace"
+    ],
+    "website": "https://www.haikudeck.com/",
+    "rating": 4.4,
+    "rank": 6,
+    "rankTotal": 12
+  },
+  {
+    "id": "visme",
+    "name": "Visme",
+    "category": "presentazioni",
+    "badge": "Presentazioni",
+    "description": "Creazione di presentazioni con supporto AI per testi e layout.",
+    "summary": "Genera slide da prompt o documenti con design automatico.",
+    "tags": [
+      "presentazioni",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Template intelligenti",
+      "Generazione slide da testo",
+      "Esportazione PPT/PDF"
+    ],
+    "requirements": [
+      "Browser moderno",
+      "Account",
+      "Connessione internet"
+    ],
+    "privacy": [
+      "Dati secondo policy del provider",
+      "Condivisione controllata",
+      "Esportazione locale"
+    ],
+    "pricing": [
+      "Piano gratuito con limiti",
+      "Piani pro per team/scuole"
+    ],
+    "classroomExamples": [
+      "Lezione su un argomento",
+      "Presentazione di progetto"
+    ],
+    "installSteps": [
+      "Accedi al sito",
+      "Scegli un template",
+      "Crea una nuova presentazione"
+    ],
+    "useSteps": [
+      "Inserisci i contenuti o un prompt",
+      "Rifinisci layout e immagini",
+      "Presenta o esporta"
+    ],
+    "faq": [
+      "Si integra con PowerPoint? Spesso si.",
+      "Si puo collaborare in team? Si."
+    ],
+    "resources": [
+      "Template per lezioni",
+      "Guida alla presentazione efficace"
+    ],
+    "website": "https://www.visme.co/",
+    "rating": 4.3,
+    "rank": 7,
+    "rankTotal": 12
+  },
+  {
+    "id": "decktopus",
+    "name": "Decktopus",
+    "category": "presentazioni",
+    "badge": "Presentazioni",
+    "description": "Creazione di presentazioni con supporto AI per testi e layout.",
+    "summary": "Genera slide da prompt o documenti con design automatico.",
+    "tags": [
+      "presentazioni",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Template intelligenti",
+      "Generazione slide da testo",
+      "Esportazione PPT/PDF"
+    ],
+    "requirements": [
+      "Browser moderno",
+      "Account",
+      "Connessione internet"
+    ],
+    "privacy": [
+      "Dati secondo policy del provider",
+      "Condivisione controllata",
+      "Esportazione locale"
+    ],
+    "pricing": [
+      "Piano gratuito con limiti",
+      "Piani pro per team/scuole"
+    ],
+    "classroomExamples": [
+      "Lezione su un argomento",
+      "Presentazione di progetto"
+    ],
+    "installSteps": [
+      "Accedi al sito",
+      "Scegli un template",
+      "Crea una nuova presentazione"
+    ],
+    "useSteps": [
+      "Inserisci i contenuti o un prompt",
+      "Rifinisci layout e immagini",
+      "Presenta o esporta"
+    ],
+    "faq": [
+      "Si integra con PowerPoint? Spesso si.",
+      "Si puo collaborare in team? Si."
+    ],
+    "resources": [
+      "Template per lezioni",
+      "Guida alla presentazione efficace"
+    ],
+    "website": "https://www.decktopus.com/",
+    "rating": 4.2,
+    "rank": 8,
+    "rankTotal": 12
+  },
+  {
+    "id": "microsoft-copilot-for-powerpoint",
+    "name": "Microsoft Copilot for PowerPoint",
+    "category": "presentazioni",
+    "badge": "Presentazioni",
+    "description": "Creazione di presentazioni con supporto AI per testi e layout.",
+    "summary": "Genera slide da prompt o documenti con design automatico.",
+    "tags": [
+      "presentazioni",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Template intelligenti",
+      "Generazione slide da testo",
+      "Esportazione PPT/PDF"
+    ],
+    "requirements": [
+      "Browser moderno",
+      "Account",
+      "Connessione internet"
+    ],
+    "privacy": [
+      "Dati secondo policy del provider",
+      "Condivisione controllata",
+      "Esportazione locale"
+    ],
+    "pricing": [
+      "Piano gratuito con limiti",
+      "Piani pro per team/scuole"
+    ],
+    "classroomExamples": [
+      "Lezione su un argomento",
+      "Presentazione di progetto"
+    ],
+    "installSteps": [
+      "Accedi al sito",
+      "Scegli un template",
+      "Crea una nuova presentazione"
+    ],
+    "useSteps": [
+      "Inserisci i contenuti o un prompt",
+      "Rifinisci layout e immagini",
+      "Presenta o esporta"
+    ],
+    "faq": [
+      "Si integra con PowerPoint? Spesso si.",
+      "Si puo collaborare in team? Si."
+    ],
+    "resources": [
+      "Template per lezioni",
+      "Guida alla presentazione efficace"
+    ],
+    "website": "https://www.microsoft.com/microsoft-365/copilot",
+    "rating": 4.1,
+    "rank": 9,
+    "rankTotal": 12
+  },
+  {
+    "id": "google-slides",
+    "name": "Google Slides",
+    "category": "presentazioni",
+    "badge": "Presentazioni",
+    "description": "Creazione di presentazioni con supporto AI per testi e layout.",
+    "summary": "Genera slide da prompt o documenti con design automatico.",
+    "tags": [
+      "presentazioni",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Template intelligenti",
+      "Generazione slide da testo",
+      "Esportazione PPT/PDF"
+    ],
+    "requirements": [
+      "Browser moderno",
+      "Account",
+      "Connessione internet"
+    ],
+    "privacy": [
+      "Dati secondo policy del provider",
+      "Condivisione controllata",
+      "Esportazione locale"
+    ],
+    "pricing": [
+      "Piano gratuito con limiti",
+      "Piani pro per team/scuole"
+    ],
+    "classroomExamples": [
+      "Lezione su un argomento",
+      "Presentazione di progetto"
+    ],
+    "installSteps": [
+      "Accedi al sito",
+      "Scegli un template",
+      "Crea una nuova presentazione"
+    ],
+    "useSteps": [
+      "Inserisci i contenuti o un prompt",
+      "Rifinisci layout e immagini",
+      "Presenta o esporta"
+    ],
+    "faq": [
+      "Si integra con PowerPoint? Spesso si.",
+      "Si puo collaborare in team? Si."
+    ],
+    "resources": [
+      "Template per lezioni",
+      "Guida alla presentazione efficace"
+    ],
+    "website": "https://slides.google.com/",
+    "rating": 4.0,
+    "rank": 10,
+    "rankTotal": 12
+  },
+  {
+    "id": "zoho-show",
+    "name": "Zoho Show",
+    "category": "presentazioni",
+    "badge": "Presentazioni",
+    "description": "Creazione di presentazioni con supporto AI per testi e layout.",
+    "summary": "Genera slide da prompt o documenti con design automatico.",
+    "tags": [
+      "presentazioni",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Template intelligenti",
+      "Generazione slide da testo",
+      "Esportazione PPT/PDF"
+    ],
+    "requirements": [
+      "Browser moderno",
+      "Account",
+      "Connessione internet"
+    ],
+    "privacy": [
+      "Dati secondo policy del provider",
+      "Condivisione controllata",
+      "Esportazione locale"
+    ],
+    "pricing": [
+      "Piano gratuito con limiti",
+      "Piani pro per team/scuole"
+    ],
+    "classroomExamples": [
+      "Lezione su un argomento",
+      "Presentazione di progetto"
+    ],
+    "installSteps": [
+      "Accedi al sito",
+      "Scegli un template",
+      "Crea una nuova presentazione"
+    ],
+    "useSteps": [
+      "Inserisci i contenuti o un prompt",
+      "Rifinisci layout e immagini",
+      "Presenta o esporta"
+    ],
+    "faq": [
+      "Si integra con PowerPoint? Spesso si.",
+      "Si puo collaborare in team? Si."
+    ],
+    "resources": [
+      "Template per lezioni",
+      "Guida alla presentazione efficace"
+    ],
+    "website": "https://www.zoho.com/show/",
+    "rating": 3.9,
+    "rank": 11,
+    "rankTotal": 12
+  },
+  {
+    "id": "powtoon",
+    "name": "Powtoon",
+    "category": "presentazioni",
+    "badge": "Presentazioni",
+    "description": "Creazione di presentazioni con supporto AI per testi e layout.",
+    "summary": "Genera slide da prompt o documenti con design automatico.",
+    "tags": [
+      "presentazioni",
+      "ai",
+      "scuola"
+    ],
+    "idealFor": [
+      "Docenti",
+      "Studenti",
+      "Famiglie"
+    ],
+    "features": [
+      "Template intelligenti",
+      "Generazione slide da testo",
+      "Esportazione PPT/PDF"
+    ],
+    "requirements": [
+      "Browser moderno",
+      "Account",
+      "Connessione internet"
+    ],
+    "privacy": [
+      "Dati secondo policy del provider",
+      "Condivisione controllata",
+      "Esportazione locale"
+    ],
+    "pricing": [
+      "Piano gratuito con limiti",
+      "Piani pro per team/scuole"
+    ],
+    "classroomExamples": [
+      "Lezione su un argomento",
+      "Presentazione di progetto"
+    ],
+    "installSteps": [
+      "Accedi al sito",
+      "Scegli un template",
+      "Crea una nuova presentazione"
+    ],
+    "useSteps": [
+      "Inserisci i contenuti o un prompt",
+      "Rifinisci layout e immagini",
+      "Presenta o esporta"
+    ],
+    "faq": [
+      "Si integra con PowerPoint? Spesso si.",
+      "Si puo collaborare in team? Si."
+    ],
+    "resources": [
+      "Template per lezioni",
+      "Guida alla presentazione efficace"
+    ],
+    "website": "https://www.powtoon.com/",
+    "rating": 3.8,
+    "rank": 12,
+    "rankTotal": 12
+  }
+]

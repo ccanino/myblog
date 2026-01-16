@@ -1,132 +1,141 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="it">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI per la Scuola - supporto per l'apprendimento</title>
-    
-    <!-- Google Fonts - Inter -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    
-    <!-- Material Icons -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    
-    <!-- Styles -->
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>dicIAme - Ricerca strumenti inclusivi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Salta al contenuto</a>
+    <div class="page">
+      <nav class="nav">
+        <div class="logo-block">
+          <div class="logo">dicIAme</div>
+          <p class="lead logo-description">
+            dicIAme e un progetto gratuito e indipendente che supporta famiglie,
+            docenti e studenti nell'individuare strumenti di intelligenza artificiale
+            per l'inclusione scolastica e nel restare aggiornati sulle novita dell'AI
+            in ambito educativo.
+          </p>
+          <p class="logo-description">
+            Cerca per parole chiave, esplora i suggerimenti e apri le schede di
+            dettaglio per capire come usare ogni strumento a scuola o a casa.
+          </p>
+          <p class="logo-description">
+            I contenuti provengono da una banca dati condivisa, costantemente aggiornata
+            e pensata per bisogni di studio, organizzazione e benessere.
+          </p>
+          <div class="home-actions" role="tablist" aria-label="Sezioni principali">
+            <button
+              id="openSearch"
+              class="view-tab"
+              type="button"
+              role="tab"
+              aria-controls="results"
+              aria-expanded="false"
+            >
+              Ricerca strumenti
+            </button>
+            <button
+              id="openNews"
+              class="view-tab"
+              type="button"
+              role="tab"
+              aria-controls="news"
+              aria-expanded="false"
+            >
+              News
+            </button>
+          </div>
+        </div>
+      </nav>
 
-    <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.6.2/dist/dotlottie-wc.js" type="module"></script>
+      <main id="main">
+        <section class="section hidden" id="results">
+          <div class="section-title">
+            <h1>Ricerca strumenti</h1>
+            <p>Ricerca strumenti AI in base alle esigenze di docenti, famiglie e studenti.</p>
+          </div>
 
-</head>
-<body>
-    <!-- Main Content (Home Page) -->
-    <main class="main">
-        <section class="hero-single">
-            <div class="hero-container">
-                <!-- Commentato il codice Lottie originale
-                <dotlottie-player
-                    src="https://lottie.host/embed/2c0c0c0c-0c0c-0c0c-0c0c-0c0c0c0c0c0c/rocket.json"
-                    background="transparent"
-                    speed="1"
-                    style="width: 350px; height: 350px;"
-                    loop
-                    autoplay = "true"
-                    loop = "false"
+          <div class="hero-card__search">
+            <div class="search-form">
+              <div class="search-row">
+                <label class="sr-only" for="searchKeywords">Cerca per parole chiave</label>
+                <input
+                  id="searchKeywords"
+                  type="text"
+                  placeholder="Parole chiave: mappe, dettatura, matematica"
                 />
-                -->
-                <!-- Logo dell'app con dimensioni 350x350 -->
-                <img src="images/logo.png" alt="App Logo" style="width: 350px; height: 350px; object-fit: contain;">
+                <button id="resetBtn" class="ghost" type="button">Ripulisci</button>
+              </div>
             </div>
+            <div class="chips">
+              <button type="button" data-chip="scrittura">Scrittura</button>
+              <button type="button" data-chip="mappe concettuali">Mappe concettuali</button>
+              <button type="button" data-chip="organizzazione">Organizzazione</button>
+              <button type="button" data-chip="lettura">Lettura</button>
+            </div>
+          </div>
+
+          <div class="results-meta">
+            <span id="resultsCount" role="status" aria-live="polite">0 strumenti consigliati</span>
+          </div>
+
+          <div id="cards" class="card-grid"></div>
+          <div class="results-actions">
+            <button id="showAllBtn" class="ghost" type="button">Vedi tutti</button>
+          </div>
+          <div id="emptyState" class="empty-state hidden">
+            <h3>Nessun risultato</h3>
+            <p>Prova a cambiare parole chiave o a descrivere meglio il bisogno.</p>
+          </div>
         </section>
-    </main>
 
-    <!-- Article Page (Hidden by default) -->
-    <div class="article-page" id="articlePage">
-        <!-- Article Header -->
-        <header class="article-header">
-            <div class="article-header-content">
-                <h1 id="articlePageTitle">L'ascesa dell'Intelligenza Artificiale Generativa</h1>
-                <div class="article-meta">
-                    <span class="article-category" id="articlePageCategory">AI & ML</span>
-                    <div class="article-date-time">
-                        <span class="article-date" id="articlePageDate">15 Gennaio 2024</span>
-                        <span class="article-read-time">
-                            <span class="material-icons">hourglass_empty</span>
-                            <span id="articlePageReadTime">8 min</span>
-                        </span>
-                    </div>
-                </div>
-            </div>
-        </header>
-
-        <!-- Article Content -->
-        <div class="article-content">
-            <div class="article-body" id="articlePageBody">
-                <!-- Article content will be loaded here -->
-            </div>
-            <div class="article-footer">
-                <button class="view-all-articles-footer" id="viewAllArticlesFooterBtn">
-                    <span class="material-icons">library_books</span>
-                    Vedi tutti gli articoli
-                </button>
-            </div>
+        <section class="section hidden" id="news">
+          <div class="section-title">
+            <h2>News</h2>
+            <p>Articoli, avvisi e aggiornamenti utili per famiglie e scuole.</p>
+          </div>
+          <div class="news-grid">
+            <article class="news-card">
+              <div class="news-tag">Avviso</div>
+              <h3>Linee guida su AI e scuola: cosa cambia</h3>
+              <p>Panoramica sulle nuove indicazioni per l'uso dell'AI in classe e a casa.</p>
+              <a href="#" class="news-link">Leggi l'articolo</a>
+            </article>
+            <article class="news-card">
+              <div class="news-tag">Giornale digitale</div>
+              <h3>AI per lo studio: esperienze dalle scuole</h3>
+              <p>Raccolta di casi reali e strumenti adottati in percorsi didattici.</p>
+              <a href="#" class="news-link">Apri la notizia</a>
+            </article>
+            <article class="news-card">
+              <div class="news-tag">Aggiornamento</div>
+              <h3>Nuovi strumenti aggiunti al catalogo</h3>
+              <p>Abbiamo inserito nuove soluzioni per mappe, riassunti e presentazioni.</p>
+              <a href="#" class="news-link">Vedi dettagli</a>
+            </article>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer-links">
+          <a href="privacy.html">Informativa privacy</a>
+          <a href="cookie.html">Cookie policy</a>
+          <a href="termini.html">Termini di utilizzo</a>
+          <a href="note-legali.html">Note legali</a>
+          <a href="contatti.html">Contatti</a>
         </div>
+      </footer>
     </div>
 
-    <!-- Articles List Page (Hidden by default) -->
-    <div class="articles-list-page" id="articlesListPage">
-        <!-- Header with Search -->
-        <header class="articles-header">
-            <nav class="articles-nav">
-                <div class="nav-brand">
-                    <img src="images/logo.png" alt="Fresh Commits Logo" class="site-logo">
-                </div>
-                <div class="nav-actions">
-                    <button class="toggle-filters-btn" id="toggleFiltersBtn">
-                        <span class="material-icons">filter_list</span>
-                    </button>
-                </div>
-            </nav>
-        </header>
-
-        <!-- Filter Section (Hidden by default) -->
-        <section class="filter-section" id="filterSection">
-            <div class="filter-container">
-                <div class="search-container">
-                    <input type="text" id="searchInput" placeholder="Cerca articoli per titolo, categoria, tag...">
-                    <span class="material-icons search-icon">search</span>
-                </div>
-                <div class="filter-tags" id="filterTags">
-                </div>
-            </div>
-        </section>
-
-        <!-- Articles Grid -->
-        <section class="articles-section">
-            <div class="articles-container">
-                <div class="articles-grid" id="articlesGrid">
-                    <!-- Articles will be loaded here dynamically -->
-                </div>
-            </div>
-        </section>
-    </div>
-
-    <!-- Article Modal -->
-    <div class="article-modal" id="articleModal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h3 id="modalTitle"></h3>
-                <button class="modal-close" id="modalClose">
-                    <span class="material-icons">close</span>
-                </button>
-            </div>
-            <div class="modal-body" id="modalBody">
-                <!-- Article content will be loaded here -->
-            </div>
-        </div>
-    </div>
-
-    <script src="js/app.js"></script>
-</body>
-</html> 
+    <script src="main.js"></script>
+  </body>
+</html>
