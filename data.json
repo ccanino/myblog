@@ -58,9 +58,7 @@
       "Suggerimenti per prompt efficaci"
     ],
     "website": "https://chat.openai.com/",
-    "rating": 4.9,
-    "rank": 1,
-    "rankTotal": 12
+    "enabled": true
   },
   {
     "id": "claude",
@@ -121,9 +119,7 @@
       "Suggerimenti per prompt efficaci"
     ],
     "website": "https://claude.ai/",
-    "rating": 4.8,
-    "rank": 2,
-    "rankTotal": 12
+    "enabled": false
   },
   {
     "id": "gemini",
@@ -184,9 +180,7 @@
       "Suggerimenti per prompt efficaci"
     ],
     "website": "https://gemini.google.com/",
-    "rating": 4.7,
-    "rank": 3,
-    "rankTotal": 12
+    "enabled": true
   },
   {
     "id": "perplexity",
@@ -247,9 +241,7 @@
       "Suggerimenti per prompt efficaci"
     ],
     "website": "https://www.perplexity.ai/",
-    "rating": 4.6,
-    "rank": 4,
-    "rankTotal": 12
+    "enabled": false
   },
   {
     "id": "quillbot-summarizer",
@@ -310,9 +302,7 @@
       "Suggerimenti per prompt efficaci"
     ],
     "website": "https://quillbot.com/summarize",
-    "rating": 4.5,
-    "rank": 5,
-    "rankTotal": 12
+    "enabled": false
   },
   {
     "id": "tldr-this",
@@ -373,9 +363,7 @@
       "Suggerimenti per prompt efficaci"
     ],
     "website": "https://www.tldrthis.com/",
-    "rating": 4.4,
-    "rank": 6,
-    "rankTotal": 12
+    "enabled": false
   },
   {
     "id": "resoomer",
@@ -436,9 +424,7 @@
       "Suggerimenti per prompt efficaci"
     ],
     "website": "https://resoomer.com/",
-    "rating": 4.3,
-    "rank": 7,
-    "rankTotal": 12
+    "enabled": false
   },
   {
     "id": "scholarcy",
@@ -499,9 +485,7 @@
       "Suggerimenti per prompt efficaci"
     ],
     "website": "https://www.scholarcy.com/",
-    "rating": 4.2,
-    "rank": 8,
-    "rankTotal": 12
+    "enabled": false
   },
   {
     "id": "summarizebot",
@@ -562,9 +546,7 @@
       "Suggerimenti per prompt efficaci"
     ],
     "website": "https://summarizebot.com/",
-    "rating": 4.1,
-    "rank": 9,
-    "rankTotal": 12
+    "enabled": false
   },
   {
     "id": "wordtune-read",
@@ -625,9 +607,7 @@
       "Suggerimenti per prompt efficaci"
     ],
     "website": "https://www.wordtune.com/read",
-    "rating": 4.0,
-    "rank": 10,
-    "rankTotal": 12
+    "enabled": false
   },
   {
     "id": "smmry",
@@ -688,9 +668,7 @@
       "Suggerimenti per prompt efficaci"
     ],
     "website": "https://smmry.com/",
-    "rating": 3.9,
-    "rank": 11,
-    "rankTotal": 12
+    "enabled": false
   },
   {
     "id": "elicit",
@@ -751,9 +729,7 @@
       "Suggerimenti per prompt efficaci"
     ],
     "website": "https://elicit.com/",
-    "rating": 3.8,
-    "rank": 12,
-    "rankTotal": 12
+    "enabled": false
   },
   {
     "id": "mindmeister",
@@ -814,9 +790,7 @@
       "Checklist per mappe efficaci"
     ],
     "website": "https://www.mindmeister.com/",
-    "rating": 4.9,
-    "rank": 1,
-    "rankTotal": 12
+    "enabled": false
   },
   {
     "id": "xmind",
@@ -877,9 +851,7 @@
       "Checklist per mappe efficaci"
     ],
     "website": "https://xmind.app/",
-    "rating": 4.8,
-    "rank": 2,
-    "rankTotal": 12
+    "enabled": false
   },
   {
     "id": "miro",
@@ -940,9 +912,7 @@
       "Checklist per mappe efficaci"
     ],
     "website": "https://miro.com/",
-    "rating": 4.7,
-    "rank": 3,
-    "rankTotal": 12
+    "enabled": false
   },
   {
     "id": "whimsical",
@@ -1003,9 +973,7 @@
       "Checklist per mappe efficaci"
     ],
     "website": "https://whimsical.com/",
-    "rating": 4.6,
-    "rank": 4,
-    "rankTotal": 12
+    "enabled": false
   },
   {
     "id": "mindnode",
@@ -1066,9 +1034,7 @@
       "Checklist per mappe efficaci"
     ],
     "website": "https://mindnode.com/",
-    "rating": 4.5,
-    "rank": 5,
-    "rankTotal": 12
+    "enabled": false
   },
   {
     "id": "coggle",
@@ -1129,9 +1095,7 @@
       "Checklist per mappe efficaci"
     ],
     "website": "https://coggle.it/",
-    "rating": 4.4,
-    "rank": 6,
-    "rankTotal": 12
+    "enabled": false
   },
   {
     "id": "lucidchart",
@@ -1192,9 +1156,7 @@
       "Checklist per mappe efficaci"
     ],
     "website": "https://www.lucidchart.com/",
-    "rating": 4.3,
-    "rank": 7,
-    "rankTotal": 12
+    "enabled": false
   },
   {
     "id": "mindomo",
@@ -1255,9 +1217,7 @@
       "Checklist per mappe efficaci"
     ],
     "website": "https://www.mindomo.com/",
-    "rating": 4.2,
-    "rank": 8,
-    "rankTotal": 12
+    "enabled": false
   },
   {
     "id": "ayoa",
@@ -1318,9 +1278,7 @@
       "Checklist per mappe efficaci"
     ],
     "website": "https://www.ayoa.com/",
-    "rating": 4.1,
-    "rank": 9,
-    "rankTotal": 12
+    "enabled": false
   },
   {
     "id": "mural",
@@ -1381,9 +1339,7 @@
       "Checklist per mappe efficaci"
     ],
     "website": "https://www.mural.co/",
-    "rating": 4.0,
-    "rank": 10,
-    "rankTotal": 12
+    "enabled": false
   },
   {
     "id": "canva",
@@ -1444,9 +1400,7 @@
       "Checklist per mappe efficaci"
     ],
     "website": "https://www.canva.com/",
-    "rating": 3.9,
-    "rank": 11,
-    "rankTotal": 12
+    "enabled": false
   },
   {
     "id": "edrawmind",
@@ -1507,9 +1461,7 @@
       "Checklist per mappe efficaci"
     ],
     "website": "https://www.edrawsoft.com/edrawmind/",
-    "rating": 3.8,
-    "rank": 12,
-    "rankTotal": 12
+    "enabled": false
   },
   {
     "id": "otter-ai",
@@ -1570,9 +1522,7 @@
       "Suggerimenti per audio pulito"
     ],
     "website": "https://otter.ai/",
-    "rating": 4.9,
-    "rank": 1,
-    "rankTotal": 11
+    "enabled": false
   },
   {
     "id": "openai-whisper",
@@ -1633,9 +1583,7 @@
       "Suggerimenti per audio pulito"
     ],
     "website": "https://openai.com/research/whisper",
-    "rating": 4.8,
-    "rank": 2,
-    "rankTotal": 11
+    "enabled": false
   },
   {
     "id": "google-speech-to-text",
@@ -1696,9 +1644,7 @@
       "Suggerimenti per audio pulito"
     ],
     "website": "https://cloud.google.com/speech-to-text",
-    "rating": 4.7,
-    "rank": 3,
-    "rankTotal": 11
+    "enabled": false
   },
   {
     "id": "azure-speech-to-text",
@@ -1759,9 +1705,7 @@
       "Suggerimenti per audio pulito"
     ],
     "website": "https://azure.microsoft.com/products/ai-services/speech-to-text/",
-    "rating": 4.6,
-    "rank": 4,
-    "rankTotal": 11
+    "enabled": false
   },
   {
     "id": "amazon-transcribe",
@@ -1822,9 +1766,7 @@
       "Suggerimenti per audio pulito"
     ],
     "website": "https://aws.amazon.com/transcribe/",
-    "rating": 4.5,
-    "rank": 5,
-    "rankTotal": 11
+    "enabled": false
   },
   {
     "id": "ibm-watson-speech-to-text",
@@ -1885,9 +1827,7 @@
       "Suggerimenti per audio pulito"
     ],
     "website": "https://www.ibm.com/products/speech-to-text",
-    "rating": 4.4,
-    "rank": 6,
-    "rankTotal": 11
+    "enabled": false
   },
   {
     "id": "rev-ai",
@@ -1948,9 +1888,7 @@
       "Suggerimenti per audio pulito"
     ],
     "website": "https://www.rev.ai/",
-    "rating": 4.2,
-    "rank": 7,
-    "rankTotal": 11
+    "enabled": false
   },
   {
     "id": "speechmatics",
@@ -2011,9 +1949,7 @@
       "Suggerimenti per audio pulito"
     ],
     "website": "https://www.speechmatics.com/",
-    "rating": 4.1,
-    "rank": 8,
-    "rankTotal": 11
+    "enabled": false
   },
   {
     "id": "sonix",
@@ -2074,9 +2010,7 @@
       "Suggerimenti per audio pulito"
     ],
     "website": "https://sonix.ai/",
-    "rating": 4.0,
-    "rank": 9,
-    "rankTotal": 11
+    "enabled": false
   },
   {
     "id": "descript",
@@ -2137,9 +2071,7 @@
       "Suggerimenti per audio pulito"
     ],
     "website": "https://www.descript.com/",
-    "rating": 3.9,
-    "rank": 10,
-    "rankTotal": 11
+    "enabled": false
   },
   {
     "id": "trint",
@@ -2200,9 +2132,7 @@
       "Suggerimenti per audio pulito"
     ],
     "website": "https://trint.com/",
-    "rating": 3.8,
-    "rank": 11,
-    "rankTotal": 11
+    "enabled": false
   },
   {
     "id": "google-cloud-vision-ocr",
@@ -2263,9 +2193,7 @@
       "Best practice per scansioni"
     ],
     "website": "https://cloud.google.com/vision",
-    "rating": 4.9,
-    "rank": 1,
-    "rankTotal": 11
+    "enabled": false
   },
   {
     "id": "azure-computer-vision-ocr",
@@ -2326,9 +2254,7 @@
       "Best practice per scansioni"
     ],
     "website": "https://azure.microsoft.com/products/ai-services/computer-vision/",
-    "rating": 4.8,
-    "rank": 2,
-    "rankTotal": 11
+    "enabled": false
   },
   {
     "id": "abbyy-finereader",
@@ -2389,9 +2315,7 @@
       "Best practice per scansioni"
     ],
     "website": "https://www.abbyy.com/finereader/",
-    "rating": 4.7,
-    "rank": 3,
-    "rankTotal": 11
+    "enabled": false
   },
   {
     "id": "tesseract-ocr",
@@ -2452,9 +2376,7 @@
       "Best practice per scansioni"
     ],
     "website": "https://github.com/tesseract-ocr/tesseract",
-    "rating": 4.6,
-    "rank": 4,
-    "rankTotal": 11
+    "enabled": false
   },
   {
     "id": "adobe-acrobat-ocr",
@@ -2515,9 +2437,7 @@
       "Best practice per scansioni"
     ],
     "website": "https://www.adobe.com/acrobat.html",
-    "rating": 4.5,
-    "rank": 5,
-    "rankTotal": 11
+    "enabled": false
   },
   {
     "id": "rossum",
@@ -2578,9 +2498,7 @@
       "Best practice per scansioni"
     ],
     "website": "https://rossum.ai/",
-    "rating": 4.4,
-    "rank": 6,
-    "rankTotal": 11
+    "enabled": false
   },
   {
     "id": "nanonets-ocr",
@@ -2641,9 +2559,7 @@
       "Best practice per scansioni"
     ],
     "website": "https://nanonets.com/ocr",
-    "rating": 4.2,
-    "rank": 7,
-    "rankTotal": 11
+    "enabled": false
   },
   {
     "id": "mindee",
@@ -2704,9 +2620,7 @@
       "Best practice per scansioni"
     ],
     "website": "https://www.mindee.com/",
-    "rating": 4.1,
-    "rank": 8,
-    "rankTotal": 11
+    "enabled": false
   },
   {
     "id": "veryfi",
@@ -2767,9 +2681,7 @@
       "Best practice per scansioni"
     ],
     "website": "https://www.veryfi.com/",
-    "rating": 4.0,
-    "rank": 9,
-    "rankTotal": 11
+    "enabled": false
   },
   {
     "id": "klippa-ocr",
@@ -2830,9 +2742,7 @@
       "Best practice per scansioni"
     ],
     "website": "https://www.klippa.com/",
-    "rating": 3.9,
-    "rank": 10,
-    "rankTotal": 11
+    "enabled": false
   },
   {
     "id": "hyperscience",
@@ -2893,9 +2803,7 @@
       "Best practice per scansioni"
     ],
     "website": "https://www.hyperscience.com/",
-    "rating": 3.8,
-    "rank": 11,
-    "rankTotal": 11
+    "enabled": false
   },
   {
     "id": "naturalreader",
@@ -2956,9 +2864,7 @@
       "Suggerimenti per comprensione"
     ],
     "website": "https://www.naturalreaders.com/",
-    "rating": 4.9,
-    "rank": 1,
-    "rankTotal": 12
+    "enabled": false
   },
   {
     "id": "speechify",
@@ -3019,9 +2925,7 @@
       "Suggerimenti per comprensione"
     ],
     "website": "https://speechify.com/",
-    "rating": 4.8,
-    "rank": 2,
-    "rankTotal": 12
+    "enabled": false
   },
   {
     "id": "voice-dream-reader",
@@ -3082,9 +2986,7 @@
       "Suggerimenti per comprensione"
     ],
     "website": "https://www.voicedream.com/",
-    "rating": 4.7,
-    "rank": 3,
-    "rankTotal": 12
+    "enabled": false
   },
   {
     "id": "read-write",
@@ -3145,9 +3047,7 @@
       "Suggerimenti per comprensione"
     ],
     "website": "https://www.texthelp.com/products/read-write/",
-    "rating": 4.6,
-    "rank": 4,
-    "rankTotal": 12
+    "enabled": false
   },
   {
     "id": "microsoft-immersive-reader",
@@ -3208,9 +3108,7 @@
       "Suggerimenti per comprensione"
     ],
     "website": "https://www.microsoft.com/education/products/immersive-reader",
-    "rating": 4.5,
-    "rank": 5,
-    "rankTotal": 12
+    "enabled": false
   },
   {
     "id": "capti-voice",
@@ -3271,9 +3169,7 @@
       "Suggerimenti per comprensione"
     ],
     "website": "https://www.captivoice.com/",
-    "rating": 4.4,
-    "rank": 6,
-    "rankTotal": 12
+    "enabled": false
   },
   {
     "id": "claroread",
@@ -3334,9 +3230,7 @@
       "Suggerimenti per comprensione"
     ],
     "website": "https://www.clarosoftware.com/",
-    "rating": 4.3,
-    "rank": 7,
-    "rankTotal": 12
+    "enabled": false
   },
   {
     "id": "balabolka",
@@ -3397,9 +3291,7 @@
       "Suggerimenti per comprensione"
     ],
     "website": "http://www.cross-plus-a.com/balabolka.htm",
-    "rating": 4.2,
-    "rank": 8,
-    "rankTotal": 12
+    "enabled": false
   },
   {
     "id": "read-aloud",
@@ -3460,9 +3352,7 @@
       "Suggerimenti per comprensione"
     ],
     "website": "https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp",
-    "rating": 4.1,
-    "rank": 9,
-    "rankTotal": 12
+    "enabled": false
   },
   {
     "id": "amazon-polly",
@@ -3523,9 +3413,7 @@
       "Suggerimenti per comprensione"
     ],
     "website": "https://aws.amazon.com/polly/",
-    "rating": 4.0,
-    "rank": 10,
-    "rankTotal": 12
+    "enabled": false
   },
   {
     "id": "google-text-to-speech",
@@ -3586,9 +3474,7 @@
       "Suggerimenti per comprensione"
     ],
     "website": "https://cloud.google.com/text-to-speech",
-    "rating": 3.9,
-    "rank": 11,
-    "rankTotal": 12
+    "enabled": false
   },
   {
     "id": "elevenlabs",
@@ -3649,9 +3535,7 @@
       "Suggerimenti per comprensione"
     ],
     "website": "https://elevenlabs.io/",
-    "rating": 3.8,
-    "rank": 12,
-    "rankTotal": 12
+    "enabled": false
   },
   {
     "id": "beautiful-ai",
@@ -3712,9 +3596,7 @@
       "Guida alla presentazione efficace"
     ],
     "website": "https://www.beautiful.ai/",
-    "rating": 4.9,
-    "rank": 1,
-    "rankTotal": 12
+    "enabled": false
   },
   {
     "id": "tome",
@@ -3775,9 +3657,7 @@
       "Guida alla presentazione efficace"
     ],
     "website": "https://tome.app/",
-    "rating": 4.8,
-    "rank": 2,
-    "rankTotal": 12
+    "enabled": false
   },
   {
     "id": "gamma",
@@ -3838,9 +3718,7 @@
       "Guida alla presentazione efficace"
     ],
     "website": "https://gamma.app/",
-    "rating": 4.7,
-    "rank": 3,
-    "rankTotal": 12
+    "enabled": false
   },
   {
     "id": "pitch",
@@ -3901,9 +3779,7 @@
       "Guida alla presentazione efficace"
     ],
     "website": "https://pitch.com/",
-    "rating": 4.6,
-    "rank": 4,
-    "rankTotal": 12
+    "enabled": false
   },
   {
     "id": "prezi",
@@ -3964,9 +3840,7 @@
       "Guida alla presentazione efficace"
     ],
     "website": "https://prezi.com/",
-    "rating": 4.5,
-    "rank": 5,
-    "rankTotal": 12
+    "enabled": false
   },
   {
     "id": "haiku-deck",
@@ -4027,9 +3901,7 @@
       "Guida alla presentazione efficace"
     ],
     "website": "https://www.haikudeck.com/",
-    "rating": 4.4,
-    "rank": 6,
-    "rankTotal": 12
+    "enabled": false
   },
   {
     "id": "visme",
@@ -4090,9 +3962,7 @@
       "Guida alla presentazione efficace"
     ],
     "website": "https://www.visme.co/",
-    "rating": 4.3,
-    "rank": 7,
-    "rankTotal": 12
+    "enabled": false
   },
   {
     "id": "decktopus",
@@ -4153,9 +4023,7 @@
       "Guida alla presentazione efficace"
     ],
     "website": "https://www.decktopus.com/",
-    "rating": 4.2,
-    "rank": 8,
-    "rankTotal": 12
+    "enabled": false
   },
   {
     "id": "microsoft-copilot-for-powerpoint",
@@ -4216,9 +4084,7 @@
       "Guida alla presentazione efficace"
     ],
     "website": "https://www.microsoft.com/microsoft-365/copilot",
-    "rating": 4.1,
-    "rank": 9,
-    "rankTotal": 12
+    "enabled": false
   },
   {
     "id": "google-slides",
@@ -4279,9 +4145,7 @@
       "Guida alla presentazione efficace"
     ],
     "website": "https://slides.google.com/",
-    "rating": 4.0,
-    "rank": 10,
-    "rankTotal": 12
+    "enabled": false
   },
   {
     "id": "zoho-show",
@@ -4342,9 +4206,7 @@
       "Guida alla presentazione efficace"
     ],
     "website": "https://www.zoho.com/show/",
-    "rating": 3.9,
-    "rank": 11,
-    "rankTotal": 12
+    "enabled": false
   },
   {
     "id": "powtoon",
@@ -4405,8 +4267,6 @@
       "Guida alla presentazione efficace"
     ],
     "website": "https://www.powtoon.com/",
-    "rating": 3.8,
-    "rank": 12,
-    "rankTotal": 12
+    "enabled": false
   }
 ]

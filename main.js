@@ -5,6 +5,8 @@ const searchKeywords = document.getElementById("searchKeywords");
 const resetBtn = document.getElementById("resetBtn");
 const resultsCount = document.getElementById("resultsCount");
 const emptyState = document.getElementById("emptyState");
+const emptyStateTitle = emptyState?.querySelector("h3");
+const emptyStateText = emptyState?.querySelector("p");
 const chips = document.querySelectorAll(".chips button");
 const showAllBtn = document.getElementById("showAllBtn");
 const openSearch = document.getElementById("openSearch");
@@ -15,18 +17,15 @@ const newsSection = document.getElementById("news");
 let showAll = false;
 
 const normalize = (value) => value.toLowerCase().trim();
+const isEnabled = (tool) => tool.enabled === true;
 
-const renderCards = (list) => {
+const renderCards = (list, totalCount) => {
   cards.innerHTML = "";
   list.forEach((tool, index) => {
     const card = document.createElement("article");
     card.className = `card reveal delay-${index % 3}`;
     card.innerHTML = `
       <span class="badge">${tool.badge}</span>
-      <div class="rating">
-        <span class="rating-score">${tool.rating ? tool.rating.toFixed(1) : "4.0"}</span>
-        <span class="rating-meta">#${tool.rank || 1} in ${tool.rankTotal || 1}</span>
-      </div>
       <h3>${tool.name}</h3>
       <p>${tool.description}</p>
       <a class="detail-link" href="detail.html?id=${encodeURIComponent(tool.id)}">Apri scheda</a>
@@ -34,8 +33,8 @@ const renderCards = (list) => {
     cards.appendChild(card);
   });
 
-  emptyState.classList.toggle("hidden", list.length !== 0);
-  resultsCount.textContent = `${list.length} strumenti consigliati`;
+  emptyState.classList.toggle("hidden", totalCount !== 0);
+  resultsCount.textContent = `${totalCount} strumenti consigliati`;
 };
 
 const matchesQuery = (tool, query) => {
@@ -58,9 +57,18 @@ const matchesQuery = (tool, query) => {
 
 const applyFilters = () => {
   const query = normalize(searchKeywords.value);
-  const filtered = tools.filter((tool) => matchesQuery(tool, query));
+  const enabledTools = tools.filter((tool) => isEnabled(tool));
+  const filtered = enabledTools.filter((tool) => matchesQuery(tool, query));
   const visible = showAll ? filtered : filtered.slice(0, 3);
-  renderCards(visible);
+  renderCards(visible, filtered.length);
+  if (filtered.length === 0 && enabledTools.length === 0) {
+    if (emptyStateTitle) emptyStateTitle.textContent = "Nessuno strumento disponibile";
+    if (emptyStateText) emptyStateText.textContent = "Al momento non ci sono strumenti attivi.";
+  } else {
+    if (emptyStateTitle) emptyStateTitle.textContent = "Nessun risultato";
+    if (emptyStateText)
+      emptyStateText.textContent = "Prova a cambiare parole chiave o a descrivere meglio il bisogno.";
+  }
   if (filtered.length > 3) {
     showAllBtn.classList.remove("hidden");
     showAllBtn.textContent = showAll ? "Mostra meno" : "Vedi tutti";

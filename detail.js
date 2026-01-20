@@ -67,7 +67,9 @@ const loadDetail = async () => {
     const tools = await response.json();
     const targetId = slugify(id);
     const tool = tools.find(
-      (item) => item.id === targetId || slugify(item.name) === targetId
+      (item) =>
+        item.enabled === true &&
+        (item.id === targetId || slugify(item.name) === targetId)
     );
 
     if (!tool) {
