@@ -35,7 +35,7 @@
               aria-controls="results"
               aria-expanded="false"
             >
-              Strumenti
+              Scopri di più
             </button>
             <button
               id="openNews"
@@ -45,7 +45,7 @@
               aria-controls="news"
               aria-expanded="false"
             >
-              Letture
+              Notizie
             </button>
           </div>
         </div>
@@ -55,7 +55,7 @@
         <section class="section hidden" id="results">
           <div class="section-title">
             <h1>Ricerca strumenti</h1>
-            <p>Ricerca gli strumenti AI tramite parole chiave o filtri.</p>
+            <p>Ricerca gli strumenti AI tramite parole chiave o tag.</p>
           </div>
 
           <div class="hero-card__search">
@@ -71,19 +71,19 @@
               </div>
             </div>
             <div class="chips">
-              <button type="button" data-chip="scrittura">Scrittura</button>
               <button type="button" data-chip="mappe concettuali">Mappe concettuali</button>
-              <button type="button" data-chip="organizzazione">Organizzazione</button>
-              <button type="button" data-chip="lettura">Lettura</button>
+              <button type="button" data-chip="riassunti">Riassunti</button>
+              <button type="button" data-chip="presentazioni">Presentazioni</button>
+              <button type="button" data-chip="lettura assistita">Lettura assistita</button>
             </div>
           </div>
 
-          <div class="results-meta">
+          <div class="results-meta hidden">
             <span id="resultsCount" role="status" aria-live="polite">0 strumenti consigliati</span>
           </div>
 
-          <div id="cards" class="card-grid"></div>
-          <div class="results-actions">
+          <div id="cards" class="card-grid hidden"></div>
+          <div class="results-actions hidden">
             <button id="showAllBtn" class="ghost" type="button">Vedi tutti</button>
           </div>
           <div id="emptyState" class="empty-state hidden">
@@ -121,10 +121,8 @@
       </main>
       <footer class="footer">
         <div class="footer-links">
-          <a href="privacy.html">Informativa privacy</a>
-          <a href="cookie.html">Cookie policy</a>
-          <a href="termini.html">Termini di utilizzo</a>
-          <a href="note-legali.html">Note legali</a>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="cookie.html">Cookie Policy</a>
           <a href="contatti.html">Contatti</a>
         </div>
       </footer>

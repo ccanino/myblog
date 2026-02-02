@@ -1,4 +1,6 @@
 let tools = [];
+let dataLoaded = false;
+let loadingPromise = null;
 
 const cards = document.getElementById("cards");
 const searchKeywords = document.getElementById("searchKeywords");
@@ -9,6 +11,8 @@ const emptyStateTitle = emptyState?.querySelector("h3");
 const emptyStateText = emptyState?.querySelector("p");
 const chips = document.querySelectorAll(".chips button");
 const showAllBtn = document.getElementById("showAllBtn");
+const resultsMeta = document.querySelector(".results-meta");
+const resultsActions = document.querySelector(".results-actions");
 const openSearch = document.getElementById("openSearch");
 const openNews = document.getElementById("openNews");
 const searchSection = document.getElementById("results");
@@ -16,10 +20,68 @@ const newsSection = document.getElementById("news");
 
 let showAll = false;
 
-const normalize = (value) => value.toLowerCase().trim();
+const staticRevealSelectors = [
+  ".logo-block",
+  ".home-actions",
+  ".hero-card__search",
+  ".section-title",
+  ".results-meta",
+  ".results-actions",
+  ".news-grid",
+  ".footer",
+];
+
+const revealObserver = new IntersectionObserver(
+  (entries, observer) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("is-visible");
+        observer.unobserve(entry.target);
+      }
+    });
+  },
+  { threshold: 0.12, rootMargin: "0px 0px -20px 0px" }
+);
+
+const registerReveals = () => {
+  document.querySelectorAll(".reveal").forEach((el) => {
+    if (!el.classList.contains("is-visible")) revealObserver.observe(el);
+  });
+};
+
+const applyStaticReveals = () => {
+  staticRevealSelectors.forEach((selector) => {
+    document.querySelectorAll(selector).forEach((el) => el.classList.add("reveal"));
+  });
+};
+
+const normalize = (v) => (v || "").toString().toLowerCase().trim();
 const isEnabled = (tool) => tool.enabled === true;
 
-const renderCards = (list, totalCount) => {
+const fallbackTools = [
+  {
+    id: "chatgpt",
+    name: "ChatGPT",
+    category: "riassunti",
+    badge: "Riassunti",
+    description: "Strumento AI per riassumere testi e documenti in pochi minuti.",
+    summary: "Aiuta a sintetizzare contenuti lunghi in punti chiave per studio e ripasso.",
+    tags: ["riassunti", "presentazioni", "lettura assistita"],
+    enabled: true,
+  },
+  {
+    id: "gemini",
+    name: "Gemini",
+    category: "riassunti",
+    badge: "Riassunti",
+    description: "Strumento AI per riassumere testi e documenti in pochi minuti.",
+    summary: "Aiuta a sintetizzare contenuti lunghi in punti chiave per studio e ripasso.",
+    tags: ["riassunti", "presentazioni", "lettura assistita"],
+    enabled: true,
+  },
+];
+
+const renderCards = (list) => {
   cards.innerHTML = "";
   list.forEach((tool, index) => {
     const card = document.createElement("article");
@@ -32,13 +94,43 @@ const renderCards = (list, totalCount) => {
     `;
     cards.appendChild(card);
   });
+};
 
-  emptyState.classList.toggle("hidden", totalCount !== 0);
-  resultsCount.textContent = `${totalCount} strumenti consigliati`;
+const clearResults = () => {
+  renderCards([]);
+  cards.classList.add("hidden");
+  resultsMeta?.classList.add("hidden");
+  resultsActions?.classList.add("hidden");
+  emptyState.classList.add("hidden");
+  resultsCount.textContent = "0 strumenti consigliati";
+  showAllBtn.classList.add("hidden");
+  showAll = false;
+};
+
+const showResults = (filtered) => {
+  renderCards(showAll ? filtered : filtered.slice(0, 3));
+  cards.classList.remove("hidden");
+  resultsMeta?.classList.remove("hidden");
+
+  const hasMore = filtered.length > 3;
+  resultsActions?.classList.toggle("hidden", !hasMore);
+  if (hasMore) {
+    showAllBtn.textContent = showAll ? "Mostra meno" : "Vedi tutti";
+  }
+
+  const hasResults = filtered.length > 0;
+  emptyState.classList.toggle("hidden", hasResults);
+  if (!hasResults) {
+    emptyStateTitle && (emptyStateTitle.textContent = "Nessun risultato");
+    emptyStateText &&
+      (emptyStateText.textContent = "Prova un altro tag o una parola chiave diversa.");
+  }
+
+  resultsCount.textContent = `${filtered.length} strumenti consigliati`;
+  registerReveals();
 };
 
 const matchesQuery = (tool, query) => {
-  if (!query) return true;
   const fields = [
     tool.name,
     tool.description,
@@ -55,48 +147,31 @@ const matchesQuery = (tool, query) => {
     .every((word) => haystack.includes(word));
 };
 
-const applyFilters = () => {
+const filterByQuery = () => {
   const query = normalize(searchKeywords.value);
-  const enabledTools = tools.filter((tool) => isEnabled(tool));
+  if (!query) {
+    clearResults();
+    return;
+  }
+  let enabledTools = tools.filter(isEnabled);
+  if (enabledTools.length === 0) enabledTools = fallbackTools.filter(isEnabled);
   const filtered = enabledTools.filter((tool) => matchesQuery(tool, query));
-  const visible = showAll ? filtered : filtered.slice(0, 3);
-  renderCards(visible, filtered.length);
-  if (filtered.length === 0 && enabledTools.length === 0) {
-    if (emptyStateTitle) emptyStateTitle.textContent = "Nessuno strumento disponibile";
-    if (emptyStateText) emptyStateText.textContent = "Al momento non ci sono strumenti attivi.";
-  } else {
-    if (emptyStateTitle) emptyStateTitle.textContent = "Nessun risultato";
-    if (emptyStateText)
-      emptyStateText.textContent = "Prova a cambiare parole chiave o a descrivere meglio il bisogno.";
-  }
-  if (filtered.length > 3) {
-    showAllBtn.classList.remove("hidden");
-    showAllBtn.textContent = showAll ? "Mostra meno" : "Vedi tutti";
-  } else {
-    showAllBtn.classList.add("hidden");
-  }
+  showResults(filtered);
 };
 
-chips.forEach((chip) => {
-  chip.addEventListener("click", () => {
-    searchKeywords.value = chip.dataset.chip;
-    showAll = false;
-    applyFilters();
-  });
-});
-
-resetBtn.addEventListener("click", () => {
-  searchKeywords.value = "";
-  showAll = false;
-  applyFilters();
-});
-
-searchKeywords.addEventListener("input", applyFilters);
-
-showAllBtn.addEventListener("click", () => {
-  showAll = !showAll;
-  applyFilters();
-});
+const filterByTag = (tagValue) => {
+  const tag = normalize(tagValue);
+  if (!tag) {
+    clearResults();
+    return;
+  }
+  let enabledTools = tools.filter(isEnabled);
+  if (enabledTools.length === 0) enabledTools = fallbackTools.filter(isEnabled);
+  const filtered = enabledTools.filter((tool) =>
+    (tool.tags || []).some((t) => normalize(t) === tag)
+  );
+  showResults(filtered);
+};
 
 const activateSection = (target) => {
   const isSearch = target === "results";
@@ -112,21 +187,70 @@ const activateSection = (target) => {
   section.scrollIntoView({ behavior: "smooth", block: "start" });
 };
 
-openSearch.addEventListener("click", () => activateSection("results"));
-openNews.addEventListener("click", () => activateSection("news"));
-
-document.body.classList.add("no-scroll");
-
 const loadTools = async () => {
-  try {
-    const response = await fetch("data.json");
-    tools = await response.json();
-    applyFilters();
-  } catch (error) {
-    cards.innerHTML = "";
-    emptyState.classList.remove("hidden");
-    resultsCount.textContent = "0 strumenti consigliati";
+  if (dataLoaded && loadingPromise === null) return;
+  if (loadingPromise) {
+    await loadingPromise;
+    return;
   }
+  loadingPromise = (async () => {
+    try {
+      const response = await fetch("data.json");
+      tools = await response.json();
+      dataLoaded = true;
+    } catch (error) {
+      console.warn("Fallback to embedded data.json", error);
+      tools = fallbackTools;
+      dataLoaded = true;
+    } finally {
+      loadingPromise = null;
+    }
+  })();
+  await loadingPromise;
 };
 
-window.addEventListener("load", loadTools);
+chips.forEach((chip) => {
+  chip.addEventListener("click", async () => {
+    activateSection("results");
+    searchKeywords.value = chip.dataset.chip;
+    showAll = false;
+    await loadTools();
+    filterByTag(chip.dataset.chip);
+  });
+});
+
+resetBtn.addEventListener("click", () => {
+  searchKeywords.value = "";
+  showAll = false;
+  clearResults();
+});
+
+searchKeywords.addEventListener("input", () => {
+  filterByQuery();
+});
+
+showAllBtn.addEventListener("click", () => {
+  if (!normalize(searchKeywords.value)) return;
+  showAll = !showAll;
+  filterByQuery();
+});
+
+openSearch.addEventListener("click", () => {
+  activateSection("results");
+  if (!normalize(searchKeywords.value)) clearResults();
+});
+
+openNews.addEventListener("click", () => activateSection("news"));
+
+window.addEventListener("load", async () => {
+  activateSection("results");
+  await loadTools();
+  clearResults();
+});
+
+window.addEventListener("DOMContentLoaded", () => {
+  searchKeywords.value = "";
+  clearResults();
+  applyStaticReveals();
+  registerReveals();
+});
