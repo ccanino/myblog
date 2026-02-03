@@ -183,8 +183,11 @@ const activateSection = (target) => {
   openNews.setAttribute("aria-expanded", String(!isSearch));
   document.body.classList.remove("no-scroll");
   document.body.classList.add("allow-scroll");
-  const section = isSearch ? searchSection : newsSection;
-  section.scrollIntoView({ behavior: "smooth", block: "start" });
+  if (isSearch) {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  } else {
+    newsSection.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
 };
 
 const loadTools = async () => {
