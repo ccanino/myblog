@@ -942,7 +942,7 @@ input {
     height: 30px;
   }
 
-  body.no-scroll .footer {
+  .footer {
     position: fixed;
     left: 0;
     right: 0;
@@ -950,19 +950,17 @@ input {
     background: var(--bg);
     padding: 12px 16px;
     border-top: 1px solid var(--stroke);
+    font-size: 10px;
+    z-index: 5;
   }
 
-  body.no-scroll .page {
-    padding-bottom: 72px;
+  .page {
+    padding-bottom: 96px;
   }
 
   .page::before,
   .page::after {
     display: none;
-  }
-
-  .footer {
-    font-size: 8px;
   }
 
   .footer-links a {
