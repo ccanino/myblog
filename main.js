@@ -243,9 +243,8 @@ openSearch.addEventListener("click", () => {
 openNews.addEventListener("click", () => activateSection("news"));
 
 window.addEventListener("load", async () => {
-  activateSection("results");
-  await loadTools();
-  clearResults();
+  await loadTools(); // carica i dati in background senza mostrare risultati
+  clearResults(); // assicura che nulla sia visibile finché l'utente non interagisce
 });
 
 window.addEventListener("DOMContentLoaded", () => {
